@@ -1,0 +1,11 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+communication_layer = { path = "../communication_layer" }
+order_management_system = { path = "../order_management_system" }
+market_data_generator = { path = "../market_data_generator" }
+common={ path = "../common" }
+tokio = { version = "1.41.0", features = ["rt-multi-thread", "macros"]}

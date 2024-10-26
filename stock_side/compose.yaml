@@ -1,0 +1,22 @@
+name: stock_trading_system
+
+networks:
+  redpanda-0:
+    driver: bridge
+
+volumes:
+  stock_trading_system_volume: null
+
+services:
+  order_management_system:
+    container_name: order_management_system
+    image: order_management_system
+    networks:
+      - redpanda-0
+    volumes:
+      - stock_trading_system_volume:/app
+    build:
+      context: ./order_management_system
+      dockerfile: Dockerfile
+      args:
+        - app_name=order_management_system
