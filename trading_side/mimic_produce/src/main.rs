@@ -1,14 +1,16 @@
 mod producer;
 mod models;
 
-use crate::producer::StockPriceProducer;
+use crate::producer::StockOrderProducer;
 use crate::models::{Order, OrderType};
 use redis::Commands;
-use rand::Rng;
-use std::thread;
+use rand::rngs::StdRng;
+use rand::{Rng, SeedableRng};
 use uuid::Uuid;
 use chrono::Utc;
-use std::time::Duration;
+use tokio::time::{Duration, sleep};
+// use std::thread;
+// use std::time::Duration;
 
 fn generate_random_order(symbol_price: &(String, f64)) -> Order {
     // let stock_symbols = vec!["AAPL", "GOOGL", "AMZN", "MSFT", "TSLA"];
@@ -38,16 +40,21 @@ async fn main() {
     let stock_symbols_string: Vec<(String, String)>= con.hgetall("stocks:prices").unwrap();
 
     let symbol_price: Vec<(String, f64)> = stock_symbols_string.iter().map(|(k, v)| (k.clone(), v.parse::<f64>().unwrap())).collect();
-    let producer = StockPriceProducer::new(brokers, topic);
+    let producer = StockOrderProducer::new(brokers, topic);
 
-    let mut rng = rand::thread_rng();
+    
+    tokio::spawn({
+        let symbol_price = symbol_price.clone();
+        async move {
+            let seed: [u8; 32] = rand::random();
+            let mut rng = StdRng::from_seed(seed);
+            loop {
+                let order = generate_random_order(&symbol_price[rng.gen_range(0..symbol_price.len())]);
+                println!("Generated order: {:?}", order);
+                producer.send_message(order).await;
 
-    let interval = Duration::from_millis(500);
-    loop {
-        let order = generate_random_order(&symbol_price[rng.gen_range(0..symbol_price.len())]);
-        println!("Generated order: {:?}", order);
-        producer.send_message(order).await;
-
-        thread::sleep(interval);
-    }
+                sleep(Duration::from_secs(1)).await;
+            }
+        }
+    }).await.unwrap();
 }

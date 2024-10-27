@@ -21,7 +21,7 @@ impl OrderConsumer {
         let consumer: StreamConsumer = ClientConfig::new()
             .set("bootstrap.servers", brokers)
             .set("group.id", group_id)
-            .set("auto.offset.reset", "earliest")  // read from the beginning of the topic
+            .set("auto.offset.reset", "latest")  // read from the end of the topic
             .set("fetch.min.bytes", "1")  // fetch messages as soon as they arrive
             .set("fetch.wait.max.ms", "100")  // wait for at most 100ms for messages
             .create()

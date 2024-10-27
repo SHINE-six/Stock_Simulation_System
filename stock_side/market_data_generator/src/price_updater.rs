@@ -71,7 +71,7 @@ impl MarketDataGenrator {
             let stock_sender_clone = stock_sender.clone();
             async move {
                 while let Some(trade_received) = mdg_receiver.recv().await {
-                    println!("Second Task, Price", trade_received.price);
+                    println!("Second Task");
                     // Update the stock price based on the trade
                     let stocks = fetch_stocks(&mut redis_conn_clone).await;
                     active_update_stock_price(&mut redis_conn_clone, stocks, &trade_received, stock_sender_clone.clone()).await;

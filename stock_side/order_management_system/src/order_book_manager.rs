@@ -1,14 +1,14 @@
 use redis::{aio, AsyncCommands, RedisResult};   // RedisResult: Result type for Redis commands
 use common::models::{Order, OrderType, Trade};
 use serde_json::{from_str, to_string};  // Deserialize JSON string to struct; Serialize struct to JSON string
-use std::sync::Arc;
-use tokio::sync::Mutex;  // Mutex: Mutual Exclusion, used to synchronize access to shared data
+// use std::sync::Arc;
+// use tokio::sync::Mutex;  // Mutex: Mutual Exclusion, used to synchronize access to shared data
 
 pub struct OrderBookManager {
     // ARC: Atomic Reference Counting, used to share ownership between threads
     // Mutex: Mutual Exclusion, used to synchronize access to shared data
     // So with arc and mutex, we can ensure that only one thread can access the Redis connection at a time
-    redis_conn: Arc<Mutex<aio::MultiplexedConnection>>,
+    redis_conn: aio::MultiplexedConnection,
 }
 
 impl OrderBookManager {
@@ -23,13 +23,13 @@ impl OrderBookManager {
         println!("OrderBookManager: Connected to Redis");
 
         Self {
-            redis_conn: Arc::new(Mutex::new(redis_conn)),
+            redis_conn,
         }
     }
 
     pub async fn process_order(&self, order: Order) -> RedisResult<Option<Trade>> {
         let order_book_key = format!("order_book:{}", order.stock_symbol);
-        let mut conn = self.redis_conn.lock().await;
+        let mut conn = self.redis_conn.clone();
 
         // Get the buy and sell orders from Redis
         let (buy_orders_string, sell_orders_string): (Option<String>, Option<String>) = conn

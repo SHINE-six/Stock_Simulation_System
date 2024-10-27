@@ -10,7 +10,7 @@ fn main() {
     let mut conn = client.get_connection().unwrap();
 
     // Set the stock price for each stock to initial value of 100.0000
-    for (index, stock) in AVAILABLE_STOCKS.iter().enumerate() {
+    for (_index, stock) in AVAILABLE_STOCKS.iter().enumerate() {
         let _: () = conn.hset("stocks:prices", stock, 100.0000).unwrap();
         
         // Top 15 stock is in the Technology sector, the 15 healthcare, 15 finance, 10 consumer_goods, 10 energy, 10 industrial, 5 utilities, 5 communication

@@ -4,19 +4,19 @@ use rdkafka::util::Timeout;
 use std::time::Duration;
 use crate::models::Order;
 
-pub struct StockPriceProducer {
+pub struct StockOrderProducer {
     producer: FutureProducer,
     topic: String,
 }
 
-impl StockPriceProducer {
+impl StockOrderProducer {
     pub fn new(brokers: &str, topic: &str) -> Self {
         let producer: FutureProducer = ClientConfig::new()
             .set("bootstrap.servers", brokers)
             .create()
             .expect("Producer creation failed");
 
-            StockPriceProducer {
+            StockOrderProducer {
                 producer,
                 topic: topic.to_string(),
             }

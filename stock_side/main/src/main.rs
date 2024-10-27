@@ -15,11 +15,12 @@ async fn main() {
 
     // ------------- Order Management System -------------
     const BROKERS: &str = "localhost:19092"; // redpanda-0:9092
-    const TOPIC: &str = "broker-orders";
+    const TO_CONSUME_TOPIC: &str = "broker-orders";
     const GROUP_ID: &str = "oms_consumer_group";
+    const TO_PRODUCE_TOPIC: &str = "stock-prices";
     const REDIS_URL: &str = "redis://localhost:6379";
 
-    let consumer = OrderConsumer::new(BROKERS, TOPIC, GROUP_ID);
+    let consumer = OrderConsumer::new(BROKERS, TO_CONSUME_TOPIC, GROUP_ID);
 
     let order_book_manager = OrderBookManager::new(REDIS_URL).await;
 
@@ -56,7 +57,7 @@ async fn main() {
     let producer_handle = task::spawn(async move {
         // Produce stock prices from channel
         while let Some(stock) = stock_receiver.recv().await {
-            producer.produce_stock(stock, "stock-prices").await;
+            producer.produce_stock(stock, TO_PRODUCE_TOPIC).await;
         }
     });
 

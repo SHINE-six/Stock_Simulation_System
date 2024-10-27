@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Stock Prices</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <h1>Real-Time Stock Prices</h1>
+    <div class="container">
+        <table id="stock-table">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="stock-tbody"></tbody>
+        </table>
+        
+        <div id="place-order-form">
+            <div>Symbol</div>
+            <div>
+                <span id="symbol-option"></span>
+                <span id="refresh-symbol-option" style="cursor: default;">🔃</span>
+            </div>
+
+            <div>Buy/Sell</div>
+            <select id="buy-sell-select">
+                <option value="buy">Buy</option>
+                <option value="sell">Sell</option>
+            </select>
+
+            <div>Quantity</div>
+            <input type="number" id="quantity-input" min="1" step="1">
+
+            <div>Price</div>
+            <input type="number" id="price-input" min="1">
+            
+            <button id="place-order-button" style="grid-column: span 2 / span 2;">Place Order</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
