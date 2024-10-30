@@ -22,11 +22,11 @@ async fn main() {
 
     // Kafka Order producer task
     let order_producer = OrderProducer::new(brokers, "broker-orders");
-    // tokio::spawn({
-    //     let order_producer = order_producer.clone();
-    //     async move {
-    //         order_producer.start_order_producer().await;
-    // }});
+    tokio::spawn({
+        let order_producer = order_producer.clone();
+        async move {
+            order_producer.start_order_producer().await;
+    }});
 
     // Set up WebSocket route
     let tx_filter = warp::any().map(move || tx.clone());
