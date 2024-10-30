@@ -5,13 +5,14 @@ use rand::rngs::StdRng;
 use rand::{Rng, SeedableRng};
 use uuid::Uuid;
 use chrono::Utc;
-use serde_json;
+use serde_json::{Map, Value};
 use tokio::time::{Duration, sleep};
 use rdkafka::config::ClientConfig;
 use rdkafka::producer::{FutureProducer, FutureRecord};
 use rdkafka::util::Timeout;
 use std::time::Duration as StdDuration;
 
+#[derive(Clone)]
 pub struct OrderProducer {
     producer: FutureProducer,
     topic: String,
@@ -57,18 +58,42 @@ impl OrderProducer {
         }).await.unwrap();
     }
 
-    pub async fn produce_custom_order(&self, &json_body: serde_json::Value) -> String {
-        let order: Order = serde_json::from_value(json_body).unwrap();
-        order.id = Uuid::new_v4().to_string();
-        order.timestamp = Utc::now().timestamp() as u64;
-        order.partial_fill = true;
+    pub async fn produce_custom_order(&self, json_body: &Value) -> String {
+        let mut map: Map<String, Value> = serde_json::from_value(json_body.clone()).unwrap_or_default();
 
+        // Populate missing fields
+        map.insert("id".to_string(), Value::String(Uuid::new_v4().to_string()));
+        map.insert("timestamp".to_string(), Value::Number(Utc::now().timestamp().into()));
+        map.insert("partial_fill".to_string(), Value::Bool(true));
+
+        // Change quanity type from str to u32
+        if let Some(quantity_str) = map.get("quantity").and_then(|v| v.as_str()) {
+            if let Ok(quantity_u32) = quantity_str.parse::<u32>() {
+                map.insert("quantity".to_string(), Value::Number(serde_json::Number::from(quantity_u32)));
+            }
+        }
+
+        // Change price type from str to f64
+        if let Some(price_str) = map.get("price").and_then(|v| v.as_str()) {
+            if let Ok(price_f64) = price_str.parse::<f64>() {
+                map.insert("price".to_string(), Value::Number(serde_json::Number::from_f64(price_f64).unwrap()));
+            }
+        }
+
+        // Convert map back to Value
+        let updated_json_body = Value::Object(map);
+    
+        // Deserialize into Order
+        let order: Order = serde_json::from_value(updated_json_body).unwrap();
+    
         let producer = self.producer.clone();
         let topic = self.topic.clone();
 
-        tokio::spawn(async move {
-            send_message(&producer, &topic, order).await;
-        }).await.unwrap();
+        tokio::spawn({
+            let order = order.clone();
+            async move {
+                send_message(&producer, &topic, order).await;
+        }}).await.unwrap();
 
         serde_json::to_string(&order).unwrap()
     }
@@ -102,5 +127,6 @@ fn generate_random_order(symbol_price: &(String, f64)) -> Order {
         price: symbol_price.1.clone() * (1.0 + (rng.gen_range(-15..15) as f64 / 100.0)),    // Random price between -15% and +15% of the current price
         timestamp: Utc::now().timestamp() as u64,
         partial_fill: true,
+        // TODO: limit_order: research possibilities
     }
 }

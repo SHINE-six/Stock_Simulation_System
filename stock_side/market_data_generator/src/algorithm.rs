@@ -149,6 +149,7 @@ pub fn algorithm_6(order:  &(String, (Vec<Order>, Vec<Order>)), current_market_p
 }
 
 // Algorithm 7: Industry Sector Performance: check the sector of the stock and adjust the stock price based on the sector performance
+// ! Check finish or not
 pub fn algorithm_7(order: &(String, (Vec<Order>, Vec<Order>)), multiplier_vec: &mut Vec<f64>) {
     let sector = "Technology"; // Assume the sector of the stock is Technology
 

@@ -47,7 +47,7 @@ impl OrderBookManager {
             None => Vec::new(),
         };
 
-        // Store the order in Redis
+        // Get the order type to check if it is a buy or sell order
         let order_type: OrderType = order.order_type.clone();
 
         // Trade is an Option<Trade> because it may or may not be generated

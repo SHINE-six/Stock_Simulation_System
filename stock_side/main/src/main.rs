@@ -43,13 +43,15 @@ async fn main() {
                 }
             }
         }
-        println!("Order Book Manager stopped");
+        panicln!("Order Book Manager stopped");
     });
 
     // Catch the channel receiver and send to market data generator
     let market_data_generator = MarketDataGenrator::new(REDIS_URL).await;
     let market_data_generator_handle = task::spawn(async move {
         market_data_generator.start(mdg_receiver, stock_sender).await;
+
+        panicln!("Market Data Generator stopped");
     });
 
     let producer = StockProducer::new(BROKERS);

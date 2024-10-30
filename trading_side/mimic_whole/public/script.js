@@ -134,7 +134,12 @@ placeOrderButton.addEventListener('click', function() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ symbol, action, qty, p }),
+        body: JSON.stringify({
+            stock_symbol: symbol,
+            order_type: action,
+            quantity: qty,
+            price: p
+        }),
     })
     .then(response => response.json())
     .then(data => {

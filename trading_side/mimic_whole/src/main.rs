@@ -22,9 +22,11 @@ async fn main() {
 
     // Kafka Order producer task
     let order_producer = OrderProducer::new(brokers, "broker-orders");
-    tokio::spawn(async move {
-        order_producer.start_order_producer().await;
-    });
+    tokio::spawn({
+        let order_producer = order_producer.clone();
+        async move {
+            order_producer.start_order_producer().await;
+    }});
 
     // Set up WebSocket route
     let tx_filter = warp::any().map(move || tx.clone());
@@ -34,28 +36,34 @@ async fn main() {
         .and_then(ws_handler);
 
     // Set up POST /order route
-    // Test dummy, print "Order Received" and json response { "status": "ok", "received message": messsage }
     let order_route = warp::path("order")
         .and(warp::post())
         .and(warp::body::json())
-        .map(|mut json_body: Value| {
-            println!("Order Received");
+        .and_then({
+            let order_producer = order_producer.clone();
+            move |json_body: Value| {
+                let order_producer = order_producer.clone();
+                async move {
+                    println!("Order Received");
 
-            let full_order_detail = order_producer.produce_custom_order(json_body.clone());
+                    let full_order_detail = order_producer.produce_custom_order(&json_body).await;
 
-            warp::reply::json(&json!({
-                "status": "ok",
-                "received_message": full_order_detail
-            }))
+                    Ok::<_, warp::Rejection>(warp::reply::json(&json!({
+                        "status": "ok",
+                        "received_message": full_order_detail
+                    })))
+                }
+            }
         });
 
     // Serve static files (HTML, JS, CSS)
     let static_files = warp::fs::dir("public");
 
     // Combine routes
-    let routes = ws_route.or(static_files).or(order_route);
+    let routes = ws_route.or(order_route).or(static_files);
 
     println!("WebSocket server running on ws://localhost:3030/ws");
+    println!("Static files server running on http://localhost:3030");
 
     warp::serve(routes).run(([0, 0, 0, 0], 3030)).await;
 }
