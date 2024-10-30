@@ -19,13 +19,13 @@ function updateStockTable(stock) {
     renderTable();
 }
 
+// Sorting config
+let sortColumn = "symbol";
+let direction = "asc";
+
 function renderTable() {
     // Clear existing rows
     stockTableBody.innerHTML = '';
-
-    // Sorting config
-    let sortColumn = "symbol";
-    let direction = "asc";
 
     // Sort the symbols based on the selected column
     const symbols = Object.keys(stockData).sort((a, b) => {
@@ -54,6 +54,20 @@ function renderTable() {
         stockTableBody.appendChild(row);
     }
 }
+
+document.querySelectorAll('#stock-table th').forEach(header => {
+    header.addEventListener('click', () => {
+        const newSortColumn = header.getAttribute('data-sort');
+        if (sortColumn === newSortColumn) {
+            direction = direction === "asc" ? "desc" : "asc";
+        } else {
+            sortColumn = newSortColumn;
+            direction = "asc";
+        }
+        renderTable();
+    });
+});
+
 
 const selectSymbol = document.getElementById('symbol-option');
 const refreshSymbolOption = document.getElementById('refresh-symbol-option');

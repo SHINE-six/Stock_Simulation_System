@@ -4,15 +4,13 @@ const AVAILABLE_STOCKS: &[&str] = &["AAPL","GOOGL","MSFT","AMZN","NVDA","META","
 const REDIS_URL: &str = "redis://localhost:6379";
 
 fn main() {
-    println!("len: {}", AVAILABLE_STOCKS.len());
-
     let client = redis::Client::open(REDIS_URL).unwrap();
     let mut conn = client.get_connection().unwrap();
 
     // Set the stock price for each stock to initial value of 100.0000
     for (index, stock) in AVAILABLE_STOCKS.iter().enumerate() {
         let _: () = conn.hset("stocks:prices", stock, 100.0000).unwrap();
-        
+
         // Top 15 stock is in the Technology sector, the 15 healthcare, 15 finance, 10 consumer_goods, 10 energy, 10 industrial, 5 utilities, 5 communication
         let sector = match index {
             0..=14 => "Technology",
@@ -28,4 +26,13 @@ fn main() {
         
         let _: () = conn.hset("stocks:sector", stock, sector).unwrap();
     }
+
+    // Clear all hash of order_book:*
+    for stock in AVAILABLE_STOCKS {
+        let _: () = conn.del(format!("order_book:{}", stock)).unwrap();
+    }
+
+    println!("Stock prices initialized");
+    println!("Stock sector initialized");
+    println!("Order book cleared");
 }
