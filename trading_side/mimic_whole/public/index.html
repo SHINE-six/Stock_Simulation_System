@@ -12,33 +12,41 @@
         <table id="stock-table">
             <thead>
                 <tr>
-                    <th data-sort="symbol">Symbol</th>
-                    <th data-sort="price">Price</th>
+                    <th data-sort="symbol" style="cursor: pointer;">Symbol <span id="symbol-sort-indicator">⇄</span></th>
+                    <th data-sort="price" style="cursor: pointer;">Price <span id="price-sort-indicator">⇄</span></th>
                 </tr>
             </thead>
             <tbody id="stock-tbody"></tbody>
         </table>
         
         <div id="place-order-form">
-            <div>Symbol</div>
-            <div>
-                <span id="symbol-option"></span>
-                <span id="refresh-symbol-option" style="cursor: default;">🔃</span>
+            <div class="form-group">
+                <label for="symbol">Symbol</label>
+                <div>
+                    <span id="symbol-option"></span>
+                    <span id="refresh-symbol-option" style="cursor: pointer;">🔃</span>
+                </div>
             </div>
 
-            <div>Buy/Sell</div>
-            <select id="buy-sell-select">
-                <option value="Buy">Buy</option>
-                <option value="Sell">Sell</option>
-            </select>
+            <div class="form-group">
+                <label for="buy-sell-select">Buy/Sell</label>
+                <select id="buy-sell-select">
+                    <option value="Buy">Buy</option>
+                    <option value="Sell">Sell</option>
+                </select>
+            </div>
 
-            <div>Quantity</div>
-            <input type="number" id="quantity-input" min="1" step="1">
+            <div class="form-group">
+                <label for="quantity-input">Quantity</label>
+                <input type="number" id="quantity-input" min="1" step="1">
+            </div>
 
-            <div>Price</div>
-            <input type="number" id="price-input" min="1">
+            <div class="form-group">
+                <label for="price-input">Price</label>
+                <input type="number" id="price-input" min="1">
+            </div>
             
-            <button id="place-order-button" style="grid-column: span 2 / span 2;">Place Order</button>
+            <button id="place-order-button">Place Order</button>
         </div>
     </div>
     <script src="script.js"></script>

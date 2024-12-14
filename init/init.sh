@@ -1,7 +1,7 @@
 # Change to the first directory and run docker-compose up
 cd ./data_service || exit
 echo "Starting the Redis database, Redpanda, and Redpanda Console (http://localhost:8080)"
-docker-compose up -d
+docker compose up -d
 
 # Back to the root directory
 cd ..

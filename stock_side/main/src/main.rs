@@ -25,7 +25,7 @@ async fn main() {
     
     let consumer_handle = tokio::spawn(async move {
         consumer.consume_messages(oms_sender).await;
-        println!("Consumer stopped");
+        panic!("Consumer stopped");
     });
 
     // This need ARC, because it will be shared between the 2 thread (process_order and add_to_orderbook)

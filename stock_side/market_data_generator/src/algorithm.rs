@@ -149,14 +149,16 @@ pub fn algorithm_6(order:  &(String, (Vec<Order>, Vec<Order>)), current_market_p
 }
 
 // Algorithm 7: Industry Sector Performance: check the sector of the stock and adjust the stock price based on the sector performance
-// ! Check finish or not
-pub fn algorithm_7(order: &(String, (Vec<Order>, Vec<Order>)), multiplier_vec: &mut Vec<f64>) {
-    let sector = "Technology"; // Assume the sector of the stock is Technology
-
+pub fn algorithm_7(order: &(String, (Vec<Order>, Vec<Order>)), sector: &str, multiplier_vec: &mut Vec<f64>) {
     // Get the sector performance
     let sector_performance = match sector {
         "Technology" => 0.02, // 2% increase in stock price
         "Finance" => -0.01, // 1% decrease in stock price
+        "Healthcare" => 0.03, // 3% increase in stock price
+        "Consumer Goods" => 0.01, // 1% increase in stock price
+        "Energy" => -0.02, // 2% decrease in stock price
+        "Real Estate" => 0.02, // 2% increase in stock price
+        "Utilities" => 0.01, // 1% increase in stock price
         _ => 0.0, // No change in stock price
     };
 
@@ -171,7 +173,7 @@ pub fn algorithm_7(order: &(String, (Vec<Order>, Vec<Order>)), multiplier_vec: &
     log_to_file(log_message)
 }
 
-// 
+// Algorithm For Active Trader: check the number of active traders and adjust the stock price based on the number of active traders
 pub fn algorithm_trade(trade_received: &Trade, stock_price: f64) -> f64 {
     // Update the stock price based on the trade price; 
     let imbalance = (trade_received.quantity as f64) * (trade_received.price - stock_price);

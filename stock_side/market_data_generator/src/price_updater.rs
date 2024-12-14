@@ -80,11 +80,14 @@ impl MarketDataGenrator {
         });
 
         // Task 3: Sector Performance
-        tokio::spawn({
-            let mut redis_conn_clone = redis_conn_task3.clone();
-            async move {
+        // tokio::spawn({
+        //     let mut redis_conn_clone = redis_conn_task3.clone();
+        //     async move {
                 // let mut conn = redis_conn_clone.lock().await;
+                let mut redis_conn_clone = redis_conn_task3.clone();
                 let stock_sector_string: RedisResult<Vec<(String, String)>> = redis_conn_clone.hgetall("stocks:sector").await;
+
+                // let stock_sector_string: RedisResult<Vec<(String, String)>> = redis_conn_clone.hgetall("stocks:sector").await;
                 let mut sector_hash: HashMap<String, f64> = HashMap::new();
                 
                 match stock_sector_string {
@@ -145,8 +148,8 @@ impl MarketDataGenrator {
                         eprintln!("Failed to fetch sector: {}", e);
                     }
                 }
-            }
-        });
+        //     }
+        // });
     }
 }
 
