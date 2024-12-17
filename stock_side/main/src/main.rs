@@ -6,7 +6,6 @@ use order_management_system::order_book_manager::OrderBookManager;
 use std::sync::Arc;
 
 use tokio::sync::mpsc::{channel, Receiver, Sender};
-use tokio::task;
 
 #[tokio::main(flavor = "multi_thread", worker_threads = 8)]
 async fn main() {
@@ -83,7 +82,7 @@ async fn main() {
 
     // Catch the channel receiver and send to market data generator
     let market_data_generator = MarketDataGenrator::new(REDIS_URL).await;
-    let market_data_generator_handle = task::spawn(async move {
+    let market_data_generator_handle = tokio::spawn(async move {
         market_data_generator.start(mdg_receiver, stock_sender).await;
 
         panic!("Market Data Generator stopped");
@@ -91,7 +90,7 @@ async fn main() {
 
     let producer = StockProducer::new(BROKERS);
 
-    let producer_handle = task::spawn(async move {
+    let producer_handle = tokio::spawn(async move {
         // Produce stock prices from channel
         while let Some(stock) = stock_receiver.recv().await {
             producer.produce_stock(stock, TO_PRODUCE_TOPIC).await;
