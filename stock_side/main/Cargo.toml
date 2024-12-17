@@ -9,3 +9,4 @@ order_management_system = { path = "../order_management_system" }
 market_data_generator = { path = "../market_data_generator" }
 common={ path = "../common" }
 tokio = { version = "1.41.0", features = ["rt-multi-thread", "macros"]}
+sys-info = "0.9"

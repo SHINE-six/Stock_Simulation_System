@@ -1,3 +1,5 @@
+extern crate sys_info;
+
 use common::models::{Order, Stock, Trade};
 use communication_layer::consumer::OrderConsumer;
 use communication_layer::producer::StockProducer;
@@ -9,6 +11,24 @@ use tokio::sync::mpsc::{channel, Receiver, Sender};
 
 #[tokio::main(flavor = "multi_thread", worker_threads = 8)]
 async fn main() {
+    // System info
+    println!("Number of CPU: {}", sys_info::cpu_num().unwrap());
+    println!("System Boot Time: {}", sys_info::boottime().unwrap().tv_sec);
+    println!("Number of Processes: {}", sys_info::proc_total().unwrap());
+    println!("System Load Average: {:?}", sys_info::loadavg().unwrap());
+    println!("Total Memory: {}", sys_info::mem_info().unwrap().total);
+    println!("Free Memory: {}", sys_info::mem_info().unwrap().free);
+    println!("Disk Info: {:?}", sys_info::disk_info().unwrap());
+    println!("Cpu Speed: {}", sys_info::cpu_speed().unwrap());
+    println!(
+        "OS: {}, {}",
+        sys_info::linux_os_release().unwrap().name.unwrap_or("Unknown".to_string()),
+        sys_info::linux_os_release().unwrap().version.unwrap_or("Unknown".to_string())
+    );
+
+    println!("\n------------------------------------------------------------------- Application Start -------------------------------------------------------------------\n");
+
+    // Create channels
     let (oms_sender, mut oms_receiver): (Sender<Order>, Receiver<Order>) = channel(100);
     let (mdg_sender, mdg_receiver): (Sender<Trade>, Receiver<Trade>) = channel(100);
     let (stock_sender, mut stock_receiver): (Sender<Stock>, Receiver<Stock>) = channel(100);
