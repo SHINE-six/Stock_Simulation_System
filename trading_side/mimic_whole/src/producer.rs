@@ -52,7 +52,7 @@ impl OrderProducer {
                     println!("Generated order: {:?}", order);
                     send_message(&producer, &topic, order).await;
 
-                    sleep(Duration::from_secs(1)).await;
+                    sleep(Duration::from_millis(300)).await;
                 }
             }
         }).await.unwrap();

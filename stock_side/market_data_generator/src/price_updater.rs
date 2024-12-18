@@ -1,12 +1,14 @@
 use crate::algorithm;
 
 use common::models::{Order, Stock, Trade};
-use redis::{aio, AsyncCommands, RedisResult}; // RedisResult: Result type for Redis commands
+use redis::{aio, AsyncCommands, RedisResult, RedisError}; // RedisResult: Result type for Redis commands
 use serde_json::from_str; // Deserialize JSON string to struct
 use std::collections::HashMap;
 use tokio::sync::mpsc::{Receiver, Sender};
 use rand::Rng;
-use tokio::time::{sleep, Duration}; // to remove, check for computer resources used by this function
+use tokio::time::{interval, Duration}; // to remove, check for computer resources used by this function
+use std::sync::{Arc, atomic::{AtomicPtr, Ordering}};
+use threadpool::ThreadPool;
 
 pub struct MarketDataGenrator {
     stocks: Vec<Stock>,
@@ -35,7 +37,7 @@ impl MarketDataGenrator {
         }
     }
 
-    pub async fn start(&self, mut mdg_receiver: Receiver<Trade>, stock_sender: Sender<Stock>) {
+    pub async fn start(&self, mut mdg_receiver: Receiver<Trade>, stock_sender: Sender<Stock>, log_sender: Sender<String>) {
         let redis_conn_task1 = &self.client.get_multiplexed_async_connection().await.expect("Failed to get redis connection");
         let redis_conn_task2 = &self.client.get_multiplexed_async_connection().await.expect("Failed to get redis connection");
         let redis_conn_task3 = &self.client.get_multiplexed_async_connection().await.expect("Failed to get redis connection");
@@ -49,18 +51,57 @@ impl MarketDataGenrator {
 
         // // Clone the data to move into the async task
         // let redis_conn_clone = self.redis_conn.clone();
+        let initial_orders = Box::new(HashMap::new());
+        let shared_orders = Arc::new(AtomicPtr::new(Box::into_raw(initial_orders)));
+        
+        // Tasks supporting Task 1: to fetch the orders and update the shared_orders every 5 seconds
+        {
+            let mut redis_conn = self.client.get_multiplexed_async_connection().await.expect("Failed to get redis connection");
+            let shared_orders: Arc<AtomicPtr<HashMap<String, (Vec<Order>, Vec<Order>)>>> = Arc::clone(&shared_orders);
+            tokio::spawn({
+                let log_sender = log_sender.clone();
+                async move {
+                    let mut interval = interval(Duration::from_secs(5));
+                    loop {
+                        interval.tick().await; // Wait until the next 5-second interval
+                        let start = std::time::Instant::now();
+                        let orders = fetch_orders(&mut redis_conn).await.unwrap();
+                        let new_orders = Box::new(orders);
+                        let old_orders = shared_orders.swap(Box::into_raw(new_orders), Ordering::SeqCst);
+                        unsafe {
+                            let _ = Box::from_raw(old_orders); // Free the old orders
+                        }
+                        let elapsed = start.elapsed();
+                        let _ = log_sender.send(format!("MarketDataGenrator (Fetch Orders): {:?}", elapsed)).await;
+                        
+                        // sleep(Duration::from_secs(5)).await;
+                    }
+                }
+            });
+        }
 
         // Task 1: Passive Update
         tokio::spawn({
             let mut redis_conn_clone = redis_conn_task1.clone();
             let stock_sender_clone = stock_sender.clone();
+            let log_sender = log_sender.clone();
+            let shared_orders: Arc<AtomicPtr<HashMap<String, (Vec<Order>, Vec<Order>)>>> = Arc::clone(&shared_orders);
+            let pool = ThreadPool::new(10);
             async move {
+                let mut interval = interval(Duration::from_secs(1));
                 loop {
-                    println!("First task");
+                    interval.tick().await; // Wait until the next 1-second interval
+                    let start = std::time::Instant::now();
                     let stocks = fetch_stocks(&mut redis_conn_clone).await;
-                    let orders = fetch_orders(&mut redis_conn_clone).await.unwrap();
-                    passive_update_stock_price(&mut redis_conn_clone, stocks, orders, stock_sender_clone.clone()).await;
-                    sleep(Duration::from_secs(1)).await; // To remove, check for computer resources used by this function
+                    // let orders = fetch_orders(&mut redis_conn_clone).await.unwrap();
+                    println!("First task");
+                    let orders = unsafe {
+                        (*shared_orders.load(Ordering::SeqCst)).clone()
+                    };
+                    passive_update_stock_price(&mut redis_conn_clone, stocks, orders, stock_sender_clone.clone(), &pool).await;
+                    let elapsed = start.elapsed();
+                    let _ = log_sender.send(format!("MarketDataGenrator (Passive Update): {:?}", elapsed)).await;
+                    // sleep(Duration::from_secs(1)).await; // To remove, check for computer resources used by this function
                 }
             }
         });
@@ -69,30 +110,33 @@ impl MarketDataGenrator {
         tokio::spawn({
             let mut redis_conn_clone = redis_conn_task2.clone();
             let stock_sender_clone = stock_sender.clone();
+            let log_sender = log_sender.clone();
             async move {
                 while let Some(trade_received) = mdg_receiver.recv().await {
+                    let start = std::time::Instant::now();
                     println!("Second Task");
                     // Update the stock price based on the trade
                     let stocks = fetch_stocks(&mut redis_conn_clone).await;
                     active_update_stock_price(&mut redis_conn_clone, stocks, &trade_received, stock_sender_clone.clone()).await;
+                    let elapsed = start.elapsed();
+                    let _ = log_sender.send(format!("MarketDataGenrator (Active Update): {:?}", elapsed)).await;
                 }
             }
         });
 
         // Task 3: Sector Performance
-        // tokio::spawn({
-        //     let mut redis_conn_clone = redis_conn_task3.clone();
-        //     async move {
-                // let mut conn = redis_conn_clone.lock().await;
-                let mut redis_conn_clone = redis_conn_task3.clone();
+        tokio::spawn({
+            let mut redis_conn_clone = redis_conn_task3.clone();
+            let log_sender = log_sender.clone();
+            async move {
                 let stock_sector_string: RedisResult<Vec<(String, String)>> = redis_conn_clone.hgetall("stocks:sector").await;
-
-                // let stock_sector_string: RedisResult<Vec<(String, String)>> = redis_conn_clone.hgetall("stocks:sector").await;
                 let mut sector_hash: HashMap<String, f64> = HashMap::new();
-                
+                let mut interval = interval(Duration::from_secs(60));
                 match stock_sector_string {
                     Ok(stock_sector_result) => {
                         loop {
+                            interval.tick().await; // Wait until the next 60-second interval
+                            let start = std::time::Instant::now();
                             println!("Third Task");
                             let start_sector_hash = sector_hash.clone();
                             let mut cumulate_sector_hash: HashMap<String, Vec<f64>> = HashMap::new();
@@ -135,21 +179,23 @@ impl MarketDataGenrator {
                                                     stock.price * rand::thread_rng().gen_range(0.9..1.0)
                                                 }
                                             };
-                                            update_stock_price(&mut redis_conn_clone, stock, new_price, stock_sender.clone()).await.unwrap();
+                                            update_stock_price(&mut redis_conn_clone, stock, new_price, stock_sender.clone(), None).await.unwrap();
                                         }
                                     }
                                 }
                             }
-    
-                            sleep(Duration::from_secs(60)).await; // Every 60 seconds
+                            
+                            let elapsed = start.elapsed();
+                            let _ = log_sender.send(format!("MarketDataGenrator (Sector Performance): {:?}", elapsed)).await;
+                            // sleep(Duration::from_secs(60)).await; // Every 60 seconds
                         }
                     }
                     Err(e) => {
                         eprintln!("Failed to fetch sector: {}", e);
                     }
                 }
-        //     }
-        // });
+            }
+        });
     }
 }
 
@@ -158,7 +204,8 @@ async fn passive_update_stock_price(
     latest_stock: Vec<Stock>,
     orders: HashMap<String, (Vec<Order>, Vec<Order>)>,
     stock_sender: Sender<Stock>,
-) {        
+    pool: &ThreadPool,
+) {
     for order in orders {
         // Get the latest stock price
         let stock: &Stock = latest_stock.iter().find(|s| s.symbol == order.0).expect("Stock not found");
@@ -183,7 +230,7 @@ async fn passive_update_stock_price(
 
         // Update the stock price
         let new_price = stock.price * multiplier;
-        update_stock_price(redis_conn, stock, new_price, stock_sender.clone()).await.unwrap();
+        update_stock_price(redis_conn, stock, new_price, stock_sender.clone(), Some(&pool)).await.unwrap();
     }
 }
 
@@ -197,7 +244,7 @@ async fn active_update_stock_price(
 
     let new_price = algorithm::algorithm_trade(&trade_received, stock.price);
 
-    update_stock_price(redis_conn, stock, new_price, stock_sender.clone()).await.unwrap();
+    update_stock_price(redis_conn, stock, new_price, stock_sender.clone(), None).await.unwrap();
 }
 
 async fn update_stock_price(
@@ -205,6 +252,7 @@ async fn update_stock_price(
     stock: &Stock,
     new_price: f64,
     stock_sender: Sender<Stock>,
+    pool: Option<&ThreadPool>,
 ) -> RedisResult<()> {
     let updated_stock = Stock {
         symbol: stock.symbol.clone(),
@@ -213,7 +261,20 @@ async fn update_stock_price(
 
     // Send the updated stock price to redis
     // let mut conn = redis_conn.lock().await;
-    redis_conn.hset("stocks:prices", &updated_stock.symbol, updated_stock.price).await?;
+
+    // Update the stock price in Redis using thread pool
+    if let Some(pool) = pool {
+        let mut redis_conn = redis_conn.clone();
+        let updated_stock = updated_stock.clone();
+        pool.execute( move || {
+            let future = redis_conn.hset("stocks:prices", &updated_stock.symbol, &updated_stock.price);
+            let _result: Result<(), RedisError> = futures::executor::block_on(future);
+        });
+    }
+    else {
+        () = redis_conn.hset("stocks:prices", &updated_stock.symbol, updated_stock.price).await?;
+    }
+    // () = redis_conn.hset("stocks:prices", &updated_stock.symbol, updated_stock.price).await?;
 
     // Send the updated stock price to channel
     if let Err(e) = stock_sender.send(updated_stock.clone()).await {
