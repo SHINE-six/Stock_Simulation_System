@@ -73,8 +73,6 @@ impl MarketDataGenrator {
                         }
                         let elapsed = start.elapsed();
                         let _ = log_sender.send(format!("MarketDataGenrator (Fetch Orders): {:?}", elapsed)).await;
-                        
-                        // sleep(Duration::from_secs(5)).await;
                     }
                 }
             });

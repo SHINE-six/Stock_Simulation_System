@@ -13,6 +13,7 @@
 - [ ] perf-monitor
 - [ ] thread-priority
 - [ ] rt-thread
-- [x] sys-info
+- [ ] sys-info
 - [ ] criterion
-- [x] bma-benchmark
+- [ ] bma-benchmark
+- [ ] console-subscriber

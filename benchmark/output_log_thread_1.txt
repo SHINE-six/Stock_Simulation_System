@@ -1,0 +1,506 @@
+Thread Number: 1, Redpanda
+Running command: <kafka-benchmark producer config/base_producer.yaml 10B_bursts>
+Scenario: 10B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 20000000 messages (190.735 MB) in 24.334 seconds using 1 thread
+    821895 messages/s
+    7.838 MB/s
+* Produced 20000000 messages (190.735 MB) in 24.937 seconds using 1 thread
+    802021 messages/s
+    7.649 MB/s
+* Produced 20000000 messages (190.735 MB) in 23.540 seconds using 1 thread
+    849618 messages/s
+    8.103 MB/s
+* Produced 20000000 messages (190.735 MB) in 23.255 seconds using 1 thread
+    860030 messages/s
+    8.202 MB/s
+* Produced 20000000 messages (190.735 MB) in 23.236 seconds using 1 thread
+    860733 messages/s
+    8.209 MB/s
+Average: 838195 messages/s, 7.994 MB/s
+
+Running command: <kafka-benchmark producer config/base_producer.yaml 1KB_bursts>
+Scenario: 1KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 500000 messages (488.281 MB) in 6.452 seconds using 1 thread
+    77495 messages/s
+    75.679 MB/s
+* Produced 500000 messages (488.281 MB) in 5.149 seconds using 1 thread
+    97106 messages/s
+    94.830 MB/s
+* Produced 500000 messages (488.281 MB) in 5.132 seconds using 1 thread
+    97428 messages/s
+    95.144 MB/s
+Average: 89633 messages/s, 87.532 MB/s
+
+Running command: <kafka-benchmark producer config/base_producer.yaml 10KB_bursts>
+Scenario: 10KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 50000 messages (488.281 MB) in 5.244 seconds using 1 thread
+    9535 messages/s
+    93.112 MB/s
+* Produced 50000 messages (488.281 MB) in 4.947 seconds using 1 thread
+    10107 messages/s
+    98.702 MB/s
+* Produced 50000 messages (488.281 MB) in 4.997 seconds using 1 thread
+    10006 messages/s
+    97.715 MB/s
+Average: 9876 messages/s, 96.447 MB/s
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 10B>
+First message received
+Received: 15000000 messages, 143.051 MB
+Elapsed:  11.365 seconds (1319842 messages/s, 12.587 MB/s)
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 1KB>
+First message received
+Received: 375000 messages, 366.210 MB
+Elapsed:  6.897 seconds (54371 messages/s, 53.097 MB/s)
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 10KB>
+First message received
+Received: 37500 messages, 366.201 MB
+Elapsed:  6.380 seconds (5878 messages/s, 57.398 MB/s)
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 10B_bursts>
+Scenario: 10B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 20000000 messages (190.735 MB) in 41.987 seconds using 1 thread
+    476338 messages/s
+    4.543 MB/s
+* Produced 20000000 messages (190.735 MB) in 42.504 seconds using 1 thread
+    470544 messages/s
+    4.487 MB/s
+* Produced 20000000 messages (190.735 MB) in 42.345 seconds using 1 thread
+    472311 messages/s
+    4.504 MB/s
+* Produced 20000000 messages (190.735 MB) in 42.710 seconds using 1 thread
+    468274 messages/s
+    4.466 MB/s
+* Produced 20000000 messages (190.735 MB) in 43.040 seconds using 1 thread
+    464684 messages/s
+    4.432 MB/s
+Average: 470393 messages/s, 4.486 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 35B_bursts>
+Scenario: 35B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 3000000 messages (100.136 MB) in 7.382 seconds using 1 thread
+    406394 messages/s
+    13.565 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.760 seconds using 1 thread
+    443787 messages/s
+    14.813 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.993 seconds using 1 thread
+    429000 messages/s
+    14.319 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.951 seconds using 1 thread
+    431593 messages/s
+    14.406 MB/s
+* Produced 3000000 messages (100.136 MB) in 7.036 seconds using 1 thread
+    426379 messages/s
+    14.232 MB/s
+Average: 427058 messages/s, 14.255 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 210B_bursts>
+Scenario: 210B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 2000000 messages (400.543 MB) in 6.676 seconds using 1 thread
+    299581 messages/s
+    59.997 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.591 seconds using 1 thread
+    303444 messages/s
+    60.771 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.483 seconds using 1 thread
+    308499 messages/s
+    61.784 MB/s
+* Produced 2000000 messages (400.543 MB) in 7.066 seconds using 1 thread
+    283046 messages/s
+    56.686 MB/s
+* Produced 2000000 messages (400.543 MB) in 7.349 seconds using 1 thread
+    272146 messages/s
+    54.503 MB/s
+Average: 292689 messages/s, 58.617 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 1KB_bursts>
+Scenario: 1KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 500000 messages (488.281 MB) in 5.997 seconds using 1 thread
+    83375 messages/s
+    81.421 MB/s
+* Produced 500000 messages (488.281 MB) in 5.742 seconds using 1 thread
+    87078 messages/s
+    85.037 MB/s
+* Produced 500000 messages (488.281 MB) in 6.213 seconds using 1 thread
+    80476 messages/s
+    78.590 MB/s
+Average: 83551 messages/s, 81.593 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 10KB_bursts>
+Scenario: 10KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 50000 messages (488.281 MB) in 5.403 seconds using 1 thread
+    9254 messages/s
+    90.372 MB/s
+* Produced 50000 messages (488.281 MB) in 5.098 seconds using 1 thread
+    9808 messages/s
+    95.779 MB/s
+* Produced 50000 messages (488.281 MB) in 4.977 seconds using 1 thread
+    10046 messages/s
+    98.108 MB/s
+Average: 9690 messages/s, 94.628 MB/s
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 10B>
+First message received
+Received: 15000000 messages, 143.051 MB
+Elapsed:  84.253 seconds (178035 messages/s, 1.698 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 35B>
+First message received
+Received: 2250000 messages, 75.102 MB
+Elapsed:  3.724 seconds (604189 messages/s, 20.167 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 210B>
+First message received
+Received: 1500000 messages, 300.407 MB
+Elapsed:  7.673 seconds (195491 messages/s, 39.151 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 1KB>
+First message received
+Received: 375000 messages, 366.210 MB
+Elapsed:  6.504 seconds (57657 messages/s, 56.305 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 10KB>
+First message received
+Received: 37500 messages, 366.201 MB
+Elapsed:  6.788 seconds (5524 messages/s, 53.948 MB/s)
+
+Thread Number: 1, Bitnami Kafka
+Running command: <kafka-benchmark producer config/base_producer.yaml 10B_bursts>
+Scenario: 10B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 20000000 messages (190.735 MB) in 22.019 seconds using 1 thread
+    908306 messages/s
+    8.662 MB/s
+* Produced 20000000 messages (190.735 MB) in 21.441 seconds using 1 thread
+    932792 messages/s
+    8.896 MB/s
+* Produced 20000000 messages (190.735 MB) in 21.220 seconds using 1 thread
+    942507 messages/s
+    8.988 MB/s
+* Produced 20000000 messages (190.735 MB) in 21.400 seconds using 1 thread
+    934579 messages/s
+    8.913 MB/s
+* Produced 20000000 messages (190.735 MB) in 20.956 seconds using 1 thread
+    954381 messages/s
+    9.102 MB/s
+Average: 934248 messages/s, 8.910 MB/s
+
+Running command: <kafka-benchmark producer config/base_producer.yaml 1KB_bursts>
+Scenario: 1KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 500000 messages (488.281 MB) in 4.998 seconds using 1 thread
+    100040 messages/s
+    97.695 MB/s
+* Produced 500000 messages (488.281 MB) in 5.316 seconds using 1 thread
+    94056 messages/s
+    91.851 MB/s
+* Produced 500000 messages (488.281 MB) in 6.358 seconds using 1 thread
+    78641 messages/s
+    76.798 MB/s
+Average: 89966 messages/s, 87.857 MB/s
+
+Running command: <kafka-benchmark producer config/base_producer.yaml 10KB_bursts>
+Scenario: 10KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 50000 messages (488.281 MB) in 6.451 seconds using 1 thread
+    7751 messages/s
+    75.691 MB/s
+* Produced 50000 messages (488.281 MB) in 6.141 seconds using 1 thread
+    8142 messages/s
+    79.512 MB/s
+* Produced 50000 messages (488.281 MB) in 4.964 seconds using 1 thread
+    10073 messages/s
+    98.364 MB/s
+Average: 8543 messages/s, 83.429 MB/s
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 10B>
+First message received
+Received: 15000000 messages, 143.051 MB
+Elapsed:  11.391 seconds (1316829 messages/s, 12.558 MB/s)
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 1KB>
+First message received
+Received: 375000 messages, 366.211 MB
+Elapsed:  8.524 seconds (43993 messages/s, 42.962 MB/s)
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 10KB>
+First message received
+Received: 37500 messages, 366.191 MB
+Elapsed:  7.585 seconds (4944 messages/s, 48.278 MB/s)
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 10B_bursts>
+Scenario: 10B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 20000000 messages (190.735 MB) in 46.518 seconds using 1 thread
+    429941 messages/s
+    4.100 MB/s
+* Produced 20000000 messages (190.735 MB) in 44.029 seconds using 1 thread
+    454246 messages/s
+    4.332 MB/s
+* Produced 20000000 messages (190.735 MB) in 43.186 seconds using 1 thread
+    463113 messages/s
+    4.417 MB/s
+* Produced 20000000 messages (190.735 MB) in 43.573 seconds using 1 thread
+    459000 messages/s
+    4.377 MB/s
+* Produced 20000000 messages (190.735 MB) in 42.519 seconds using 1 thread
+    470378 messages/s
+    4.486 MB/s
+Average: 454901 messages/s, 4.338 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 35B_bursts>
+Scenario: 35B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 3000000 messages (100.136 MB) in 7.167 seconds using 1 thread
+    418585 messages/s
+    13.972 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.927 seconds using 1 thread
+    433088 messages/s
+    14.456 MB/s
+* Produced 3000000 messages (100.136 MB) in 7.003 seconds using 1 thread
+    428388 messages/s
+    14.299 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.865 seconds using 1 thread
+    436999 messages/s
+    14.586 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.800 seconds using 1 thread
+    441176 messages/s
+    14.726 MB/s
+Average: 431468 messages/s, 14.402 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 210B_bursts>
+Scenario: 210B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 2000000 messages (400.543 MB) in 7.362 seconds using 1 thread
+    271665 messages/s
+    54.407 MB/s
+* Produced 2000000 messages (400.543 MB) in 7.239 seconds using 1 thread
+    276281 messages/s
+    55.331 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.584 seconds using 1 thread
+    303767 messages/s
+    60.836 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.510 seconds using 1 thread
+    307220 messages/s
+    61.527 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.881 seconds using 1 thread
+    290655 messages/s
+    58.210 MB/s
+Average: 289193 messages/s, 57.917 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 1KB_bursts>
+Scenario: 1KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 500000 messages (488.281 MB) in 5.533 seconds using 1 thread
+    90367 messages/s
+    88.249 MB/s
+* Produced 500000 messages (488.281 MB) in 7.002 seconds using 1 thread
+    71408 messages/s
+    69.735 MB/s
+* Produced 500000 messages (488.281 MB) in 6.458 seconds using 1 thread
+    77423 messages/s
+    75.609 MB/s
+Average: 78972 messages/s, 77.121 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 10KB_bursts>
+Scenario: 10KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 50000 messages (488.281 MB) in 5.783 seconds using 1 thread
+    8646 messages/s
+    84.434 MB/s
+* Produced 50000 messages (488.281 MB) in 5.497 seconds using 1 thread
+    9096 messages/s
+    88.827 MB/s
+* Produced 50000 messages (488.281 MB) in 5.565 seconds using 1 thread
+    8985 messages/s
+    87.741 MB/s
+Average: 8904 messages/s, 86.955 MB/s
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 10B>
+First message received
+Received: 15000000 messages, 143.051 MB
+Elapsed:  83.090 seconds (180527 messages/s, 1.722 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 35B>
+First message received
+Received: 2250000 messages, 75.102 MB
+Elapsed:  3.858 seconds (583204 messages/s, 19.467 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 210B>
+First message received
+Received: 1500000 messages, 300.407 MB
+Elapsed:  8.486 seconds (176762 messages/s, 35.400 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 1KB>
+First message received
+Received: 375000 messages, 366.211 MB
+Elapsed:  7.461 seconds (50261 messages/s, 49.083 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 10KB>
+First message received
+Received: 37500 messages, 366.191 MB
+Elapsed:  6.876 seconds (5454 messages/s, 53.256 MB/s)
+
+Thread Number: 1, Confluentinc Kafka
+Running command: <kafka-benchmark producer config/base_producer.yaml 10B_bursts>
+Scenario: 10B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 20000000 messages (190.735 MB) in 20.813 seconds using 1 thread
+    960938 messages/s
+    9.164 MB/s
+* Produced 20000000 messages (190.735 MB) in 20.502 seconds using 1 thread
+    975515 messages/s
+    9.303 MB/s
+* Produced 20000000 messages (190.735 MB) in 20.548 seconds using 1 thread
+    973331 messages/s
+    9.282 MB/s
+* Produced 20000000 messages (190.735 MB) in 20.798 seconds using 1 thread
+    961631 messages/s
+    9.171 MB/s
+* Produced 20000000 messages (190.735 MB) in 20.631 seconds using 1 thread
+    969415 messages/s
+    9.245 MB/s
+Average: 968120 messages/s, 9.233 MB/s
+
+Running command: <kafka-benchmark producer config/base_producer.yaml 1KB_bursts>
+Scenario: 1KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 500000 messages (488.281 MB) in 4.975 seconds using 1 thread
+    100503 messages/s
+    98.147 MB/s
+* Produced 500000 messages (488.281 MB) in 5.125 seconds using 1 thread
+    97561 messages/s
+    95.274 MB/s
+* Produced 500000 messages (488.281 MB) in 4.902 seconds using 1 thread
+    101999 messages/s
+    99.609 MB/s
+Average: 99973 messages/s, 97.630 MB/s
+
+Running command: <kafka-benchmark producer config/base_producer.yaml 10KB_bursts>
+Scenario: 10KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 50000 messages (488.281 MB) in 5.093 seconds using 1 thread
+    9817 messages/s
+    95.873 MB/s
+* Produced 50000 messages (488.281 MB) in 6.029 seconds using 1 thread
+    8293 messages/s
+    80.989 MB/s
+* Produced 50000 messages (488.281 MB) in 5.763 seconds using 1 thread
+    8676 messages/s
+    84.727 MB/s
+Average: 8883 messages/s, 86.749 MB/s
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 10B>
+First message received
+Received: 15000000 messages, 143.051 MB
+Elapsed:  11.136 seconds (1346983 messages/s, 12.846 MB/s)
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 1KB>
+First message received
+Received: 375000 messages, 366.209 MB
+Elapsed:  8.830 seconds (42469 messages/s, 41.473 MB/s)
+
+Running command: <kafka-benchmark consumer config/base_consumer.yaml 10KB>
+First message received
+Received: 37500 messages, 366.201 MB
+Elapsed:  7.694 seconds (4874 messages/s, 47.596 MB/s)
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 10B_bursts>
+Scenario: 10B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 20000000 messages (190.735 MB) in 45.243 seconds using 1 thread
+    442057 messages/s
+    4.216 MB/s
+* Produced 20000000 messages (190.735 MB) in 44.341 seconds using 1 thread
+    451050 messages/s
+    4.302 MB/s
+* Produced 20000000 messages (190.735 MB) in 43.487 seconds using 1 thread
+    459908 messages/s
+    4.386 MB/s
+* Produced 20000000 messages (190.735 MB) in 42.708 seconds using 1 thread
+    468296 messages/s
+    4.466 MB/s
+* Produced 20000000 messages (190.735 MB) in 43.101 seconds using 1 thread
+    464026 messages/s
+    4.425 MB/s
+Average: 456871 messages/s, 4.357 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 35B_bursts>
+Scenario: 35B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 3000000 messages (100.136 MB) in 7.572 seconds using 1 thread
+    396197 messages/s
+    13.224 MB/s
+* Produced 3000000 messages (100.136 MB) in 7.431 seconds using 1 thread
+    403714 messages/s
+    13.475 MB/s
+* Produced 3000000 messages (100.136 MB) in 7.025 seconds using 1 thread
+    427046 messages/s
+    14.254 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.987 seconds using 1 thread
+    429369 messages/s
+    14.332 MB/s
+* Produced 3000000 messages (100.136 MB) in 6.965 seconds using 1 thread
+    430725 messages/s
+    14.377 MB/s
+Average: 416875 messages/s, 13.915 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 210B_bursts>
+Scenario: 210B_bursts, repeat 5 times, 10 seconds pause after each
+* Produced 2000000 messages (400.543 MB) in 7.187 seconds using 1 thread
+    278280 messages/s
+    55.732 MB/s
+* Produced 2000000 messages (400.543 MB) in 7.056 seconds using 1 thread
+    283447 messages/s
+    56.766 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.590 seconds using 1 thread
+    303490 messages/s
+    60.780 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.412 seconds using 1 thread
+    311915 messages/s
+    62.468 MB/s
+* Produced 2000000 messages (400.543 MB) in 6.714 seconds using 1 thread
+    297885 messages/s
+    59.658 MB/s
+Average: 294455 messages/s, 58.971 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 1KB_bursts>
+Scenario: 1KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 500000 messages (488.281 MB) in 6.478 seconds using 1 thread
+    77184 messages/s
+    75.375 MB/s
+* Produced 500000 messages (488.281 MB) in 5.509 seconds using 1 thread
+    90761 messages/s
+    88.633 MB/s
+* Produced 500000 messages (488.281 MB) in 6.343 seconds using 1 thread
+    78827 messages/s
+    76.980 MB/s
+Average: 81829 messages/s, 79.911 MB/s
+
+Running command: <kafka-benchmark producer config/future_producer.yaml 10KB_bursts>
+Scenario: 10KB_bursts, repeat 3 times, 20 seconds pause after each
+* Produced 50000 messages (488.281 MB) in 6.673 seconds using 1 thread
+    7493 messages/s
+    73.173 MB/s
+* Produced 50000 messages (488.281 MB) in 5.544 seconds using 1 thread
+    9019 messages/s
+    88.074 MB/s
+* Produced 50000 messages (488.281 MB) in 5.014 seconds using 1 thread
+    9972 messages/s
+    97.384 MB/s
+Average: 8705 messages/s, 85.007 MB/s
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 10B>
+First message received
+Received: 15000000 messages, 143.051 MB
+Elapsed:  66.220 seconds (226518 messages/s, 2.160 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 35B>
+First message received
+Received: 2250000 messages, 75.102 MB
+Elapsed:  3.277 seconds (686604 messages/s, 22.918 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 210B>
+First message received
+Received: 1500000 messages, 300.407 MB
+Elapsed:  10.098 seconds (148544 messages/s, 29.749 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 1KB>
+First message received
+Received: 375000 messages, 366.209 MB
+Elapsed:  9.010 seconds (41620 messages/s, 40.645 MB/s)
+
+Running command: <kafka-benchmark consumer config/stream_consumer.yaml 10KB>
+First message received
+Received: 37500 messages, 366.201 MB
+Elapsed:  8.488 seconds (4418 messages/s, 43.143 MB/s)
