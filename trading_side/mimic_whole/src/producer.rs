@@ -49,10 +49,10 @@ impl OrderProducer {
                 let mut rng = StdRng::from_seed(seed);
                 loop {
                     let order = generate_random_order(&symbol_price[rng.gen_range(0..symbol_price.len())]);
-                    println!("Generated order: {:?}", order);
+                    // println!("Generated order: {:?}", order);
                     send_message(&producer, &topic, order).await;
 
-                    sleep(Duration::from_millis(300)).await;
+                    sleep(Duration::from_millis(600)).await;
                 }
             }
         }).await.unwrap();

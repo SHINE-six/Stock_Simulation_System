@@ -1,11 +1,8 @@
-extern crate sys_info;
-
 use common::models::{Order, Stock, Trade};
 use communication_layer::consumer::OrderConsumer;
 use communication_layer::producer::StockProducer;
 use market_data_generator::price_updater::MarketDataGenrator;
 use order_management_system::order_book_manager::OrderBookManager;
-use std::sync::Arc;
 use tokio::io::AsyncWriteExt;
 
 use tokio::signal;
@@ -18,41 +15,7 @@ static PEAK_ALLOC: PeakAlloc = PeakAlloc;
 
 #[tokio::main(flavor = "multi_thread", worker_threads = 8)]
 async fn main() {
-    // Initialize the console subscriber to emit tracing data
-    // console_subscriber::init();
-
     let (log_sender, mut log_receiver): (Sender<String>, Receiver<String>) = channel(100);
-
-    // System info
-    let cpu_num = sys_info::cpu_num().unwrap();
-    let boot_time = sys_info::boottime().unwrap().tv_sec;
-    let proc_total = sys_info::proc_total().unwrap();
-    let load_avg = sys_info::loadavg().unwrap();
-    let mem_info = sys_info::mem_info().unwrap();
-    let disk_info = sys_info::disk_info().unwrap();
-    let cpu_speed = sys_info::cpu_speed().unwrap();
-    let os_info = sys_info::linux_os_release().unwrap();
-
-    println!("Number of CPU: {}", cpu_num);
-    println!("System Boot Time: {}", boot_time);
-    println!("Number of Processes: {}", proc_total);
-    println!("System Load Average: {:?}", load_avg);
-    println!("Total Memory: {}", mem_info.total);
-    println!("Free Memory: {}", mem_info.free);
-    println!("Disk Info: {:?}", disk_info);
-    println!("Cpu Speed: {}", cpu_speed);
-    println!(
-        "OS: {}, {}",
-        os_info.name.clone().unwrap_or("Unknown".to_string()),
-        os_info.version.clone().unwrap_or("Unknown".to_string())
-    );
-
-    // Log system info
-    let system_info = format!(
-        "Number of CPU: {}\nSystem Boot Time: {}\nNumber of Processes: {}\nSystem Load Average: {:?}\nTotal Memory: {}\nFree Memory: {}\nDisk Info: {:?}\nCpu Speed: {}\nOS: {}, {}\n",
-        cpu_num, boot_time, proc_total, load_avg, mem_info.total, mem_info.free, disk_info, cpu_speed, os_info.name.unwrap_or("Unknown".to_string()), os_info.version.unwrap_or("Unknown".to_string())
-    );
-    let _ = log_sender.send(system_info).await;
 
     println!("\n------------------------------------------------------------------- Application Start -------------------------------------------------------------------\n");
 
@@ -70,7 +33,7 @@ async fn main() {
 
     let consumer = OrderConsumer::new(BROKERS, TO_CONSUME_TOPIC, GROUP_ID);
     
-    let consumer_handle = tokio::spawn({
+    let _consumer_handle = tokio::spawn({
         let log_sender = log_sender.clone();
 
         async move {
@@ -113,7 +76,7 @@ async fn main() {
     //     }
     // });
 
-    let order_book_manager_add_to_order_handle = tokio::spawn({
+    let _order_book_manager_add_to_order_handle = tokio::spawn({
         // let order_book_manager = order_book_manager_clone;
         let log_sender = log_sender.clone();
         async move {
@@ -157,7 +120,7 @@ async fn main() {
         Originally, the market data generator thread will only spawn 3 more thread, and take on the last thread task itself.
         However, using the console subscriber to monitor, it can be observed that if the market data generator take on the last thread task, the market data generator thread will have too much load.
     */
-    let market_data_generator_handle = tokio::spawn({
+    let _market_data_generator_handle = tokio::spawn({
         let log_sender = log_sender.clone();
         async move {
             market_data_generator.start(mdg_receiver, stock_sender, log_sender).await;
@@ -169,7 +132,7 @@ async fn main() {
 
     let producer = StockProducer::new(BROKERS);
 
-    let producer_handle = tokio::spawn(async move {
+    let _producer_handle = tokio::spawn(async move {
         // Produce stock prices from channel
         while let Some(stock) = stock_receiver.recv().await {
             producer.produce_stock(stock, TO_PRODUCE_TOPIC).await;
@@ -177,7 +140,7 @@ async fn main() {
     });
 
     // Log Receiver and write to file ./log/log.txt
-    let log_handle = tokio::spawn(async move {
+    let _log_handle = tokio::spawn(async move {
         let mut file = tokio::fs::File::create("./log/log.txt").await.expect("Failed to create log file");
         while let Some(log) = log_receiver.recv().await {
             let log = format!("{}\n", log);

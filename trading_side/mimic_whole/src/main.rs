@@ -5,6 +5,7 @@ mod producer;
 use futures::{StreamExt, SinkExt};
 use tokio::sync::broadcast;
 use warp::Filter;
+use warp::cors;
 use serde_json::{Value, json};
 
 use models::Stock;
@@ -40,6 +41,7 @@ async fn main() {
         .and(warp::post())
         .and(warp::body::json())
         .and_then({
+          println!("Route /order called");
             let order_producer = order_producer.clone();
             move |json_body: Value| {
                 let order_producer = order_producer.clone();
@@ -57,13 +59,18 @@ async fn main() {
         });
 
     // Serve static files (HTML, JS, CSS)
-    let static_files = warp::fs::dir("public");
+
+    let cors = cors()
+        .allow_any_origin()
+        .allow_methods(vec!["GET", "POST", "DELETE", "PUT", "OPTIONS"])
+        .allow_headers(vec!["Content-Type", "Authorization"])
+        .max_age(3600);
 
     // Combine routes
-    let routes = ws_route.or(order_route).or(static_files);
+    let routes = ws_route.or(order_route).with(cors);
 
     println!("WebSocket server running on ws://localhost:3030/ws");
-    println!("Static files server running on http://localhost:3030");
+    println!("Rest server running on http://localhost:3030");
 
     warp::serve(routes).run(([0, 0, 0, 0], 3030)).await;
 }
