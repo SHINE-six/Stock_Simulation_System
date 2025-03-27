@@ -5,9 +5,6 @@ use serde_json::{from_str, to_string};  // Deserialize JSON string to struct; Se
 // use tokio::sync::Mutex;  // Mutex: Mutual Exclusion, used to synchronize access to shared data
 
 pub struct OrderBookManager {
-    // ARC: Atomic Reference Counting, used to share ownership between threads
-    // Mutex: Mutual Exclusion, used to synchronize access to shared data
-    // So with arc and mutex, we can ensure that only one thread can access the Redis connection at a time
     redis_conn: aio::MultiplexedConnection,
 }
 
@@ -51,7 +48,7 @@ impl OrderBookManager {
 
                 // Serialize the buy orders and update the buy orders in Redis
                 let to_redis_buy_orders_string = to_string(&buy_orders).expect("Failed to serialize buy orders");
-                conn.hset(&order_book_key, "buy_orders", to_redis_buy_orders_string).await?;
+                () = conn.hset(&order_book_key, "buy_orders", to_redis_buy_orders_string).await?;
 
                 Ok(())
             }
@@ -70,78 +67,137 @@ impl OrderBookManager {
 
                 // Serialize the sell orders and update the sell orders in Redis
                 let to_redis_sell_orders_string = to_string(&sell_orders).expect("Failed to serialize sell orders");
-                conn.hset(&order_book_key, "sell_orders", to_redis_sell_orders_string).await?;
+                () = conn.hset(&order_book_key, "sell_orders", to_redis_sell_orders_string).await?;
 
                 Ok(())
             }
         }
     }
 
-    pub async fn process_order(&self) -> RedisResult<Option<Trade>> {
+    pub async fn process_order(&self, stock_symbol: String) -> RedisResult<Option<Trade>> {
         // Get the different order books from Redis
         let mut conn = self.redis_conn.clone();
-        let order_books: Vec<String> = conn.keys("order_book:*").await?;
+        let order_books: Vec<String> = conn.keys(format!("order_book:{}*", stock_symbol)).await?;
+        
+        // Get the buy and sell orders from Redis
+        let (buy_orders_string, sell_orders_string): (Option<String>, Option<String>) = conn
+            .hget(&order_books[0], &["buy_orders", "sell_orders"])
+            .await?;
 
-        // Iterate over the order books
-        for order_book_key in order_books {
-            // Get the buy and sell orders from Redis
-            let (buy_orders_string, sell_orders_string): (Option<String>, Option<String>) = conn
-                .hget(&order_book_key, &["buy_orders", "sell_orders"])
-                .await?;
+        // Deserialize the buy and sell orders into Vec<Order>
+        let mut buy_orders: Vec<Order> = match buy_orders_string {
+            Some(buy_orders) => from_str(&buy_orders).expect("Failed to deserialize buy orders"),
+            None => Vec::new(),
+        };
 
-            // Deserialize the buy and sell orders into Vec<Order>
-            let mut buy_orders: Vec<Order> = match buy_orders_string {
-                Some(buy_orders) => from_str(&buy_orders).expect("Failed to deserialize buy orders"),
-                None => Vec::new(),
-            };
+        let mut sell_orders: Vec<Order> = match sell_orders_string {
+            Some(sell_orders) => from_str(&sell_orders).expect("Failed to deserialize sell orders"),
+            None => Vec::new(),
+        };
 
-            let mut sell_orders: Vec<Order> = match sell_orders_string {
-                Some(sell_orders) => from_str(&sell_orders).expect("Failed to deserialize sell orders"),
-                None => Vec::new(),
-            };
+        // Check the first buy order (largest) and the first sell order (smallest) to see if a trade can be made
+        while let (Some(buy_order), Some(sell_order)) = (buy_orders.first(), sell_orders.first()) {
+            if buy_order.price >= sell_order.price {
+                // Take the minimum quantity between the buy and sell orders
+                let trade_quantity = buy_order.quantity.min(sell_order.quantity);
 
-            // Check the first buy order (largest) and the first sell order (smallest) to see if a trade can be made
-            while let (Some(buy_order), Some(sell_order)) = (buy_orders.first(), sell_orders.first()) {
-                if buy_order.price >= sell_order.price {
-                    // Take the minimum quantity between the buy and sell orders
-                    let trade_quantity = buy_order.quantity.min(sell_order.quantity);
+                // Create a trade
+                let trade = Trade {
+                    buy_order_id: buy_order.id.clone(),
+                    sell_order_id: sell_order.id.clone(),
+                    stock_symbol: buy_order.stock_symbol.clone(),
+                    quantity: trade_quantity,
+                    price: sell_order.price,   // Take sell order because a trade should take the lower price
+                    timestamp: std::cmp::max(buy_order.timestamp, sell_order.timestamp),
+                };
 
-                    // Create a trade
-                    let trade = Trade {
-                        buy_order_id: buy_order.id.clone(),
-                        sell_order_id: sell_order.id.clone(),
-                        stock_symbol: buy_order.stock_symbol.clone(),
-                        quantity: trade_quantity,
-                        price: sell_order.price,   // Take sell order because a trade should take the lower price
-                        timestamp: std::cmp::max(buy_order.timestamp, sell_order.timestamp),
-                    };
-
-                    // Update the quantity of either the buy or sell order
-                    if buy_order.quantity > trade_quantity {
-                        buy_orders[0].quantity -= trade_quantity;
-                        sell_orders.remove(0);
-                    } else if sell_order.quantity > trade_quantity {
-                        sell_orders[0].quantity -= trade_quantity;
-                        buy_orders.remove(0);
-                    } else {
-                        buy_orders.remove(0);
-                        sell_orders.remove(0);
-                    }
-
-                    // Update the buy and sell orders in Redis
-                    let to_redis_buy_orders_string = to_string(&buy_orders).expect("Failed to serialize buy orders");
-                    conn.hset(&order_book_key, "buy_orders", to_redis_buy_orders_string).await?;
-
-                    let to_redis_sell_orders_string = to_string(&sell_orders).expect("Failed to serialize sell orders");
-                    conn.hset(&order_book_key, "sell_orders", to_redis_sell_orders_string).await?;
-                    
-                    return Ok(Some(trade));
+                // Update the quantity of either the buy or sell order
+                if buy_order.quantity > trade_quantity {
+                    buy_orders[0].quantity -= trade_quantity;
+                    sell_orders.remove(0);
+                } else if sell_order.quantity > trade_quantity {
+                    sell_orders[0].quantity -= trade_quantity;
+                    buy_orders.remove(0);
                 } else {
-                    // If the buy order price is less than the sell order price, then no trade can be made, meaning the highest buy order price is less than the lowest sell order price
-                    break;
+                    buy_orders.remove(0);
+                    sell_orders.remove(0);
                 }
+
+                // Update the buy and sell orders in Redis
+                let to_redis_buy_orders_string = to_string(&buy_orders).expect("Failed to serialize buy orders");
+                () = conn.hset(&order_books[0], "buy_orders", to_redis_buy_orders_string).await?;
+
+                let to_redis_sell_orders_string = to_string(&sell_orders).expect("Failed to serialize sell orders");
+                () = conn.hset(&order_books[0], "sell_orders", to_redis_sell_orders_string).await?;
+                
+                return Ok(Some(trade));
+            } else {
+                // If the buy order price is less than the sell order price, then no trade can be made, meaning the highest buy order price is less than the lowest sell order price
+                break;
             }
         }
+
+        
+        // Iterate over the order books
+        // for order_book_key in order_books {
+        //     // Get the buy and sell orders from Redis
+        //     let (buy_orders_string, sell_orders_string): (Option<String>, Option<String>) = conn
+        //         .hget(&order_book_key, &["buy_orders", "sell_orders"])
+        //         .await?;
+
+        //     // Deserialize the buy and sell orders into Vec<Order>
+        //     let mut buy_orders: Vec<Order> = match buy_orders_string {
+        //         Some(buy_orders) => from_str(&buy_orders).expect("Failed to deserialize buy orders"),
+        //         None => Vec::new(),
+        //     };
+
+        //     let mut sell_orders: Vec<Order> = match sell_orders_string {
+        //         Some(sell_orders) => from_str(&sell_orders).expect("Failed to deserialize sell orders"),
+        //         None => Vec::new(),
+        //     };
+
+        //     // Check the first buy order (largest) and the first sell order (smallest) to see if a trade can be made
+        //     while let (Some(buy_order), Some(sell_order)) = (buy_orders.first(), sell_orders.first()) {
+        //         if buy_order.price >= sell_order.price {
+        //             // Take the minimum quantity between the buy and sell orders
+        //             let trade_quantity = buy_order.quantity.min(sell_order.quantity);
+
+        //             // Create a trade
+        //             let trade = Trade {
+        //                 buy_order_id: buy_order.id.clone(),
+        //                 sell_order_id: sell_order.id.clone(),
+        //                 stock_symbol: buy_order.stock_symbol.clone(),
+        //                 quantity: trade_quantity,
+        //                 price: sell_order.price,   // Take sell order because a trade should take the lower price
+        //                 timestamp: std::cmp::max(buy_order.timestamp, sell_order.timestamp),
+        //             };
+
+        //             // Update the quantity of either the buy or sell order
+        //             if buy_order.quantity > trade_quantity {
+        //                 buy_orders[0].quantity -= trade_quantity;
+        //                 sell_orders.remove(0);
+        //             } else if sell_order.quantity > trade_quantity {
+        //                 sell_orders[0].quantity -= trade_quantity;
+        //                 buy_orders.remove(0);
+        //             } else {
+        //                 buy_orders.remove(0);
+        //                 sell_orders.remove(0);
+        //             }
+
+        //             // Update the buy and sell orders in Redis
+        //             let to_redis_buy_orders_string = to_string(&buy_orders).expect("Failed to serialize buy orders");
+        //             conn.hset(&order_book_key, "buy_orders", to_redis_buy_orders_string).await?;
+
+        //             let to_redis_sell_orders_string = to_string(&sell_orders).expect("Failed to serialize sell orders");
+        //             conn.hset(&order_book_key, "sell_orders", to_redis_sell_orders_string).await?;
+                    
+        //             return Ok(Some(trade));
+        //         } else {
+        //             // If the buy order price is less than the sell order price, then no trade can be made, meaning the highest buy order price is less than the lowest sell order price
+        //             break;
+        //         }
+        //     }
+        // }
 
         Ok(None)
     }

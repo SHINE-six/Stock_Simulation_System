@@ -1,0 +1,3468 @@
+Number of CPU: 8
+System Boot Time: 8070
+Number of Processes: 2040
+System Load Average: LoadAvg { one: 1.32, five: 0.57, fifteen: 0.9 }
+Total Memory: 22469468
+Free Memory: 565048
+Disk Info: DiskInfo { total: 512054505, free: 345066393 }
+Cpu Speed: 1476
+OS: Fedora Linux, 41 (Workstation Edition)
+
+Current memory usage (KB) : 155.26563
+MarketDataGenrator (Passive Update): 3.336833ms
+MarketDataGenrator (Fetch Orders): 116.72793ms
+MarketDataGenrator (Sector Performance): 74.109713ms
+MarketDataGenrator (Passive Update): 485.612834ms
+OrderConsumer : 139.733µs
+OrderBookManager (Add to order): 4.283676ms
+OrderBookManager (Check for trade): 8.440292ms
+MarketDataGenrator (Active Update): 4.31235ms
+OrderConsumer : 65.593µs
+OrderBookManager (Add to order): 2.634691ms
+OrderBookManager (Check for trade): 3.004257ms
+OrderConsumer : 105.328µs
+OrderBookManager (Add to order): 2.807597ms
+OrderBookManager (Check for trade): 3.358694ms
+OrderConsumer : 79.089µs
+OrderBookManager (Add to order): 3.283913ms
+OrderBookManager (Check for trade): 7.452974ms
+MarketDataGenrator (Active Update): 5.199801ms
+MarketDataGenrator (Passive Update): 115.497453ms
+OrderConsumer : 90.881µs
+OrderBookManager (Add to order): 4.254682ms
+OrderBookManager (Check for trade): 3.116108ms
+Current memory usage (KB) : 393.08398
+OrderConsumer : 95.991µs
+OrderBookManager (Add to order): 5.307073ms
+OrderBookManager (Check for trade): 7.962964ms
+MarketDataGenrator (Active Update): 4.341785ms
+OrderConsumer : 100.789µs
+OrderBookManager (Add to order): 5.137343ms
+OrderBookManager (Check for trade): 4.302411ms
+MarketDataGenrator (Passive Update): 122.830601ms
+OrderConsumer : 52.429µs
+OrderBookManager (Add to order): 3.661003ms
+OrderBookManager (Check for trade): 7.064712ms
+MarketDataGenrator (Active Update): 3.963793ms
+OrderConsumer : 98.626µs
+OrderBookManager (Add to order): 4.100572ms
+OrderBookManager (Check for trade): 9.062424ms
+MarketDataGenrator (Active Update): 8.08862ms
+OrderConsumer : 91.803µs
+OrderBookManager (Add to order): 3.980255ms
+OrderBookManager (Check for trade): 4.091744ms
+OrderConsumer : 102.252µs
+OrderBookManager (Add to order): 4.104288ms
+OrderBookManager (Check for trade): 5.975342ms
+MarketDataGenrator (Passive Update): 116.744221ms
+OrderConsumer : 91.933µs
+OrderBookManager (Add to order): 3.43602ms
+OrderBookManager (Check for trade): 6.702551ms
+MarketDataGenrator (Active Update): 4.552532ms
+MarketDataGenrator (Fetch Orders): 129.953553ms
+OrderConsumer : 74.17µs
+OrderBookManager (Add to order): 2.687821ms
+OrderBookManager (Check for trade): 8.202905ms
+MarketDataGenrator (Active Update): 7.076925ms
+OrderConsumer : 92.284µs
+OrderBookManager (Add to order): 4.805709ms
+OrderBookManager (Check for trade): 7.984925ms
+MarketDataGenrator (Active Update): 7.199867ms
+OrderConsumer : 97.804µs
+OrderBookManager (Add to order): 2.961506ms
+OrderBookManager (Check for trade): 2.659859ms
+MarketDataGenrator (Passive Update): 120.208163ms
+Current memory usage (KB) : 396.70117
+OrderConsumer : 94.228µs
+OrderBookManager (Add to order): 3.959436ms
+OrderBookManager (Check for trade): 3.994952ms
+OrderConsumer : 108.364µs
+OrderBookManager (Add to order): 5.052754ms
+OrderBookManager (Check for trade): 4.329712ms
+OrderConsumer : 99.037µs
+OrderBookManager (Add to order): 4.576217ms
+OrderBookManager (Check for trade): 7.840743ms
+MarketDataGenrator (Active Update): 8.177598ms
+MarketDataGenrator (Passive Update): 111.953661ms
+OrderConsumer : 94.578µs
+OrderBookManager (Add to order): 3.784576ms
+OrderBookManager (Check for trade): 3.20267ms
+OrderConsumer : 121.389µs
+OrderBookManager (Add to order): 4.430432ms
+OrderBookManager (Check for trade): 8.398143ms
+MarketDataGenrator (Active Update): 7.768678ms
+OrderConsumer : 100.62µs
+OrderBookManager (Add to order): 3.775048ms
+OrderBookManager (Check for trade): 4.103837ms
+OrderConsumer : 92.244µs
+OrderBookManager (Add to order): 4.356012ms
+OrderBookManager (Check for trade): 4.883816ms
+MarketDataGenrator (Passive Update): 113.125007ms
+OrderConsumer : 106.73µs
+OrderBookManager (Add to order): 5.88997ms
+OrderBookManager (Check for trade): 9.721485ms
+MarketDataGenrator (Active Update): 7.383853ms
+OrderConsumer : 113.654µs
+OrderBookManager (Add to order): 4.130497ms
+OrderBookManager (Check for trade): 8.345815ms
+MarketDataGenrator (Active Update): 7.534607ms
+Current memory usage (KB) : 395.98047
+OrderConsumer : 106.5µs
+OrderBookManager (Add to order): 5.532137ms
+OrderBookManager (Check for trade): 4.289426ms
+MarketDataGenrator (Passive Update): 112.752054ms
+OrderConsumer : 104.106µs
+OrderBookManager (Add to order): 4.20651ms
+OrderBookManager (Check for trade): 8.414935ms
+MarketDataGenrator (Active Update): 6.153617ms
+OrderConsumer : 88.647µs
+OrderBookManager (Add to order): 4.744213ms
+OrderBookManager (Check for trade): 7.497347ms
+MarketDataGenrator (Active Update): 4.878476ms
+OrderConsumer : 96.502µs
+OrderBookManager (Add to order): 4.99227ms
+OrderBookManager (Check for trade): 8.650378ms
+MarketDataGenrator (Active Update): 6.823879ms
+OrderConsumer : 91.583µs
+OrderBookManager (Add to order): 5.871636ms
+OrderBookManager (Check for trade): 4.140656ms
+MarketDataGenrator (Fetch Orders): 155.652953ms
+MarketDataGenrator (Passive Update): 103.462723ms
+OrderConsumer : 100.489µs
+OrderBookManager (Add to order): 3.925641ms
+OrderBookManager (Check for trade): 4.059644ms
+OrderConsumer : 112.331µs
+OrderBookManager (Add to order): 4.416596ms
+OrderBookManager (Check for trade): 8.005213ms
+MarketDataGenrator (Active Update): 7.673969ms
+OrderConsumer : 103.034µs
+OrderBookManager (Add to order): 4.568552ms
+OrderBookManager (Check for trade): 9.484789ms
+MarketDataGenrator (Active Update): 6.692181ms
+OrderConsumer : 59.071µs
+OrderBookManager (Add to order): 2.671671ms
+OrderBookManager (Check for trade): 4.155905ms
+MarketDataGenrator (Active Update): 4.31266ms
+MarketDataGenrator (Passive Update): 123.390796ms
+OrderConsumer : 112.481µs
+OrderBookManager (Add to order): 4.089791ms
+OrderBookManager (Check for trade): 7.985747ms
+MarketDataGenrator (Active Update): 7.012604ms
+Current memory usage (KB) : 399.92578
+OrderConsumer : 98.295µs
+OrderBookManager (Add to order): 3.955318ms
+OrderBookManager (Check for trade): 3.63798ms
+OrderConsumer : 87.074µs
+OrderBookManager (Add to order): 3.984573ms
+OrderBookManager (Check for trade): 5.037616ms
+MarketDataGenrator (Passive Update): 103.554275ms
+OrderConsumer : 116.92µs
+OrderBookManager (Add to order): 3.697813ms
+OrderBookManager (Check for trade): 7.893814ms
+MarketDataGenrator (Active Update): 8.264752ms
+OrderConsumer : 52.348µs
+OrderBookManager (Add to order): 2.222215ms
+OrderBookManager (Check for trade): 6.02774ms
+MarketDataGenrator (Active Update): 4.309825ms
+OrderConsumer : 102.042µs
+OrderBookManager (Add to order): 4.040959ms
+OrderBookManager (Check for trade): 8.193178ms
+MarketDataGenrator (Active Update): 7.555025ms
+OrderConsumer : 90.701µs
+OrderBookManager (Add to order): 4.627373ms
+OrderBookManager (Check for trade): 5.880332ms
+MarketDataGenrator (Passive Update): 121.042905ms
+OrderConsumer : 100.309µs
+OrderBookManager (Add to order): 4.054444ms
+OrderBookManager (Check for trade): 8.597458ms
+MarketDataGenrator (Active Update): 8.069084ms
+OrderConsumer : 112.011µs
+OrderBookManager (Add to order): 5.168943ms
+OrderBookManager (Check for trade): 5.064977ms
+OrderConsumer : 63.75µs
+OrderBookManager (Add to order): 2.773983ms
+OrderBookManager (Check for trade): 9.525576ms
+MarketDataGenrator (Active Update): 4.569654ms
+OrderConsumer : 88.677µs
+OrderBookManager (Add to order): 4.386259ms
+OrderBookManager (Check for trade): 3.805826ms
+MarketDataGenrator (Passive Update): 131.429943ms
+Current memory usage (KB) : 400.0664
+OrderConsumer : 96.211µs
+OrderBookManager (Add to order): 4.134505ms
+OrderBookManager (Check for trade): 10.629324ms
+MarketDataGenrator (Active Update): 7.547251ms
+OrderConsumer : 114.756µs
+OrderBookManager (Add to order): 5.103109ms
+OrderBookManager (Check for trade): 9.370474ms
+MarketDataGenrator (Active Update): 5.237422ms
+MarketDataGenrator (Fetch Orders): 163.969182ms
+OrderConsumer : 97.714µs
+OrderBookManager (Add to order): 4.230015ms
+OrderBookManager (Check for trade): 9.775356ms
+MarketDataGenrator (Active Update): 6.402856ms
+MarketDataGenrator (Passive Update): 134.013348ms
+OrderConsumer : 94.879µs
+OrderBookManager (Add to order): 3.924039ms
+OrderBookManager (Check for trade): 10.227517ms
+MarketDataGenrator (Active Update): 6.441488ms
+OrderConsumer : 100.069µs
+OrderBookManager (Add to order): 3.952793ms
+OrderBookManager (Check for trade): 11.146308ms
+MarketDataGenrator (Active Update): 4.084591ms
+OrderConsumer : 92.825µs
+OrderBookManager (Add to order): 4.18485ms
+OrderBookManager (Check for trade): 5.335627ms
+OrderConsumer : 59.111µs
+OrderBookManager (Add to order): 6.438473ms
+OrderBookManager (Check for trade): 4.33383ms
+MarketDataGenrator (Passive Update): 120.22747ms
+OrderConsumer : 86.583µs
+OrderBookManager (Add to order): 2.806204ms
+OrderBookManager (Check for trade): 6.82459ms
+MarketDataGenrator (Active Update): 4.62577ms
+OrderConsumer : 76.725µs
+OrderBookManager (Add to order): 2.733506ms
+OrderBookManager (Check for trade): 1.963167ms
+OrderConsumer : 110.038µs
+OrderBookManager (Add to order): 2.284241ms
+OrderBookManager (Check for trade): 6.892889ms
+MarketDataGenrator (Active Update): 4.177806ms
+Current memory usage (KB) : 399.84277
+MarketDataGenrator (Passive Update): 117.56683ms
+OrderConsumer : 108.053µs
+OrderBookManager (Add to order): 2.086449ms
+OrderBookManager (Check for trade): 2.923545ms
+OrderConsumer : 101.321µs
+OrderBookManager (Add to order): 4.628976ms
+OrderBookManager (Check for trade): 5.938822ms
+OrderConsumer : 84.088µs
+OrderBookManager (Add to order): 4.623856ms
+OrderBookManager (Check for trade): 7.099689ms
+MarketDataGenrator (Active Update): 5.048396ms
+OrderConsumer : 98.826µs
+OrderBookManager (Add to order): 4.136378ms
+OrderBookManager (Check for trade): 9.024022ms
+MarketDataGenrator (Active Update): 6.699354ms
+MarketDataGenrator (Passive Update): 138.351456ms
+OrderConsumer : 95.008µs
+OrderBookManager (Add to order): 4.391269ms
+OrderBookManager (Check for trade): 9.456225ms
+MarketDataGenrator (Active Update): 8.697016ms
+OrderConsumer : 93.927µs
+OrderBookManager (Add to order): 3.656605ms
+OrderBookManager (Check for trade): 5.842802ms
+OrderConsumer : 119.435µs
+OrderBookManager (Add to order): 3.800045ms
+OrderBookManager (Check for trade): 5.365002ms
+OrderConsumer : 106.671µs
+OrderBookManager (Add to order): 4.277905ms
+OrderBookManager (Check for trade): 8.277336ms
+MarketDataGenrator (Active Update): 5.363719ms
+MarketDataGenrator (Passive Update): 122.730914ms
+MarketDataGenrator (Fetch Orders): 171.488551ms
+OrderConsumer : 107.272µs
+OrderBookManager (Add to order): 4.915867ms
+OrderBookManager (Check for trade): 5.023138ms
+Current memory usage (KB) : 404.27734
+OrderConsumer : 95.369µs
+OrderBookManager (Add to order): 4.968796ms
+OrderBookManager (Check for trade): 4.567781ms
+OrderConsumer : 98.675µs
+OrderBookManager (Add to order): 4.246847ms
+OrderBookManager (Check for trade): 4.942597ms
+MarketDataGenrator (Passive Update): 138.340635ms
+OrderConsumer : 87.254µs
+OrderBookManager (Add to order): 3.814322ms
+OrderBookManager (Check for trade): 6.486764ms
+MarketDataGenrator (Active Update): 4.186273ms
+OrderConsumer : 87.595µs
+OrderBookManager (Add to order): 4.349871ms
+OrderBookManager (Check for trade): 5.732534ms
+OrderConsumer : 93.826µs
+OrderBookManager (Add to order): 4.287183ms
+OrderBookManager (Check for trade): 9.019073ms
+MarketDataGenrator (Active Update): 6.88843ms
+OrderConsumer : 77.235µs
+OrderBookManager (Add to order): 7.056557ms
+OrderBookManager (Check for trade): 3.811046ms
+MarketDataGenrator (Passive Update): 79.837679ms
+OrderConsumer : 124.975µs
+OrderBookManager (Add to order): 3.62737ms
+OrderBookManager (Check for trade): 10.093806ms
+MarketDataGenrator (Active Update): 7.410804ms
+OrderConsumer : 101.631µs
+OrderBookManager (Add to order): 4.664483ms
+OrderBookManager (Check for trade): 5.733986ms
+OrderConsumer : 94.508µs
+OrderBookManager (Add to order): 4.879367ms
+OrderBookManager (Check for trade): 9.143496ms
+MarketDataGenrator (Active Update): 6.910832ms
+OrderConsumer : 85.972µs
+OrderBookManager (Add to order): 3.561927ms
+OrderBookManager (Check for trade): 4.175342ms
+MarketDataGenrator (Passive Update): 133.334369ms
+Current memory usage (KB) : 404.41504
+OrderConsumer : 95.51µs
+OrderBookManager (Add to order): 4.651719ms
+OrderBookManager (Check for trade): 10.060674ms
+MarketDataGenrator (Active Update): 7.209044ms
+OrderConsumer : 70.954µs
+OrderBookManager (Add to order): 3.705307ms
+OrderBookManager (Check for trade): 4.488682ms
+OrderConsumer : 92.354µs
+OrderBookManager (Add to order): 5.090666ms
+OrderBookManager (Check for trade): 9.266428ms
+MarketDataGenrator (Active Update): 6.297287ms
+MarketDataGenrator (Passive Update): 138.202376ms
+OrderConsumer : 98.085µs
+OrderBookManager (Add to order): 4.812311ms
+OrderBookManager (Check for trade): 5.620844ms
+OrderConsumer : 112.372µs
+OrderBookManager (Add to order): 4.145376ms
+OrderBookManager (Check for trade): 9.725181ms
+MarketDataGenrator (Active Update): 7.093918ms
+OrderConsumer : 117.661µs
+OrderBookManager (Add to order): 5.033719ms
+OrderBookManager (Check for trade): 5.372225ms
+MarketDataGenrator (Fetch Orders): 194.752485ms
+OrderConsumer : 48µs
+OrderBookManager (Add to order): 2.84638ms
+OrderBookManager (Check for trade): 3.694667ms
+MarketDataGenrator (Passive Update): 114.295931ms
+OrderConsumer : 104.467µs
+OrderBookManager (Add to order): 5.165667ms
+OrderBookManager (Check for trade): 9.428253ms
+MarketDataGenrator (Active Update): 7.22307ms
+OrderConsumer : 99.186µs
+OrderBookManager (Add to order): 4.191763ms
+OrderBookManager (Check for trade): 8.234124ms
+MarketDataGenrator (Active Update): 6.194093ms
+OrderConsumer : 95.019µs
+OrderBookManager (Add to order): 4.109468ms
+OrderBookManager (Check for trade): 8.230908ms
+MarketDataGenrator (Active Update): 5.543158ms
+Current memory usage (KB) : 403.9619
+OrderConsumer : 67.317µs
+OrderBookManager (Add to order): 6.580972ms
+OrderBookManager (Check for trade): 4.556169ms
+MarketDataGenrator (Active Update): 3.657857ms
+MarketDataGenrator (Passive Update): 137.899886ms
+OrderConsumer : 97.593µs
+OrderBookManager (Add to order): 4.546281ms
+OrderBookManager (Check for trade): 3.96155ms
+OrderConsumer : 86.473µs
+OrderBookManager (Add to order): 4.040118ms
+OrderBookManager (Check for trade): 9.966727ms
+MarketDataGenrator (Active Update): 6.715595ms
+OrderConsumer : 98.095µs
+OrderBookManager (Add to order): 4.730768ms
+OrderBookManager (Check for trade): 8.971713ms
+MarketDataGenrator (Active Update): 7.17511ms
+MarketDataGenrator (Passive Update): 143.554533ms
+OrderConsumer : 87.695µs
+OrderBookManager (Add to order): 4.524099ms
+OrderBookManager (Check for trade): 5.542396ms
+OrderConsumer : 101.682µs
+OrderBookManager (Add to order): 5.059206ms
+OrderBookManager (Check for trade): 10.951351ms
+MarketDataGenrator (Active Update): 6.13377ms
+OrderConsumer : 94.448µs
+OrderBookManager (Add to order): 4.861184ms
+OrderBookManager (Check for trade): 4.679962ms
+OrderConsumer : 91.552µs
+OrderBookManager (Add to order): 4.376951ms
+OrderBookManager (Check for trade): 8.775734ms
+MarketDataGenrator (Active Update): 7.304854ms
+MarketDataGenrator (Passive Update): 142.215231ms
+OrderConsumer : 96.752µs
+OrderBookManager (Add to order): 4.414062ms
+OrderBookManager (Check for trade): 10.916716ms
+MarketDataGenrator (Active Update): 6.661002ms
+Current memory usage (KB) : 404.39453
+OrderConsumer : 110.297µs
+OrderBookManager (Add to order): 4.875199ms
+OrderBookManager (Check for trade): 10.120446ms
+MarketDataGenrator (Active Update): 6.242304ms
+OrderConsumer : 117.2µs
+OrderBookManager (Add to order): 4.430282ms
+OrderBookManager (Check for trade): 9.581752ms
+MarketDataGenrator (Active Update): 6.155341ms
+OrderConsumer : 92.975µs
+OrderBookManager (Add to order): 3.261271ms
+OrderBookManager (Check for trade): 6.313358ms
+MarketDataGenrator (Active Update): 3.686942ms
+MarketDataGenrator (Passive Update): 133.194546ms
+OrderConsumer : 113.083µs
+OrderBookManager (Add to order): 4.637822ms
+OrderBookManager (Check for trade): 6.032268ms
+MarketDataGenrator (Fetch Orders): 173.28814ms
+OrderConsumer : 94.377µs
+OrderBookManager (Add to order): 4.282954ms
+OrderBookManager (Check for trade): 5.284139ms
+OrderConsumer : 89.549µs
+OrderBookManager (Add to order): 4.59371ms
+OrderBookManager (Check for trade): 9.735511ms
+MarketDataGenrator (Active Update): 5.955904ms
+MarketDataGenrator (Passive Update): 112.486935ms
+OrderConsumer : 100.729µs
+OrderBookManager (Add to order): 4.632994ms
+OrderBookManager (Check for trade): 9.326882ms
+MarketDataGenrator (Active Update): 4.438618ms
+OrderConsumer : 97.604µs
+OrderBookManager (Add to order): 4.235996ms
+OrderBookManager (Check for trade): 9.059409ms
+MarketDataGenrator (Active Update): 7.189667ms
+OrderConsumer : 92.935µs
+OrderBookManager (Add to order): 3.977089ms
+OrderBookManager (Check for trade): 8.344272ms
+MarketDataGenrator (Active Update): 7.055996ms
+OrderConsumer : 96.272µs
+OrderBookManager (Add to order): 4.284437ms
+OrderBookManager (Check for trade): 9.228416ms
+MarketDataGenrator (Active Update): 8.243141ms
+MarketDataGenrator (Passive Update): 121.076479ms
+Current memory usage (KB) : 406.42285
+OrderConsumer : 109.155µs
+OrderBookManager (Add to order): 5.611496ms
+OrderBookManager (Check for trade): 8.609651ms
+MarketDataGenrator (Active Update): 4.702544ms
+OrderConsumer : 100.65µs
+OrderBookManager (Add to order): 3.863255ms
+OrderBookManager (Check for trade): 11.026753ms
+MarketDataGenrator (Active Update): 6.516891ms
+OrderConsumer : 102.503µs
+OrderBookManager (Add to order): 4.824764ms
+OrderBookManager (Check for trade): 8.927961ms
+MarketDataGenrator (Active Update): 3.644573ms
+OrderConsumer : 68.309µs
+OrderBookManager (Add to order): 4.271082ms
+OrderBookManager (Check for trade): 6.555032ms
+MarketDataGenrator (Active Update): 4.189408ms
+MarketDataGenrator (Passive Update): 143.566415ms
+OrderConsumer : 99.036µs
+OrderBookManager (Add to order): 4.637673ms
+OrderBookManager (Check for trade): 10.129062ms
+MarketDataGenrator (Active Update): 6.939757ms
+OrderConsumer : 95.92µs
+OrderBookManager (Add to order): 4.988994ms
+OrderBookManager (Check for trade): 9.783572ms
+MarketDataGenrator (Active Update): 6.351891ms
+OrderConsumer : 103.395µs
+OrderBookManager (Add to order): 5.033398ms
+OrderBookManager (Check for trade): 5.084493ms
+MarketDataGenrator (Passive Update): 144.350953ms
+OrderConsumer : 91.272µs
+OrderBookManager (Add to order): 4.181183ms
+OrderBookManager (Check for trade): 9.505538ms
+MarketDataGenrator (Active Update): 6.628802ms
+OrderConsumer : 101.051µs
+OrderBookManager (Add to order): 7.847647ms
+OrderBookManager (Check for trade): 13.167604ms
+MarketDataGenrator (Active Update): 7.166123ms
+OrderConsumer : 109.737µs
+OrderBookManager (Add to order): 4.033585ms
+OrderBookManager (Check for trade): 7.910675ms
+MarketDataGenrator (Active Update): 7.040948ms
+Current memory usage (KB) : 405.83984
+OrderConsumer : 81.925µs
+OrderBookManager (Add to order): 6.114793ms
+OrderBookManager (Check for trade): 9.597091ms
+MarketDataGenrator (Active Update): 6.32566ms
+MarketDataGenrator (Fetch Orders): 169.816833ms
+MarketDataGenrator (Passive Update): 88.855629ms
+OrderConsumer : 101.902µs
+OrderBookManager (Add to order): 4.955862ms
+OrderBookManager (Check for trade): 10.445798ms
+MarketDataGenrator (Active Update): 8.047934ms
+OrderConsumer : 97.935µs
+OrderBookManager (Add to order): 5.1303ms
+OrderBookManager (Check for trade): 10.675001ms
+MarketDataGenrator (Active Update): 6.009685ms
+OrderConsumer : 89.258µs
+OrderBookManager (Add to order): 4.025911ms
+OrderBookManager (Check for trade): 8.099801ms
+MarketDataGenrator (Active Update): 6.008674ms
+OrderConsumer : 44.654µs
+OrderBookManager (Add to order): 2.760839ms
+OrderBookManager (Check for trade): 2.87321ms
+MarketDataGenrator (Passive Update): 140.102302ms
+OrderConsumer : 138.15µs
+OrderBookManager (Add to order): 4.427617ms
+OrderBookManager (Check for trade): 9.728167ms
+MarketDataGenrator (Active Update): 6.959133ms
+OrderConsumer : 92.845µs
+OrderBookManager (Add to order): 4.385438ms
+OrderBookManager (Check for trade): 8.424373ms
+MarketDataGenrator (Active Update): 7.320585ms
+OrderConsumer : 97.504µs
+OrderBookManager (Add to order): 4.893825ms
+OrderBookManager (Check for trade): 10.093866ms
+MarketDataGenrator (Active Update): 5.689813ms
+MarketDataGenrator (Passive Update): 135.427881ms
+OrderConsumer : 103.254µs
+OrderBookManager (Add to order): 4.352275ms
+OrderBookManager (Check for trade): 10.045415ms
+MarketDataGenrator (Active Update): 5.871566ms
+OrderConsumer : 102.242µs
+OrderBookManager (Add to order): 4.730658ms
+Current memory usage (KB) : 408.03027
+OrderBookManager (Check for trade): 5.737653ms
+OrderConsumer : 89.539µs
+OrderBookManager (Add to order): 4.12671ms
+OrderBookManager (Check for trade): 8.95973ms
+MarketDataGenrator (Active Update): 5.556713ms
+OrderConsumer : 51.957µs
+OrderBookManager (Add to order): 3.67474ms
+OrderBookManager (Check for trade): 8.482512ms
+MarketDataGenrator (Active Update): 6.225191ms
+MarketDataGenrator (Passive Update): 120.738552ms
+OrderConsumer : 102.723µs
+OrderBookManager (Add to order): 4.734574ms
+OrderBookManager (Check for trade): 6.129261ms
+OrderConsumer : 104.457µs
+OrderBookManager (Add to order): 5.270283ms
+OrderBookManager (Check for trade): 9.513874ms
+MarketDataGenrator (Active Update): 6.773504ms
+OrderConsumer : 95.53µs
+OrderBookManager (Add to order): 4.598879ms
+OrderBookManager (Check for trade): 5.228144ms
+MarketDataGenrator (Passive Update): 108.321221ms
+OrderConsumer : 59.882µs
+OrderBookManager (Add to order): 3.645314ms
+OrderBookManager (Check for trade): 6.47895ms
+MarketDataGenrator (Active Update): 4.148421ms
+OrderConsumer : 104.166µs
+OrderBookManager (Add to order): 4.359479ms
+OrderBookManager (Check for trade): 9.435927ms
+MarketDataGenrator (Active Update): 7.287932ms
+OrderConsumer : 130.696µs
+MarketDataGenrator (Fetch Orders): 187.972278ms
+OrderBookManager (Add to order): 4.241967ms
+OrderBookManager (Check for trade): 8.452425ms
+MarketDataGenrator (Active Update): 4.000312ms
+OrderConsumer : 136.306µs
+OrderBookManager (Add to order): 4.004931ms
+OrderBookManager (Check for trade): 9.499447ms
+MarketDataGenrator (Active Update): 6.843045ms
+MarketDataGenrator (Passive Update): 131.816471ms
+Current memory usage (KB) : 407.49414
+OrderConsumer : 96.591µs
+OrderBookManager (Add to order): 4.500444ms
+OrderBookManager (Check for trade): 4.292973ms
+OrderConsumer : 95.75µs
+OrderBookManager (Add to order): 4.608528ms
+OrderBookManager (Check for trade): 5.707346ms
+OrderConsumer : 90.66µs
+OrderBookManager (Add to order): 4.233041ms
+OrderBookManager (Check for trade): 5.095043ms
+OrderConsumer : 68.99µs
+OrderBookManager (Add to order): 3.264857ms
+OrderBookManager (Check for trade): 2.978628ms
+MarketDataGenrator (Passive Update): 133.748088ms
+OrderConsumer : 137.839µs
+OrderBookManager (Add to order): 4.435893ms
+OrderBookManager (Check for trade): 9.838245ms
+MarketDataGenrator (Active Update): 7.18558ms
+OrderConsumer : 118.423µs
+OrderBookManager (Add to order): 4.803554ms
+OrderBookManager (Check for trade): 4.255813ms
+OrderConsumer : 108.875µs
+OrderBookManager (Add to order): 4.78511ms
+OrderBookManager (Check for trade): 4.796932ms
+MarketDataGenrator (Passive Update): 136.806006ms
+OrderConsumer : 816.428µs
+OrderBookManager (Add to order): 5.276405ms
+OrderBookManager (Check for trade): 4.060586ms
+OrderConsumer : 65.924µs
+OrderBookManager (Add to order): 2.83576ms
+OrderBookManager (Check for trade): 5.555ms
+MarketDataGenrator (Active Update): 3.629183ms
+OrderConsumer : 125.977µs
+OrderBookManager (Add to order): 3.754169ms
+OrderBookManager (Check for trade): 10.544144ms
+MarketDataGenrator (Active Update): 6.862371ms
+Current memory usage (KB) : 406.91113
+OrderConsumer : 104.627µs
+OrderBookManager (Add to order): 4.041149ms
+OrderBookManager (Check for trade): 4.884507ms
+MarketDataGenrator (Passive Update): 121.792777ms
+OrderConsumer : 92.764µs
+OrderBookManager (Add to order): 3.397608ms
+OrderBookManager (Check for trade): 9.83024ms
+MarketDataGenrator (Active Update): 3.765931ms
+OrderConsumer : 104.287µs
+OrderBookManager (Add to order): 6.022801ms
+OrderBookManager (Check for trade): 3.727609ms
+OrderConsumer : 58.48µs
+OrderBookManager (Add to order): 3.771251ms
+OrderBookManager (Check for trade): 9.73489ms
+MarketDataGenrator (Active Update): 7.51537ms
+OrderConsumer : 62.528µs
+OrderBookManager (Add to order): 3.29309ms
+OrderBookManager (Check for trade): 5.458417ms
+MarketDataGenrator (Active Update): 3.699867ms
+MarketDataGenrator (Passive Update): 92.416023ms
+MarketDataGenrator (Fetch Orders): 112.732878ms
+OrderConsumer : 98.115µs
+OrderBookManager (Add to order): 4.677036ms
+OrderBookManager (Check for trade): 11.495035ms
+MarketDataGenrator (Active Update): 5.094653ms
+OrderConsumer : 62.157µs
+OrderBookManager (Add to order): 2.648016ms
+OrderBookManager (Check for trade): 3.950498ms
+OrderConsumer : 84.308µs
+OrderBookManager (Add to order): 4.60975ms
+OrderBookManager (Check for trade): 9.076691ms
+MarketDataGenrator (Active Update): 4.403482ms
+MarketDataGenrator (Passive Update): 142.316251ms
+OrderConsumer : 88.376µs
+OrderBookManager (Add to order): 2.278099ms
+OrderBookManager (Check for trade): 3.205536ms
+OrderConsumer : 101.461µs
+OrderBookManager (Add to order): 4.660005ms
+OrderBookManager (Check for trade): 9.784264ms
+MarketDataGenrator (Active Update): 7.128082ms
+Current memory usage (KB) : 408.25293
+OrderConsumer : 93.135µs
+OrderBookManager (Add to order): 5.10937ms
+OrderBookManager (Check for trade): 9.384199ms
+MarketDataGenrator (Active Update): 6.530216ms
+OrderConsumer : 87.805µs
+OrderBookManager (Add to order): 5.11423ms
+OrderBookManager (Check for trade): 4.750004ms
+MarketDataGenrator (Passive Update): 130.925353ms
+OrderConsumer : 76.624µs
+OrderBookManager (Add to order): 6.43149ms
+OrderBookManager (Check for trade): 9.416721ms
+MarketDataGenrator (Active Update): 6.274925ms
+OrderConsumer : 143.21µs
+OrderBookManager (Add to order): 4.803585ms
+OrderBookManager (Check for trade): 9.407885ms
+MarketDataGenrator (Active Update): 4.158139ms
+OrderConsumer : 86.012µs
+OrderBookManager (Add to order): 5.134999ms
+OrderBookManager (Check for trade): 4.431545ms
+OrderConsumer : 50.646µs
+OrderBookManager (Add to order): 2.400761ms
+OrderBookManager (Check for trade): 4.290028ms
+MarketDataGenrator (Passive Update): 126.440328ms
+OrderConsumer : 97.143µs
+OrderBookManager (Add to order): 3.294263ms
+OrderBookManager (Check for trade): 3.31388ms
+OrderConsumer : 77.987µs
+OrderBookManager (Add to order): 3.642168ms
+OrderBookManager (Check for trade): 10.228871ms
+MarketDataGenrator (Active Update): 4.361632ms
+OrderConsumer : 110.718µs
+OrderBookManager (Add to order): 4.590764ms
+OrderBookManager (Check for trade): 4.629367ms
+MarketDataGenrator (Passive Update): 112.790577ms
+Current memory usage (KB) : 408.4082
+OrderConsumer : 108.815µs
+OrderBookManager (Add to order): 4.974126ms
+OrderBookManager (Check for trade): 6.378901ms
+OrderConsumer : 91.102µs
+OrderBookManager (Add to order): 3.718512ms
+OrderBookManager (Check for trade): 6.71319ms
+MarketDataGenrator (Active Update): 3.867723ms
+OrderConsumer : 65.614µs
+OrderBookManager (Add to order): 3.852785ms
+OrderBookManager (Check for trade): 4.909774ms
+MarketDataGenrator (Fetch Orders): 182.763511ms
+OrderConsumer : 65.444µs
+OrderBookManager (Add to order): 6.568327ms
+OrderBookManager (Check for trade): 4.240384ms
+MarketDataGenrator (Passive Update): 101.012339ms
+OrderConsumer : 103.565µs
+OrderBookManager (Add to order): 4.801651ms
+OrderBookManager (Check for trade): 9.285333ms
+MarketDataGenrator (Active Update): 6.536017ms
+OrderConsumer : 87.084µs
+OrderBookManager (Add to order): 3.867993ms
+OrderBookManager (Check for trade): 8.78398ms
+MarketDataGenrator (Active Update): 4.867055ms
+OrderConsumer : 100.659µs
+OrderBookManager (Add to order): 5.022426ms
+OrderBookManager (Check for trade): 9.592212ms
+MarketDataGenrator (Active Update): 6.843756ms
+OrderConsumer : 96.992µs
+OrderBookManager (Add to order): 3.507815ms
+OrderBookManager (Check for trade): 5.460051ms
+MarketDataGenrator (Passive Update): 142.517571ms
+MarketDataGenrator (Active Update): 3.603185ms
+OrderConsumer : 59.172µs
+OrderBookManager (Add to order): 3.257003ms
+OrderBookManager (Check for trade): 3.995513ms
+MarketDataGenrator (Active Update): 2.54893ms
+OrderConsumer : 96.682µs
+OrderBookManager (Add to order): 3.653139ms
+OrderBookManager (Check for trade): 3.944938ms
+Current memory usage (KB) : 408.43848
+OrderConsumer : 109.937µs
+OrderBookManager (Add to order): 3.727569ms
+OrderBookManager (Check for trade): 3.987779ms
+MarketDataGenrator (Passive Update): 117.788126ms
+OrderConsumer : 58.42µs
+OrderBookManager (Add to order): 3.128922ms
+OrderBookManager (Check for trade): 5.915609ms
+OrderConsumer : 73.599µs
+OrderBookManager (Add to order): 2.434985ms
+OrderBookManager (Check for trade): 4.580766ms
+MarketDataGenrator (Active Update): 3.51551ms
+OrderConsumer : 103.806µs
+OrderBookManager (Add to order): 3.359005ms
+OrderBookManager (Check for trade): 7.061847ms
+MarketDataGenrator (Active Update): 3.593606ms
+OrderConsumer : 75.583µs
+OrderBookManager (Add to order): 3.273254ms
+OrderBookManager (Check for trade): 8.153512ms
+MarketDataGenrator (Active Update): 3.700448ms
+MarketDataGenrator (Passive Update): 105.906054ms
+OrderConsumer : 69.731µs
+OrderBookManager (Add to order): 3.346982ms
+OrderBookManager (Check for trade): 4.156787ms
+OrderConsumer : 83.277µs
+OrderBookManager (Add to order): 3.229541ms
+OrderBookManager (Check for trade): 8.708136ms
+MarketDataGenrator (Active Update): 7.840102ms
+OrderConsumer : 69.541µs
+OrderBookManager (Add to order): 4.192544ms
+OrderBookManager (Check for trade): 13.080609ms
+MarketDataGenrator (Active Update): 6.506782ms
+MarketDataGenrator (Passive Update): 139.869495ms
+OrderConsumer : 57.619µs
+OrderBookManager (Add to order): 3.048841ms
+OrderBookManager (Check for trade): 2.696758ms
+MarketDataGenrator (Fetch Orders): 143.023283ms
+OrderConsumer : 100.078µs
+OrderBookManager (Add to order): 3.62239ms
+OrderBookManager (Check for trade): 5.128036ms
+MarketDataGenrator (Active Update): 3.162044ms
+Current memory usage (KB) : 410.21777
+OrderConsumer : 96.502µs
+OrderBookManager (Add to order): 2.707247ms
+OrderBookManager (Check for trade): 3.259647ms
+OrderConsumer : 100.75µs
+OrderBookManager (Add to order): 5.902855ms
+OrderBookManager (Check for trade): 6.85602ms
+MarketDataGenrator (Passive Update): 108.912955ms
+OrderConsumer : 97.343µs
+OrderBookManager (Add to order): 5.457897ms
+OrderBookManager (Check for trade): 10.293812ms
+MarketDataGenrator (Active Update): 6.105095ms
+OrderConsumer : 126.619µs
+OrderBookManager (Add to order): 4.513438ms
+OrderBookManager (Check for trade): 10.444707ms
+MarketDataGenrator (Active Update): 6.612531ms
+OrderConsumer : 134.964µs
+OrderBookManager (Add to order): 5.774703ms
+OrderBookManager (Check for trade): 3.814423ms
+OrderConsumer : 94.408µs
+OrderBookManager (Add to order): 3.795146ms
+OrderBookManager (Check for trade): 7.363224ms
+MarketDataGenrator (Active Update): 2.91584ms
+MarketDataGenrator (Passive Update): 122.955246ms
+OrderConsumer : 96.952µs
+OrderBookManager (Add to order): 4.106311ms
+OrderBookManager (Check for trade): 9.424385ms
+MarketDataGenrator (Active Update): 6.861019ms
+OrderConsumer : 110.668µs
+OrderBookManager (Add to order): 4.659895ms
+OrderBookManager (Check for trade): 9.569799ms
+MarketDataGenrator (Active Update): 5.683151ms
+OrderConsumer : 112.001µs
+OrderBookManager (Add to order): 4.641469ms
+OrderBookManager (Check for trade): 5.113869ms
+MarketDataGenrator (Passive Update): 150.622201ms
+OrderConsumer : 101.181µs
+OrderBookManager (Add to order): 4.167908ms
+Current memory usage (KB) : 411.208
+OrderBookManager (Check for trade): 8.623177ms
+MarketDataGenrator (Active Update): 6.275767ms
+OrderConsumer : 87.926µs
+OrderBookManager (Add to order): 2.880765ms
+OrderBookManager (Check for trade): 2.850076ms
+MarketDataGenrator (Sector Performance): 260.923119ms
+OrderConsumer : 112.251µs
+OrderBookManager (Add to order): 5.958269ms
+OrderBookManager (Check for trade): 8.062601ms
+MarketDataGenrator (Active Update): 6.139991ms
+OrderConsumer : 99.948µs
+OrderBookManager (Add to order): 4.787425ms
+OrderBookManager (Check for trade): 5.881915ms
+MarketDataGenrator (Passive Update): 109.257093ms
+OrderConsumer : 102.694µs
+OrderBookManager (Add to order): 6.140612ms
+OrderBookManager (Check for trade): 10.05385ms
+MarketDataGenrator (Active Update): 3.76513ms
+OrderConsumer : 102.052µs
+OrderBookManager (Add to order): 5.324555ms
+OrderBookManager (Check for trade): 8.317652ms
+MarketDataGenrator (Active Update): 5.816352ms
+OrderConsumer : 92.935µs
+OrderBookManager (Add to order): 4.645257ms
+OrderBookManager (Check for trade): 4.362243ms
+MarketDataGenrator (Fetch Orders): 182.131791ms
+MarketDataGenrator (Passive Update): 68.022311ms
+OrderConsumer : 93.927µs
+OrderBookManager (Add to order): 3.338296ms
+OrderBookManager (Check for trade): 3.649402ms
+OrderConsumer : 84.99µs
+OrderBookManager (Add to order): 2.332692ms
+OrderBookManager (Check for trade): 5.154215ms
+MarketDataGenrator (Active Update): 3.692402ms
+OrderConsumer : 108.694µs
+OrderBookManager (Add to order): 5.620122ms
+OrderBookManager (Check for trade): 8.889048ms
+MarketDataGenrator (Active Update): 6.457499ms
+Current memory usage (KB) : 412.0586
+OrderConsumer : 102.373µs
+OrderBookManager (Add to order): 5.323854ms
+OrderBookManager (Check for trade): 7.022954ms
+MarketDataGenrator (Passive Update): 126.227457ms
+OrderConsumer : 110.528µs
+OrderBookManager (Add to order): 4.677217ms
+OrderBookManager (Check for trade): 7.125427ms
+OrderConsumer : 89.589µs
+OrderBookManager (Add to order): 5.590437ms
+OrderBookManager (Check for trade): 10.571465ms
+MarketDataGenrator (Active Update): 4.28065ms
+OrderConsumer : 129.253µs
+OrderBookManager (Add to order): 3.535717ms
+OrderBookManager (Check for trade): 10.902349ms
+MarketDataGenrator (Active Update): 7.207541ms
+OrderConsumer : 90.05µs
+OrderBookManager (Add to order): 3.9619ms
+OrderBookManager (Check for trade): 6.530296ms
+MarketDataGenrator (Active Update): 3.306987ms
+MarketDataGenrator (Passive Update): 106.723072ms
+OrderConsumer : 77.836µs
+OrderBookManager (Add to order): 3.780098ms
+OrderBookManager (Check for trade): 2.903688ms
+OrderConsumer : 121.569µs
+OrderBookManager (Add to order): 4.052771ms
+OrderBookManager (Check for trade): 7.556107ms
+MarketDataGenrator (Active Update): 4.12656ms
+OrderConsumer : 79.65µs
+OrderBookManager (Add to order): 3.762264ms
+OrderBookManager (Check for trade): 4.748731ms
+MarketDataGenrator (Passive Update): 113.546069ms
+OrderConsumer : 75.232µs
+OrderBookManager (Add to order): 5.711905ms
+OrderBookManager (Check for trade): 6.577284ms
+MarketDataGenrator (Active Update): 4.006073ms
+OrderConsumer : 245.692µs
+OrderBookManager (Add to order): 3.774297ms
+OrderBookManager (Check for trade): 8.373367ms
+MarketDataGenrator (Active Update): 4.100671ms
+Current memory usage (KB) : 412.46387
+OrderConsumer : 95.54µs
+OrderBookManager (Add to order): 3.54777ms
+OrderBookManager (Check for trade): 3.858155ms
+OrderConsumer : 101.381µs
+OrderBookManager (Add to order): 4.869269ms
+OrderBookManager (Check for trade): 12.278951ms
+MarketDataGenrator (Active Update): 6.912035ms
+MarketDataGenrator (Passive Update): 177.550505ms
+OrderConsumer : 109.126µs
+OrderBookManager (Add to order): 5.855636ms
+OrderBookManager (Check for trade): 4.870982ms
+OrderConsumer : 106µs
+OrderBookManager (Add to order): 3.556326ms
+OrderBookManager (Check for trade): 10.086953ms
+MarketDataGenrator (Active Update): 5.298526ms
+MarketDataGenrator (Fetch Orders): 150.069871ms
+OrderConsumer : 95.11µs
+OrderBookManager (Add to order): 4.636591ms
+OrderBookManager (Check for trade): 10.00065ms
+MarketDataGenrator (Active Update): 6.523924ms
+OrderConsumer : 84.219µs
+OrderBookManager (Add to order): 4.340733ms
+OrderBookManager (Check for trade): 3.84488ms
+MarketDataGenrator (Passive Update): 133.859378ms
+OrderConsumer : 61.235µs
+OrderBookManager (Add to order): 2.600877ms
+OrderBookManager (Check for trade): 4.428749ms
+OrderConsumer : 122.551µs
+OrderBookManager (Add to order): 5.929695ms
+OrderBookManager (Check for trade): 9.143878ms
+MarketDataGenrator (Active Update): 4.260362ms
+OrderConsumer : 306.216µs
+OrderBookManager (Add to order): 5.436727ms
+OrderBookManager (Check for trade): 5.151119ms
+MarketDataGenrator (Passive Update): 143.673577ms
+OrderConsumer : 108.033µs
+OrderBookManager (Add to order): 4.831337ms
+OrderBookManager (Check for trade): 9.716345ms
+MarketDataGenrator (Active Update): 3.379353ms
+Current memory usage (KB) : 413.19238
+OrderConsumer : 69.601µs
+OrderBookManager (Add to order): 3.551878ms
+OrderBookManager (Check for trade): 10.325371ms
+MarketDataGenrator (Active Update): 3.309622ms
+OrderConsumer : 98.886µs
+OrderBookManager (Add to order): 3.248877ms
+OrderBookManager (Check for trade): 7.160242ms
+MarketDataGenrator (Active Update): 5.335676ms
+OrderConsumer : 112.882µs
+OrderBookManager (Add to order): 5.069205ms
+OrderBookManager (Check for trade): 7.447934ms
+MarketDataGenrator (Passive Update): 103.589131ms
+OrderConsumer : 74.851µs
+OrderBookManager (Add to order): 3.152626ms
+OrderBookManager (Check for trade): 7.617353ms
+MarketDataGenrator (Active Update): 3.832727ms
+OrderConsumer : 94.548µs
+OrderBookManager (Add to order): 5.526055ms
+OrderBookManager (Check for trade): 9.418264ms
+MarketDataGenrator (Active Update): 6.756091ms
+OrderConsumer : 101.191µs
+OrderBookManager (Add to order): 4.644214ms
+OrderBookManager (Check for trade): 8.494885ms
+MarketDataGenrator (Active Update): 6.809121ms
+OrderConsumer : 94.207µs
+OrderBookManager (Add to order): 4.923741ms
+OrderBookManager (Check for trade): 4.240564ms
+MarketDataGenrator (Passive Update): 137.92342ms
+OrderConsumer : 87.274µs
+OrderBookManager (Add to order): 3.592334ms
+OrderBookManager (Check for trade): 3.701048ms
+OrderConsumer : 90.831µs
+OrderBookManager (Add to order): 4.528707ms
+OrderBookManager (Check for trade): 10.283844ms
+MarketDataGenrator (Active Update): 4.105741ms
+Current memory usage (KB) : 412.85742
+OrderConsumer : 79.62µs
+OrderBookManager (Add to order): 3.078456ms
+OrderBookManager (Check for trade): 4.045087ms
+MarketDataGenrator (Passive Update): 114.579615ms
+MarketDataGenrator (Fetch Orders): 114.613669ms
+OrderConsumer : 77.356µs
+OrderBookManager (Add to order): 3.411233ms
+OrderBookManager (Check for trade): 3.251403ms
+OrderConsumer : 83.788µs
+OrderBookManager (Add to order): 2.449463ms
+OrderBookManager (Check for trade): 3.589519ms
+OrderConsumer : 98.316µs
+OrderBookManager (Add to order): 3.937824ms
+OrderBookManager (Check for trade): 10.601702ms
+MarketDataGenrator (Active Update): 6.868393ms
+OrderConsumer : 72.276µs
+OrderBookManager (Add to order): 3.010809ms
+OrderBookManager (Check for trade): 7.46694ms
+MarketDataGenrator (Active Update): 5.587932ms
+MarketDataGenrator (Passive Update): 111.586278ms
+OrderConsumer : 125.977µs
+OrderBookManager (Add to order): 5.046923ms
+OrderBookManager (Check for trade): 7.379615ms
+MarketDataGenrator (Active Update): 4.596354ms
+OrderConsumer : 61.676µs
+OrderBookManager (Add to order): 4.183687ms
+OrderBookManager (Check for trade): 4.70541ms
+OrderConsumer : 57.107µs
+OrderBookManager (Add to order): 3.645644ms
+OrderBookManager (Check for trade): 7.437454ms
+MarketDataGenrator (Active Update): 4.012836ms
+OrderConsumer : 74.2µs
+OrderBookManager (Add to order): 5.936037ms
+OrderBookManager (Check for trade): 5.716965ms
+MarketDataGenrator (Passive Update): 242.35137ms
+OrderConsumer : 68.92µs
+OrderBookManager (Add to order): 3.469252ms
+OrderBookManager (Check for trade): 6.281257ms
+MarketDataGenrator (Active Update): 4.690271ms
+Current memory usage (KB) : 413.86328
+OrderConsumer : 108.224µs
+OrderBookManager (Add to order): 4.361422ms
+OrderBookManager (Check for trade): 9.508244ms
+MarketDataGenrator (Active Update): 5.869752ms
+OrderConsumer : 57.949µs
+OrderBookManager (Add to order): 2.440655ms
+OrderBookManager (Check for trade): 8.439722ms
+MarketDataGenrator (Active Update): 3.864337ms
+OrderConsumer : 95.41µs
+OrderBookManager (Add to order): 3.601421ms
+OrderBookManager (Check for trade): 4.270531ms
+MarketDataGenrator (Passive Update): 120.589291ms
+OrderConsumer : 58.6µs
+OrderBookManager (Add to order): 13.931051ms
+OrderBookManager (Check for trade): 8.687728ms
+MarketDataGenrator (Active Update): 3.358935ms
+OrderConsumer : 98.565µs
+OrderBookManager (Add to order): 4.057059ms
+OrderBookManager (Check for trade): 8.256186ms
+MarketDataGenrator (Active Update): 6.583716ms
+OrderConsumer : 101.331µs
+OrderBookManager (Add to order): 4.872415ms
+OrderBookManager (Check for trade): 5.122997ms
+MarketDataGenrator (Passive Update): 114.945404ms
+OrderConsumer : 87.975µs
+OrderBookManager (Add to order): 3.240372ms
+OrderBookManager (Check for trade): 4.724837ms
+MarketDataGenrator (Active Update): 3.195207ms
+OrderConsumer : 91.231µs
+OrderBookManager (Add to order): 4.320926ms
+OrderBookManager (Check for trade): 9.103111ms
+MarketDataGenrator (Active Update): 6.493487ms
+MarketDataGenrator (Fetch Orders): 150.275017ms
+OrderConsumer : 134.373µs
+OrderBookManager (Add to order): 6.063928ms
+OrderBookManager (Check for trade): 11.567421ms
+MarketDataGenrator (Active Update): 5.16228ms
+OrderConsumer : 65.193µs
+OrderBookManager (Add to order): 5.280352ms
+OrderBookManager (Check for trade): 10.625638ms
+MarketDataGenrator (Active Update): 7.634776ms
+Current memory usage (KB) : 508.83887
+MarketDataGenrator (Passive Update): 189.289008ms
+OrderConsumer : 98.575µs
+OrderBookManager (Add to order): 3.996565ms
+OrderBookManager (Check for trade): 7.972391ms
+MarketDataGenrator (Active Update): 3.183314ms
+OrderConsumer : 97.604µs
+OrderBookManager (Add to order): 5.381613ms
+OrderBookManager (Check for trade): 16.414266ms
+MarketDataGenrator (Active Update): 6.612821ms
+OrderConsumer : 101.34µs
+OrderBookManager (Add to order): 4.69467ms
+OrderBookManager (Check for trade): 3.864637ms
+OrderConsumer : 139.172µs
+OrderBookManager (Add to order): 4.341044ms
+OrderBookManager (Check for trade): 8.358809ms
+MarketDataGenrator (Active Update): 4.469436ms
+MarketDataGenrator (Passive Update): 132.146303ms
+OrderConsumer : 86.242µs
+OrderBookManager (Add to order): 5.732794ms
+OrderBookManager (Check for trade): 8.085775ms
+MarketDataGenrator (Active Update): 4.533867ms
+OrderConsumer : 94.448µs
+OrderBookManager (Add to order): 6.422884ms
+OrderBookManager (Check for trade): 9.077592ms
+MarketDataGenrator (Active Update): 3.095939ms
+OrderConsumer : 97.183µs
+OrderBookManager (Add to order): 5.571671ms
+OrderBookManager (Check for trade): 8.824917ms
+MarketDataGenrator (Active Update): 5.686026ms
+MarketDataGenrator (Passive Update): 141.72082ms
+OrderConsumer : 115.608µs
+OrderBookManager (Add to order): 4.351123ms
+OrderBookManager (Check for trade): 3.304953ms
+OrderConsumer : 85.25µs
+OrderBookManager (Add to order): 4.386219ms
+OrderBookManager (Check for trade): 9.894551ms
+MarketDataGenrator (Active Update): 5.739026ms
+Current memory usage (KB) : 413.91504
+OrderConsumer : 293.132µs
+OrderBookManager (Add to order): 5.606457ms
+OrderBookManager (Check for trade): 9.944935ms
+MarketDataGenrator (Active Update): 6.494829ms
+OrderConsumer : 98.376µs
+OrderBookManager (Add to order): 4.433107ms
+OrderBookManager (Check for trade): 9.28334ms
+MarketDataGenrator (Active Update): 7.240103ms
+MarketDataGenrator (Passive Update): 141.583081ms
+OrderConsumer : 102.343µs
+OrderBookManager (Add to order): 6.551606ms
+OrderBookManager (Check for trade): 11.303905ms
+MarketDataGenrator (Active Update): 3.180128ms
+OrderConsumer : 50.505µs
+OrderBookManager (Add to order): 3.133971ms
+OrderBookManager (Check for trade): 3.283102ms
+OrderConsumer : 104.597µs
+OrderBookManager (Add to order): 2.320088ms
+OrderBookManager (Check for trade): 3.01646ms
+OrderConsumer : 62.327µs
+OrderBookManager (Add to order): 4.994083ms
+OrderBookManager (Check for trade): 10.548722ms
+MarketDataGenrator (Active Update): 5.676298ms
+MarketDataGenrator (Passive Update): 147.264078ms
+MarketDataGenrator (Fetch Orders): 177.370246ms
+OrderConsumer : 163.437µs
+OrderBookManager (Add to order): 3.368743ms
+OrderBookManager (Check for trade): 4.378524ms
+OrderConsumer : 119.164µs
+OrderBookManager (Add to order): 3.394953ms
+OrderBookManager (Check for trade): 7.454396ms
+MarketDataGenrator (Active Update): 4.154493ms
+OrderConsumer : 120.507µs
+OrderBookManager (Add to order): 6.532249ms
+OrderBookManager (Check for trade): 4.767637ms
+MarketDataGenrator (Passive Update): 140.747618ms
+OrderConsumer : 135.095µs
+OrderBookManager (Add to order): 3.827988ms
+OrderBookManager (Check for trade): 3.46787ms
+Current memory usage (KB) : 414.42383
+OrderConsumer : 101.672µs
+OrderBookManager (Add to order): 4.761466ms
+OrderBookManager (Check for trade): 5.580908ms
+OrderConsumer : 81.193µs
+OrderBookManager (Add to order): 3.709705ms
+OrderBookManager (Check for trade): 6.576243ms
+MarketDataGenrator (Active Update): 3.819212ms
+OrderConsumer : 81.343µs
+OrderBookManager (Add to order): 5.05584ms
+OrderBookManager (Check for trade): 8.034608ms
+MarketDataGenrator (Active Update): 5.044568ms
+MarketDataGenrator (Passive Update): 137.761866ms
+OrderConsumer : 115.598µs
+OrderBookManager (Add to order): 3.954225ms
+OrderBookManager (Check for trade): 10.712552ms
+MarketDataGenrator (Active Update): 5.962286ms
+OrderConsumer : 207.06µs
+OrderBookManager (Add to order): 3.264627ms
+OrderBookManager (Check for trade): 12.058896ms
+MarketDataGenrator (Active Update): 5.699211ms
+OrderConsumer : 90.4µs
+OrderBookManager (Add to order): 3.182522ms
+OrderBookManager (Check for trade): 7.520691ms
+MarketDataGenrator (Active Update): 4.73185ms
+OrderConsumer : 154.692µs
+OrderBookManager (Add to order): 5.720081ms
+OrderBookManager (Check for trade): 10.155011ms
+MarketDataGenrator (Active Update): 4.805468ms
+MarketDataGenrator (Passive Update): 133.103224ms
+OrderConsumer : 72.677µs
+OrderBookManager (Add to order): 2.696457ms
+OrderBookManager (Check for trade): 4.659464ms
+MarketDataGenrator (Active Update): 3.585532ms
+OrderConsumer : 83.527µs
+OrderBookManager (Add to order): 5.022036ms
+OrderBookManager (Check for trade): 8.7577ms
+MarketDataGenrator (Active Update): 4.846987ms
+OrderConsumer : 156.214µs
+OrderBookManager (Add to order): 3.68605ms
+OrderBookManager (Check for trade): 3.439977ms
+Current memory usage (KB) : 413.9082
+OrderConsumer : 87.726µs
+OrderBookManager (Add to order): 10.166292ms
+OrderBookManager (Check for trade): 19.2997ms
+MarketDataGenrator (Active Update): 19.790073ms
+MarketDataGenrator (Passive Update): 185.140687ms
+OrderConsumer : 74.17µs
+OrderBookManager (Add to order): 2.964922ms
+OrderBookManager (Check for trade): 2.980732ms
+OrderConsumer : 78.819µs
+MarketDataGenrator (Fetch Orders): 149.155539ms
+OrderBookManager (Add to order): 2.930187ms
+OrderBookManager (Check for trade): 7.201439ms
+MarketDataGenrator (Active Update): 4.224675ms
+OrderConsumer : 106.04µs
+OrderBookManager (Add to order): 3.220804ms
+OrderBookManager (Check for trade): 8.689492ms
+MarketDataGenrator (Active Update): 7.595321ms
+MarketDataGenrator (Passive Update): 122.1869ms
+OrderConsumer : 98.205µs
+OrderBookManager (Add to order): 5.368007ms
+OrderBookManager (Check for trade): 7.209845ms
+MarketDataGenrator (Active Update): 6.042027ms
+OrderConsumer : 105.679µs
+OrderBookManager (Add to order): 2.690036ms
+OrderBookManager (Check for trade): 6.270757ms
+MarketDataGenrator (Active Update): 4.160243ms
+OrderConsumer : 100.98µs
+OrderBookManager (Add to order): 5.442287ms
+OrderBookManager (Check for trade): 10.348786ms
+MarketDataGenrator (Active Update): 7.107863ms
+OrderConsumer : 139.613µs
+OrderBookManager (Add to order): 5.43325ms
+OrderBookManager (Check for trade): 10.410843ms
+MarketDataGenrator (Active Update): 7.448816ms
+MarketDataGenrator (Passive Update): 125.329978ms
+OrderConsumer : 78.077µs
+OrderBookManager (Add to order): 2.795173ms
+OrderBookManager (Check for trade): 2.133537ms
+OrderConsumer : 86.422µs
+OrderBookManager (Add to order): 3.275799ms
+OrderBookManager (Check for trade): 7.083057ms
+MarketDataGenrator (Active Update): 4.156697ms
+Current memory usage (KB) : 414.41406
+OrderConsumer : 94.468µs
+OrderBookManager (Add to order): 3.506403ms
+OrderBookManager (Check for trade): 5.755817ms
+MarketDataGenrator (Active Update): 3.798913ms
+OrderConsumer : 88.487µs
+OrderBookManager (Add to order): 3.007673ms
+OrderBookManager (Check for trade): 3.070252ms
+MarketDataGenrator (Passive Update): 114.331128ms
+OrderConsumer : 98.014µs
+OrderBookManager (Add to order): 4.535821ms
+OrderBookManager (Check for trade): 9.077362ms
+MarketDataGenrator (Active Update): 6.999559ms
+OrderConsumer : 94.027µs
+OrderBookManager (Add to order): 3.910814ms
+OrderBookManager (Check for trade): 9.401823ms
+MarketDataGenrator (Active Update): 6.714433ms
+OrderConsumer : 86.643µs
+OrderBookManager (Add to order): 5.041192ms
+OrderBookManager (Check for trade): 9.591049ms
+MarketDataGenrator (Active Update): 4.745145ms
+MarketDataGenrator (Passive Update): 129.095608ms
+OrderConsumer : 90.801µs
+OrderBookManager (Add to order): 4.316368ms
+OrderBookManager (Check for trade): 7.707863ms
+MarketDataGenrator (Active Update): 3.861671ms
+OrderConsumer : 122.581µs
+OrderBookManager (Add to order): 3.604166ms
+OrderBookManager (Check for trade): 4.666407ms
+OrderConsumer : 97.884µs
+OrderBookManager (Add to order): 4.357295ms
+OrderBookManager (Check for trade): 9.595968ms
+MarketDataGenrator (Active Update): 5.016215ms
+OrderConsumer : 128.602µs
+OrderBookManager (Add to order): 6.428715ms
+OrderBookManager (Check for trade): 13.207989ms
+MarketDataGenrator (Active Update): 6.87742ms
+MarketDataGenrator (Passive Update): 124.93839ms
+MarketDataGenrator (Fetch Orders): 113.696944ms
+Current memory usage (KB) : 415.79297
+OrderConsumer : 105.729µs
+OrderBookManager (Add to order): 4.967734ms
+OrderBookManager (Check for trade): 9.079717ms
+MarketDataGenrator (Active Update): 4.457483ms
+OrderConsumer : 89.899µs
+OrderBookManager (Add to order): 4.828011ms
+OrderBookManager (Check for trade): 7.897019ms
+MarketDataGenrator (Active Update): 5.639068ms
+OrderConsumer : 93.716µs
+OrderBookManager (Add to order): 5.572673ms
+OrderBookManager (Check for trade): 11.748041ms
+MarketDataGenrator (Active Update): 7.195499ms
+MarketDataGenrator (Passive Update): 120.997741ms
+OrderConsumer : 95.77µs
+OrderBookManager (Add to order): 2.884061ms
+OrderBookManager (Check for trade): 6.608554ms
+MarketDataGenrator (Active Update): 3.553ms
+OrderConsumer : 97.513µs
+OrderBookManager (Add to order): 4.154633ms
+OrderBookManager (Check for trade): 9.678884ms
+MarketDataGenrator (Active Update): 6.926171ms
+OrderConsumer : 81.123µs
+OrderBookManager (Add to order): 4.048634ms
+OrderBookManager (Check for trade): 7.30789ms
+MarketDataGenrator (Active Update): 3.886959ms
+OrderConsumer : 101.291µs
+OrderBookManager (Add to order): 4.460739ms
+OrderBookManager (Check for trade): 5.213577ms
+MarketDataGenrator (Passive Update): 131.020773ms
+OrderConsumer : 105.308µs
+OrderBookManager (Add to order): 4.611413ms
+OrderBookManager (Check for trade): 4.374066ms
+OrderConsumer : 101.411µs
+OrderBookManager (Add to order): 3.984863ms
+OrderBookManager (Check for trade): 7.897611ms
+MarketDataGenrator (Active Update): 5.468698ms
+OrderConsumer : 66.004µs
+OrderBookManager (Add to order): 3.637099ms
+OrderBookManager (Check for trade): 6.572134ms
+MarketDataGenrator (Active Update): 5.022196ms
+Current memory usage (KB) : 415.24707
+OrderConsumer : 49.013µs
+OrderBookManager (Add to order): 2.383377ms
+OrderBookManager (Check for trade): 7.507576ms
+MarketDataGenrator (Active Update): 4.831247ms
+MarketDataGenrator (Passive Update): 106.636889ms
+OrderConsumer : 94.708µs
+OrderBookManager (Add to order): 3.566276ms
+OrderBookManager (Check for trade): 7.229022ms
+MarketDataGenrator (Active Update): 4.378024ms
+OrderConsumer : 86.883µs
+OrderBookManager (Add to order): 2.45889ms
+OrderBookManager (Check for trade): 3.22331ms
+OrderConsumer : 55.925µs
+OrderBookManager (Add to order): 3.382769ms
+OrderBookManager (Check for trade): 7.895536ms
+MarketDataGenrator (Active Update): 4.308413ms
+MarketDataGenrator (Passive Update): 107.839775ms
+OrderConsumer : 103.835µs
+OrderBookManager (Add to order): 4.787925ms
+OrderBookManager (Check for trade): 8.296882ms
+MarketDataGenrator (Active Update): 6.807148ms
+OrderConsumer : 85.01µs
+OrderBookManager (Add to order): 3.703964ms
+OrderBookManager (Check for trade): 6.700296ms
+MarketDataGenrator (Active Update): 4.424912ms
+OrderConsumer : 103.445µs
+OrderBookManager (Add to order): 4.541632ms
+OrderBookManager (Check for trade): 7.407678ms
+MarketDataGenrator (Active Update): 4.233711ms
+MarketDataGenrator (Fetch Orders): 159.308416ms
+OrderConsumer : 82.916µs
+OrderBookManager (Add to order): 3.58989ms
+OrderBookManager (Check for trade): 3.403679ms
+MarketDataGenrator (Passive Update): 96.929471ms
+OrderConsumer : 111.791µs
+OrderBookManager (Add to order): 3.535598ms
+OrderBookManager (Check for trade): 4.799547ms
+OrderConsumer : 67.156µs
+OrderBookManager (Add to order): 3.200226ms
+OrderBookManager (Check for trade): 3.222468ms
+Current memory usage (KB) : 415.08105
+OrderConsumer : 70.964µs
+OrderBookManager (Add to order): 4.690963ms
+OrderBookManager (Check for trade): 7.024907ms
+MarketDataGenrator (Active Update): 4.561058ms
+MarketDataGenrator (Passive Update): 111.287326ms
+OrderConsumer : 73.568µs
+OrderBookManager (Add to order): 2.232845ms
+OrderBookManager (Check for trade): 5.468767ms
+MarketDataGenrator (Active Update): 3.486875ms
+OrderConsumer : 98.957µs
+OrderBookManager (Add to order): 4.438988ms
+OrderBookManager (Check for trade): 2.829057ms
+OrderConsumer : 78.127µs
+OrderBookManager (Add to order): 3.182412ms
+OrderBookManager (Check for trade): 9.477906ms
+MarketDataGenrator (Active Update): 7.236146ms
+OrderConsumer : 92.454µs
+OrderBookManager (Add to order): 3.490312ms
+OrderBookManager (Check for trade): 8.469137ms
+MarketDataGenrator (Active Update): 7.295237ms
+MarketDataGenrator (Passive Update): 121.21544ms
+OrderConsumer : 76.724µs
+OrderBookManager (Add to order): 3.513446ms
+OrderBookManager (Check for trade): 4.577519ms
+OrderConsumer : 92.765µs
+OrderBookManager (Add to order): 3.177844ms
+OrderBookManager (Check for trade): 10.068288ms
+MarketDataGenrator (Active Update): 5.585257ms
+OrderConsumer : 88.376µs
+OrderBookManager (Add to order): 4.98182ms
+OrderBookManager (Check for trade): 9.657204ms
+MarketDataGenrator (Active Update): 6.446147ms
+OrderConsumer : 55.745µs
+OrderBookManager (Add to order): 3.298822ms
+OrderBookManager (Check for trade): 8.040159ms
+MarketDataGenrator (Active Update): 5.145108ms
+MarketDataGenrator (Passive Update): 125.016778ms
+Current memory usage (KB) : 415.60547
+OrderConsumer : 94.759µs
+OrderBookManager (Add to order): 5.772128ms
+OrderBookManager (Check for trade): 7.646488ms
+MarketDataGenrator (Active Update): 5.359411ms
+OrderConsumer : 95.66µs
+OrderBookManager (Add to order): 4.407118ms
+OrderBookManager (Check for trade): 9.146733ms
+MarketDataGenrator (Active Update): 7.384754ms
+OrderConsumer : 100.98µs
+OrderBookManager (Add to order): 4.103226ms
+OrderBookManager (Check for trade): 9.058787ms
+MarketDataGenrator (Active Update): 7.008196ms
+MarketDataGenrator (Passive Update): 141.921228ms
+OrderConsumer : 58.23µs
+OrderBookManager (Add to order): 2.770286ms
+OrderBookManager (Check for trade): 3.502585ms
+MarketDataGenrator (Fetch Orders): 132.32042ms
+OrderConsumer : 92.294µs
+OrderBookManager (Add to order): 1.944942ms
+OrderBookManager (Check for trade): 5.647594ms
+MarketDataGenrator (Active Update): 4.770543ms
+OrderConsumer : 67.517µs
+OrderBookManager (Add to order): 4.104178ms
+OrderBookManager (Check for trade): 2.70318ms
+OrderConsumer : 88.477µs
+OrderBookManager (Add to order): 3.102652ms
+OrderBookManager (Check for trade): 7.078559ms
+MarketDataGenrator (Active Update): 5.364541ms
+MarketDataGenrator (Passive Update): 109.454825ms
+OrderConsumer : 112.312µs
+OrderBookManager (Add to order): 4.713515ms
+OrderBookManager (Check for trade): 9.097119ms
+MarketDataGenrator (Active Update): 7.416164ms
+OrderConsumer : 70.233µs
+OrderBookManager (Add to order): 2.618641ms
+OrderBookManager (Check for trade): 3.020617ms
+OrderConsumer : 94.137µs
+OrderBookManager (Add to order): 4.359358ms
+OrderBookManager (Check for trade): 9.676931ms
+MarketDataGenrator (Active Update): 4.294676ms
+Current memory usage (KB) : 415.87402
+OrderConsumer : 58.81µs
+OrderBookManager (Add to order): 7.475956ms
+OrderBookManager (Check for trade): 7.374816ms
+MarketDataGenrator (Active Update): 3.842596ms
+MarketDataGenrator (Passive Update): 139.44276ms
+OrderConsumer : 61.736µs
+OrderBookManager (Add to order): 3.275838ms
+OrderBookManager (Check for trade): 6.931251ms
+MarketDataGenrator (Active Update): 3.864016ms
+OrderConsumer : 98.867µs
+OrderBookManager (Add to order): 4.282243ms
+OrderBookManager (Check for trade): 5.095935ms
+OrderConsumer : 103.004µs
+OrderBookManager (Add to order): 3.395423ms
+OrderBookManager (Check for trade): 6.999239ms
+MarketDataGenrator (Active Update): 3.806728ms
+MarketDataGenrator (Passive Update): 114.363789ms
+OrderConsumer : 81.192µs
+OrderBookManager (Add to order): 6.025556ms
+OrderBookManager (Check for trade): 4.241887ms
+OrderConsumer : 101.201µs
+OrderBookManager (Add to order): 4.500625ms
+OrderBookManager (Check for trade): 5.225719ms
+OrderConsumer : 64.732µs
+OrderBookManager (Add to order): 2.951037ms
+OrderBookManager (Check for trade): 5.327651ms
+OrderConsumer : 51.427µs
+OrderBookManager (Add to order): 2.204471ms
+OrderBookManager (Check for trade): 2.556183ms
+MarketDataGenrator (Passive Update): 102.564712ms
+OrderConsumer : 65.623µs
+OrderBookManager (Add to order): 3.127218ms
+OrderBookManager (Check for trade): 2.811214ms
+OrderConsumer : 97.383µs
+OrderBookManager (Add to order): 2.626916ms
+OrderBookManager (Check for trade): 3.549273ms
+Current memory usage (KB) : 415.87402
+OrderConsumer : 56.116µs
+OrderBookManager (Add to order): 3.131516ms
+OrderBookManager (Check for trade): 8.206202ms
+MarketDataGenrator (Active Update): 4.523307ms
+MarketDataGenrator (Fetch Orders): 139.388588ms
+OrderConsumer : 49.263µs
+OrderBookManager (Add to order): 2.058115ms
+OrderBookManager (Check for trade): 5.467946ms
+MarketDataGenrator (Active Update): 3.158568ms
+MarketDataGenrator (Passive Update): 118.972687ms
+OrderConsumer : 100.349µs
+OrderBookManager (Add to order): 4.057229ms
+OrderBookManager (Check for trade): 8.028798ms
+MarketDataGenrator (Active Update): 4.52999ms
+OrderConsumer : 100.93µs
+OrderBookManager (Add to order): 4.626011ms
+OrderBookManager (Check for trade): 4.976691ms
+OrderConsumer : 331.594µs
+OrderBookManager (Add to order): 4.399805ms
+OrderBookManager (Check for trade): 8.85347ms
+MarketDataGenrator (Active Update): 3.996155ms
+MarketDataGenrator (Passive Update): 117.149955ms
+OrderConsumer : 87.544µs
+OrderBookManager (Add to order): 3.117129ms
+OrderBookManager (Check for trade): 2.772651ms
+OrderConsumer : 95.57µs
+OrderBookManager (Add to order): 3.182433ms
+OrderBookManager (Check for trade): 7.228832ms
+MarketDataGenrator (Active Update): 4.278496ms
+OrderConsumer : 103.886µs
+OrderBookManager (Add to order): 5.095445ms
+OrderBookManager (Check for trade): 10.01639ms
+MarketDataGenrator (Active Update): 6.653007ms
+OrderConsumer : 110.969µs
+OrderBookManager (Add to order): 6.925831ms
+OrderBookManager (Check for trade): 5.22054ms
+MarketDataGenrator (Passive Update): 127.223242ms
+OrderConsumer : 67.677µs
+OrderBookManager (Add to order): 3.424347ms
+OrderBookManager (Check for trade): 4.881331ms
+Current memory usage (KB) : 416.56738
+OrderConsumer : 75.813µs
+OrderBookManager (Add to order): 2.631766ms
+OrderBookManager (Check for trade): 5.703039ms
+MarketDataGenrator (Active Update): 3.575713ms
+OrderConsumer : 133.822µs
+OrderBookManager (Add to order): 4.781984ms
+OrderBookManager (Check for trade): 4.952255ms
+OrderConsumer : 93.085µs
+OrderBookManager (Add to order): 6.370535ms
+MarketDataGenrator (Passive Update): 133.166333ms
+OrderBookManager (Check for trade): 3.814532ms
+OrderConsumer : 95.31µs
+OrderBookManager (Add to order): 4.811439ms
+OrderBookManager (Check for trade): 4.887021ms
+MarketDataGenrator (Active Update): 5.441566ms
+OrderConsumer : 134.684µs
+OrderBookManager (Add to order): 6.157014ms
+OrderBookManager (Check for trade): 9.22491ms
+MarketDataGenrator (Active Update): 4.542383ms
+OrderConsumer : 93.436µs
+OrderBookManager (Add to order): 3.564913ms
+OrderBookManager (Check for trade): 9.127076ms
+MarketDataGenrator (Active Update): 6.962259ms
+MarketDataGenrator (Passive Update): 115.129881ms
+OrderConsumer : 90.03µs
+OrderBookManager (Add to order): 3.058238ms
+OrderBookManager (Check for trade): 7.50428ms
+MarketDataGenrator (Active Update): 5.856658ms
+OrderConsumer : 64.1µs
+OrderBookManager (Add to order): 3.485062ms
+OrderBookManager (Check for trade): 6.310282ms
+MarketDataGenrator (Active Update): 4.505704ms
+MarketDataGenrator (Fetch Orders): 162.05059ms
+OrderConsumer : 85.38µs
+OrderBookManager (Add to order): 2.582983ms
+OrderBookManager (Check for trade): 3.222187ms
+Current memory usage (KB) : 418.40918
+OrderConsumer : 59.221µs
+OrderBookManager (Add to order): 2.463128ms
+OrderBookManager (Check for trade): 6.392076ms
+MarketDataGenrator (Active Update): 4.257627ms
+MarketDataGenrator (Passive Update): 117.038606ms
+OrderConsumer : 69.902µs
+OrderBookManager (Add to order): 3.242355ms
+OrderBookManager (Check for trade): 6.625505ms
+MarketDataGenrator (Active Update): 4.277965ms
+OrderConsumer : 93.456µs
+OrderBookManager (Add to order): 15.345003ms
+OrderBookManager (Check for trade): 32.075525ms
+MarketDataGenrator (Active Update): 17.732539ms
+OrderConsumer : 114.435µs
+OrderBookManager (Add to order): 2.993697ms
+OrderBookManager (Check for trade): 6.112119ms
+MarketDataGenrator (Active Update): 4.151587ms
+MarketDataGenrator (Passive Update): 114.249984ms
+OrderConsumer : 57.929µs
+OrderBookManager (Add to order): 2.566081ms
+OrderBookManager (Check for trade): 6.166281ms
+MarketDataGenrator (Active Update): 3.740293ms
+OrderConsumer : 56.947µs
+OrderBookManager (Add to order): 3.288291ms
+OrderBookManager (Check for trade): 6.323998ms
+MarketDataGenrator (Active Update): 3.877381ms
+OrderConsumer : 91.692µs
+OrderBookManager (Add to order): 2.326862ms
+OrderBookManager (Check for trade): 5.215039ms
+MarketDataGenrator (Active Update): 4.515122ms
+OrderConsumer : 98.335µs
+OrderBookManager (Add to order): 4.277414ms
+OrderBookManager (Check for trade): 8.44417ms
+MarketDataGenrator (Active Update): 8.382423ms
+MarketDataGenrator (Passive Update): 103.648223ms
+OrderConsumer : 108.114µs
+OrderBookManager (Add to order): 3.697833ms
+OrderBookManager (Check for trade): 7.328229ms
+MarketDataGenrator (Active Update): 7.166975ms
+OrderConsumer : 91.553µs
+OrderBookManager (Add to order): 6.068045ms
+OrderBookManager (Check for trade): 8.063884ms
+MarketDataGenrator (Active Update): 3.661514ms
+Current memory usage (KB) : 418.40918
+OrderConsumer : 350.611µs
+OrderBookManager (Add to order): 5.456595ms
+OrderBookManager (Check for trade): 3.810895ms
+OrderConsumer : 60.815µs
+OrderBookManager (Add to order): 3.368803ms
+OrderBookManager (Check for trade): 5.618289ms
+MarketDataGenrator (Active Update): 4.006905ms
+MarketDataGenrator (Passive Update): 124.232531ms
+OrderConsumer : 94.297µs
+OrderBookManager (Add to order): 5.403274ms
+OrderBookManager (Check for trade): 7.857124ms
+MarketDataGenrator (Active Update): 5.189973ms
+OrderConsumer : 99.367µs
+OrderBookManager (Add to order): 4.783827ms
+OrderBookManager (Check for trade): 9.959804ms
+MarketDataGenrator (Active Update): 5.829797ms
+OrderConsumer : 100.129µs
+OrderBookManager (Add to order): 4.669171ms
+OrderBookManager (Check for trade): 9.646454ms
+MarketDataGenrator (Active Update): 5.960102ms
+MarketDataGenrator (Passive Update): 128.887877ms
+MarketDataGenrator (Fetch Orders): 126.732278ms
+OrderConsumer : 93.887µs
+OrderBookManager (Add to order): 4.234353ms
+OrderBookManager (Check for trade): 5.116494ms
+OrderConsumer : 97.494µs
+OrderBookManager (Add to order): 4.2966ms
+OrderBookManager (Check for trade): 5.010935ms
+OrderConsumer : 76.274µs
+OrderBookManager (Add to order): 3.323628ms
+OrderBookManager (Check for trade): 4.014529ms
+OrderConsumer : 88.136µs
+OrderBookManager (Add to order): 2.700075ms
+OrderBookManager (Check for trade): 2.820781ms
+MarketDataGenrator (Passive Update): 102.957763ms
+OrderConsumer : 91.362µs
+OrderBookManager (Add to order): 3.55294ms
+OrderBookManager (Check for trade): 8.658814ms
+MarketDataGenrator (Active Update): 3.46779ms
+Current memory usage (KB) : 418.73535
+OrderConsumer : 245.813µs
+OrderBookManager (Add to order): 4.83295ms
+OrderBookManager (Check for trade): 10.051136ms
+MarketDataGenrator (Active Update): 5.482984ms
+OrderConsumer : 76.775µs
+OrderBookManager (Add to order): 4.602146ms
+OrderBookManager (Check for trade): 4.018837ms
+MarketDataGenrator (Sector Performance): 277.034717ms
+OrderConsumer : 90.24µs
+OrderBookManager (Add to order): 3.257473ms
+OrderBookManager (Check for trade): 9.042676ms
+MarketDataGenrator (Active Update): 13.768375ms
+MarketDataGenrator (Passive Update): 314.440428ms
+OrderConsumer : 101.562µs
+OrderBookManager (Add to order): 4.319293ms
+OrderBookManager (Check for trade): 5.134999ms
+OrderConsumer : 118.603µs
+OrderBookManager (Add to order): 5.022748ms
+OrderBookManager (Check for trade): 3.262924ms
+OrderConsumer : 341.062µs
+OrderBookManager (Add to order): 3.333737ms
+OrderBookManager (Check for trade): 5.841019ms
+OrderConsumer : 78.538µs
+OrderBookManager (Add to order): 2.532869ms
+OrderBookManager (Check for trade): 11.080023ms
+MarketDataGenrator (Active Update): 3.837526ms
+MarketDataGenrator (Passive Update): 129.24542ms
+OrderConsumer : 97.834µs
+OrderBookManager (Add to order): 5.658555ms
+OrderBookManager (Check for trade): 9.805884ms
+MarketDataGenrator (Active Update): 8.372505ms
+OrderConsumer : 91.462µs
+OrderBookManager (Add to order): 4.817731ms
+OrderBookManager (Check for trade): 15.170565ms
+MarketDataGenrator (Active Update): 4.272074ms
+Current memory usage (KB) : 418.56348
+OrderConsumer : 100.9µs
+OrderBookManager (Add to order): 4.589181ms
+OrderBookManager (Check for trade): 9.606448ms
+MarketDataGenrator (Active Update): 6.162053ms
+MarketDataGenrator (Passive Update): 148.272366ms
+OrderConsumer : 135.415µs
+OrderBookManager (Add to order): 4.775342ms
+OrderBookManager (Check for trade): 4.260352ms
+OrderConsumer : 140.023µs
+OrderBookManager (Add to order): 3.856391ms
+OrderBookManager (Check for trade): 6.503335ms
+MarketDataGenrator (Active Update): 2.834547ms
+MarketDataGenrator (Fetch Orders): 125.638879ms
+OrderConsumer : 128.072µs
+OrderBookManager (Add to order): 4.62583ms
+OrderBookManager (Check for trade): 5.103299ms
+OrderConsumer : 57.94µs
+OrderBookManager (Add to order): 3.328236ms
+OrderBookManager (Check for trade): 10.129634ms
+MarketDataGenrator (Active Update): 4.482871ms
+MarketDataGenrator (Passive Update): 154.302481ms
+OrderConsumer : 61.756µs
+OrderBookManager (Add to order): 3.019816ms
+OrderBookManager (Check for trade): 10.38818ms
+MarketDataGenrator (Active Update): 3.177403ms
+OrderConsumer : 89.378µs
+OrderBookManager (Add to order): 3.433535ms
+OrderBookManager (Check for trade): 6.42624ms
+MarketDataGenrator (Active Update): 3.798222ms
+OrderConsumer : 135.124µs
+OrderBookManager (Add to order): 4.571057ms
+OrderBookManager (Check for trade): 10.109696ms
+MarketDataGenrator (Active Update): 7.063801ms
+OrderConsumer : 118.764µs
+OrderBookManager (Add to order): 4.978104ms
+OrderBookManager (Check for trade): 6.82994ms
+MarketDataGenrator (Active Update): 6.045252ms
+MarketDataGenrator (Passive Update): 113.980758ms
+OrderConsumer : 88.597µs
+OrderBookManager (Add to order): 3.352482ms
+OrderBookManager (Check for trade): 5.871997ms
+MarketDataGenrator (Active Update): 3.649672ms
+Current memory usage (KB) : 420.4756
+OrderConsumer : 106.19µs
+OrderBookManager (Add to order): 4.937167ms
+OrderBookManager (Check for trade): 6.645283ms
+OrderConsumer : 90.791µs
+OrderBookManager (Add to order): 5.091968ms
+OrderBookManager (Check for trade): 9.838204ms
+MarketDataGenrator (Active Update): 6.777581ms
+MarketDataGenrator (Passive Update): 116.138971ms
+OrderConsumer : 97.694µs
+OrderBookManager (Add to order): 5.217494ms
+OrderBookManager (Check for trade): 10.230894ms
+MarketDataGenrator (Active Update): 4.782074ms
+OrderConsumer : 103.145µs
+OrderBookManager (Add to order): 3.033212ms
+OrderBookManager (Check for trade): 3.088506ms
+OrderConsumer : 64.852µs
+OrderBookManager (Add to order): 4.244943ms
+OrderBookManager (Check for trade): 7.86021ms
+MarketDataGenrator (Active Update): 5.432659ms
+OrderConsumer : 94.999µs
+OrderBookManager (Add to order): 4.713946ms
+OrderBookManager (Check for trade): 9.168564ms
+MarketDataGenrator (Active Update): 6.357721ms
+MarketDataGenrator (Passive Update): 129.021849ms
+OrderConsumer : 100.98µs
+OrderBookManager (Add to order): 4.952285ms
+OrderBookManager (Check for trade): 8.488473ms
+MarketDataGenrator (Active Update): 4.385928ms
+OrderConsumer : 103.044µs
+OrderBookManager (Add to order): 5.25741ms
+OrderBookManager (Check for trade): 4.799828ms
+OrderConsumer : 92.945µs
+OrderBookManager (Add to order): 3.773194ms
+OrderBookManager (Check for trade): 4.107655ms
+OrderConsumer : 43.932µs
+OrderBookManager (Add to order): 2.186828ms
+OrderBookManager (Check for trade): 4.251555ms
+MarketDataGenrator (Active Update): 3.382198ms
+MarketDataGenrator (Fetch Orders): 138.667552ms
+MarketDataGenrator (Passive Update): 98.314609ms
+Current memory usage (KB) : 421.6504
+OrderConsumer : 102.614µs
+OrderBookManager (Add to order): 3.567176ms
+OrderBookManager (Check for trade): 9.370424ms
+MarketDataGenrator (Active Update): 5.908154ms
+OrderConsumer : 98.816µs
+OrderBookManager (Add to order): 4.687146ms
+OrderBookManager (Check for trade): 4.993974ms
+OrderConsumer : 92.123µs
+OrderBookManager (Add to order): 4.263608ms
+OrderBookManager (Check for trade): 4.856865ms
+MarketDataGenrator (Passive Update): 115.745901ms
+OrderConsumer : 107.182µs
+OrderBookManager (Add to order): 5.230999ms
+OrderBookManager (Check for trade): 7.974475ms
+MarketDataGenrator (Active Update): 6.223238ms
+OrderConsumer : 97.934µs
+OrderBookManager (Add to order): 4.849892ms
+OrderBookManager (Check for trade): 8.087839ms
+MarketDataGenrator (Active Update): 3.316345ms
+OrderConsumer : 107.682µs
+OrderBookManager (Add to order): 4.975228ms
+OrderBookManager (Check for trade): 9.62885ms
+MarketDataGenrator (Active Update): 6.680409ms
+OrderConsumer : 99.427µs
+OrderBookManager (Add to order): 5.839506ms
+OrderBookManager (Check for trade): 10.294644ms
+MarketDataGenrator (Active Update): 6.695697ms
+MarketDataGenrator (Passive Update): 117.417789ms
+OrderConsumer : 94.047µs
+OrderBookManager (Add to order): 4.284939ms
+OrderBookManager (Check for trade): 9.714491ms
+MarketDataGenrator (Active Update): 7.985988ms
+OrderConsumer : 103.515µs
+OrderBookManager (Add to order): 4.176334ms
+OrderBookManager (Check for trade): 8.830047ms
+MarketDataGenrator (Active Update): 7.955089ms
+OrderConsumer : 53.591µs
+OrderBookManager (Add to order): 2.622899ms
+OrderBookManager (Check for trade): 6.763705ms
+MarketDataGenrator (Active Update): 3.976277ms
+Current memory usage (KB) : 421.46582
+OrderConsumer : 63.82µs
+OrderBookManager (Add to order): 3.221366ms
+OrderBookManager (Check for trade): 3.763786ms
+MarketDataGenrator (Passive Update): 142.974731ms
+OrderConsumer : 50.265µs
+OrderBookManager (Add to order): 3.804453ms
+OrderBookManager (Check for trade): 3.333727ms
+OrderConsumer : 103.354µs
+OrderBookManager (Add to order): 5.461944ms
+OrderBookManager (Check for trade): 9.578515ms
+MarketDataGenrator (Active Update): 5.844565ms
+OrderConsumer : 96.812µs
+OrderBookManager (Add to order): 4.138442ms
+OrderBookManager (Check for trade): 5.450773ms
+MarketDataGenrator (Passive Update): 136.899522ms
+OrderConsumer : 109.736µs
+OrderBookManager (Add to order): 5.115392ms
+OrderBookManager (Check for trade): 4.847037ms
+OrderConsumer : 88.817µs
+OrderBookManager (Add to order): 4.783396ms
+OrderBookManager (Check for trade): 9.565451ms
+MarketDataGenrator (Active Update): 4.195921ms
+MarketDataGenrator (Fetch Orders): 179.081628ms
+OrderConsumer : 94.768µs
+OrderBookManager (Add to order): 4.727532ms
+OrderBookManager (Check for trade): 9.064608ms
+MarketDataGenrator (Active Update): 6.522331ms
+OrderConsumer : 69.211µs
+OrderBookManager (Add to order): 4.06834ms
+OrderBookManager (Check for trade): 8.225518ms
+MarketDataGenrator (Active Update): 3.66466ms
+MarketDataGenrator (Passive Update): 110.207373ms
+OrderConsumer : 103.335µs
+OrderBookManager (Add to order): 5.395008ms
+OrderBookManager (Check for trade): 8.365522ms
+MarketDataGenrator (Active Update): 3.93514ms
+Current memory usage (KB) : 421.44434
+OrderConsumer : 99.869µs
+OrderBookManager (Add to order): 4.683929ms
+OrderBookManager (Check for trade): 8.393665ms
+MarketDataGenrator (Active Update): 5.080777ms
+OrderConsumer : 98.015µs
+OrderBookManager (Add to order): 4.80615ms
+OrderBookManager (Check for trade): 9.814049ms
+MarketDataGenrator (Active Update): 6.301605ms
+OrderConsumer : 52.359µs
+OrderBookManager (Add to order): 3.253906ms
+OrderBookManager (Check for trade): 3.288913ms
+MarketDataGenrator (Passive Update): 142.759536ms
+OrderConsumer : 125.577µs
+OrderBookManager (Add to order): 4.669722ms
+OrderBookManager (Check for trade): 4.995116ms
+OrderConsumer : 97.273µs
+OrderBookManager (Add to order): 5.378828ms
+OrderBookManager (Check for trade): 5.222493ms
+OrderConsumer : 106.601µs
+OrderBookManager (Add to order): 5.317753ms
+OrderBookManager (Check for trade): 10.480093ms
+MarketDataGenrator (Active Update): 9.968109ms
+MarketDataGenrator (Passive Update): 83.628767ms
+OrderConsumer : 99.026µs
+OrderBookManager (Add to order): 4.065004ms
+OrderBookManager (Check for trade): 7.117561ms
+MarketDataGenrator (Active Update): 5.024431ms
+OrderConsumer : 92.094µs
+OrderBookManager (Add to order): 5.974811ms
+OrderBookManager (Check for trade): 6.306505ms
+MarketDataGenrator (Active Update): 3.965888ms
+OrderConsumer : 98.626µs
+OrderBookManager (Add to order): 3.477578ms
+OrderBookManager (Check for trade): 7.545538ms
+MarketDataGenrator (Active Update): 4.658973ms
+OrderConsumer : 115.387µs
+OrderBookManager (Add to order): 3.994281ms
+OrderBookManager (Check for trade): 7.308682ms
+MarketDataGenrator (Active Update): 3.358584ms
+MarketDataGenrator (Passive Update): 117.910497ms
+Current memory usage (KB) : 421.58496
+OrderConsumer : 92.323µs
+OrderBookManager (Add to order): 3.874075ms
+OrderBookManager (Check for trade): 8.219486ms
+MarketDataGenrator (Active Update): 6.149459ms
+OrderConsumer : 97.724µs
+OrderBookManager (Add to order): 4.853869ms
+OrderBookManager (Check for trade): 4.513799ms
+OrderConsumer : 155.883µs
+OrderBookManager (Add to order): 3.51569ms
+OrderBookManager (Check for trade): 7.218983ms
+MarketDataGenrator (Active Update): 3.760892ms
+MarketDataGenrator (Passive Update): 97.986612ms
+OrderConsumer : 88.246µs
+OrderBookManager (Add to order): 5.281224ms
+OrderBookManager (Check for trade): 7.963615ms
+MarketDataGenrator (Active Update): 4.309435ms
+MarketDataGenrator (Fetch Orders): 146.970014ms
+OrderConsumer : 116.83µs
+OrderBookManager (Add to order): 5.027627ms
+OrderBookManager (Check for trade): 9.62885ms
+MarketDataGenrator (Active Update): 6.706829ms
+OrderConsumer : 96.461µs
+OrderBookManager (Add to order): 4.588069ms
+OrderBookManager (Check for trade): 10.049373ms
+MarketDataGenrator (Active Update): 5.723627ms
+OrderConsumer : 108.374µs
+OrderBookManager (Add to order): 4.815147ms
+OrderBookManager (Check for trade): 5.909276ms
+MarketDataGenrator (Passive Update): 127.162427ms
+OrderConsumer : 73.648µs
+OrderBookManager (Add to order): 2.768914ms
+OrderBookManager (Check for trade): 6.92534ms
+MarketDataGenrator (Active Update): 3.459764ms
+OrderConsumer : 102.593µs
+OrderBookManager (Add to order): 4.644846ms
+OrderBookManager (Check for trade): 10.631148ms
+MarketDataGenrator (Active Update): 7.245032ms
+OrderConsumer : 91.261µs
+OrderBookManager (Add to order): 3.362973ms
+OrderBookManager (Check for trade): 4.825837ms
+MarketDataGenrator (Active Update): 3.45735ms
+Current memory usage (KB) : 423.6963
+OrderConsumer : 55.816µs
+MarketDataGenrator (Passive Update): 116.058721ms
+OrderBookManager (Add to order): 4.960771ms
+OrderBookManager (Check for trade): 5.037866ms
+OrderConsumer : 103.285µs
+OrderBookManager (Add to order): 3.445297ms
+OrderBookManager (Check for trade): 4.051749ms
+OrderConsumer : 121.339µs
+OrderBookManager (Add to order): 4.651999ms
+OrderBookManager (Check for trade): 9.556905ms
+MarketDataGenrator (Active Update): 6.594266ms
+OrderConsumer : 134.293µs
+OrderBookManager (Add to order): 4.327338ms
+OrderBookManager (Check for trade): 9.135732ms
+MarketDataGenrator (Active Update): 6.729872ms
+MarketDataGenrator (Passive Update): 141.572521ms
+OrderConsumer : 72.006µs
+OrderBookManager (Add to order): 3.716267ms
+OrderBookManager (Check for trade): 2.316241ms
+OrderConsumer : 136.227µs
+OrderBookManager (Add to order): 3.904371ms
+OrderBookManager (Check for trade): 2.826041ms
+OrderConsumer : 124.464µs
+OrderBookManager (Add to order): 4.569815ms
+OrderBookManager (Check for trade): 5.073924ms
+OrderConsumer : 111.48µs
+OrderBookManager (Add to order): 6.731125ms
+OrderBookManager (Check for trade): 9.931089ms
+MarketDataGenrator (Active Update): 7.097605ms
+MarketDataGenrator (Passive Update): 116.463012ms
+OrderConsumer : 84.459µs
+OrderBookManager (Add to order): 4.011083ms
+OrderBookManager (Check for trade): 8.755957ms
+MarketDataGenrator (Active Update): 4.585244ms
+Current memory usage (KB) : 424.1123
+OrderConsumer : 92.955µs
+OrderBookManager (Add to order): 4.691453ms
+OrderBookManager (Check for trade): 10.490794ms
+MarketDataGenrator (Active Update): 6.256471ms
+OrderConsumer : 99.678µs
+OrderBookManager (Add to order): 4.708626ms
+OrderBookManager (Check for trade): 5.854213ms
+MarketDataGenrator (Active Update): 3.316224ms
+MarketDataGenrator (Fetch Orders): 168.363366ms
+MarketDataGenrator (Passive Update): 83.483324ms
+OrderConsumer : 112.192µs
+OrderBookManager (Add to order): 4.22709ms
+OrderBookManager (Check for trade): 7.219985ms
+MarketDataGenrator (Active Update): 5.929344ms
+OrderConsumer : 94.458µs
+OrderBookManager (Add to order): 3.039613ms
+OrderBookManager (Check for trade): 5.37957ms
+MarketDataGenrator (Active Update): 4.908723ms
+OrderConsumer : 99.948µs
+OrderBookManager (Add to order): 4.9445ms
+OrderBookManager (Check for trade): 10.337575ms
+MarketDataGenrator (Active Update): 5.987534ms
+OrderConsumer : 102.102µs
+OrderBookManager (Add to order): 5.317472ms
+OrderBookManager (Check for trade): 10.007042ms
+MarketDataGenrator (Active Update): 6.831554ms
+MarketDataGenrator (Passive Update): 107.475449ms
+OrderConsumer : 52.97µs
+OrderBookManager (Add to order): 2.121695ms
+OrderBookManager (Check for trade): 2.281506ms
+OrderConsumer : 117.882µs
+OrderBookManager (Add to order): 3.827016ms
+OrderBookManager (Check for trade): 6.35182ms
+MarketDataGenrator (Active Update): 3.258826ms
+OrderConsumer : 93.846µs
+OrderBookManager (Add to order): 5.72479ms
+OrderBookManager (Check for trade): 4.765643ms
+OrderConsumer : 88.176µs
+OrderBookManager (Add to order): 5.033057ms
+OrderBookManager (Check for trade): 6.370745ms
+MarketDataGenrator (Active Update): 3.374504ms
+MarketDataGenrator (Passive Update): 140.284185ms
+Current memory usage (KB) : 425.02734
+OrderConsumer : 91.492µs
+OrderBookManager (Add to order): 4.884327ms
+OrderBookManager (Check for trade): 8.041973ms
+MarketDataGenrator (Active Update): 3.433365ms
+OrderConsumer : 76.785µs
+OrderBookManager (Add to order): 5.319697ms
+OrderBookManager (Check for trade): 12.925137ms
+MarketDataGenrator (Active Update): 4.729254ms
+OrderConsumer : 111.61µs
+OrderBookManager (Add to order): 2.820901ms
+OrderBookManager (Check for trade): 6.434255ms
+MarketDataGenrator (Active Update): 4.098137ms
+MarketDataGenrator (Passive Update): 109.238388ms
+OrderConsumer : 93.255µs
+OrderBookManager (Add to order): 2.299109ms
+OrderBookManager (Check for trade): 6.587714ms
+MarketDataGenrator (Active Update): 2.884521ms
+OrderConsumer : 109.797µs
+OrderBookManager (Add to order): 3.491975ms
+OrderBookManager (Check for trade): 7.296409ms
+MarketDataGenrator (Active Update): 6.072734ms
+OrderConsumer : 104.827µs
+OrderBookManager (Add to order): 3.797521ms
+OrderBookManager (Check for trade): 3.940981ms
+OrderConsumer : 52.278µs
+OrderBookManager (Add to order): 3.565564ms
+OrderBookManager (Check for trade): 3.942233ms
+MarketDataGenrator (Passive Update): 106.386068ms
+OrderConsumer : 87.394µs
+OrderBookManager (Add to order): 4.143232ms
+OrderBookManager (Check for trade): 5.279722ms
+MarketDataGenrator (Active Update): 4.761425ms
+MarketDataGenrator (Fetch Orders): 168.433698ms
+OrderConsumer : 86.413µs
+OrderBookManager (Add to order): 3.780619ms
+OrderBookManager (Check for trade): 6.097311ms
+MarketDataGenrator (Active Update): 3.924349ms
+OrderConsumer : 161.734µs
+OrderBookManager (Add to order): 4.177225ms
+OrderBookManager (Check for trade): 7.641177ms
+MarketDataGenrator (Active Update): 4.306829ms
+Current memory usage (KB) : 426.04395
+MarketDataGenrator (Passive Update): 129.388729ms
+OrderConsumer : 71.986µs
+OrderBookManager (Add to order): 1.873969ms
+OrderBookManager (Check for trade): 1.89601ms
+OrderConsumer : 75.752µs
+OrderBookManager (Add to order): 3.881208ms
+OrderBookManager (Check for trade): 6.655322ms
+MarketDataGenrator (Active Update): 4.30163ms
+OrderConsumer : 72.105µs
+OrderBookManager (Add to order): 2.36883ms
+OrderBookManager (Check for trade): 7.77007ms
+MarketDataGenrator (Active Update): 3.939338ms
+OrderConsumer : 92.734µs
+OrderBookManager (Add to order): 2.664196ms
+OrderBookManager (Check for trade): 8.992753ms
+MarketDataGenrator (Active Update): 5.721283ms
+MarketDataGenrator (Passive Update): 105.887138ms
+OrderConsumer : 52.248µs
+OrderBookManager (Add to order): 2.227525ms
+OrderBookManager (Check for trade): 2.274423ms
+OrderConsumer : 98.235µs
+OrderBookManager (Add to order): 3.214132ms
+OrderBookManager (Check for trade): 7.342465ms
+MarketDataGenrator (Active Update): 5.968058ms
+OrderConsumer : 82.896µs
+OrderBookManager (Add to order): 3.68053ms
+OrderBookManager (Check for trade): 6.216536ms
+MarketDataGenrator (Active Update): 4.906308ms
+OrderConsumer : 88.227µs
+OrderBookManager (Add to order): 2.81461ms
+OrderBookManager (Check for trade): 6.10207ms
+MarketDataGenrator (Active Update): 4.510924ms
+MarketDataGenrator (Passive Update): 117.766045ms
+OrderConsumer : 88.607µs
+OrderBookManager (Add to order): 5.152842ms
+OrderBookManager (Check for trade): 4.767698ms
+OrderConsumer : 119.835µs
+Current memory usage (KB) : 428.9287
+OrderBookManager (Add to order): 4.281041ms
+OrderBookManager (Check for trade): 8.685514ms
+MarketDataGenrator (Active Update): 6.777221ms
+OrderConsumer : 109.346µs
+OrderBookManager (Add to order): 5.553296ms
+OrderBookManager (Check for trade): 10.189616ms
+MarketDataGenrator (Active Update): 5.630772ms
+MarketDataGenrator (Passive Update): 140.035046ms
+OrderConsumer : 96.201µs
+OrderBookManager (Add to order): 3.629074ms
+OrderBookManager (Check for trade): 6.7713ms
+MarketDataGenrator (Active Update): 6.437972ms
+OrderConsumer : 131.538µs
+OrderBookManager (Add to order): 5.403425ms
+OrderBookManager (Check for trade): 5.309407ms
+OrderConsumer : 97.234µs
+OrderBookManager (Add to order): 5.244054ms
+OrderBookManager (Check for trade): 5.281595ms
+OrderConsumer : 74.982µs
+OrderBookManager (Add to order): 4.600022ms
+OrderBookManager (Check for trade): 7.140706ms
+MarketDataGenrator (Passive Update): 93.470889ms
+MarketDataGenrator (Fetch Orders): 103.054024ms
+OrderConsumer : 79.941µs
+OrderBookManager (Add to order): 2.670358ms
+OrderBookManager (Check for trade): 5.835338ms
+MarketDataGenrator (Active Update): 4.187565ms
+OrderConsumer : 96.742µs
+OrderBookManager (Add to order): 3.805495ms
+OrderBookManager (Check for trade): 6.339376ms
+MarketDataGenrator (Active Update): 5.059216ms
+OrderConsumer : 161.144µs
+OrderBookManager (Add to order): 5.1197ms
+OrderBookManager (Check for trade): 9.376576ms
+MarketDataGenrator (Active Update): 6.204984ms
+OrderConsumer : 54.513µs
+OrderBookManager (Add to order): 3.37246ms
+OrderBookManager (Check for trade): 4.040198ms
+MarketDataGenrator (Passive Update): 146.283692ms
+Current memory usage (KB) : 427.3623
+OrderConsumer : 112.742µs
+OrderBookManager (Add to order): 2.831101ms
+OrderBookManager (Check for trade): 7.03154ms
+MarketDataGenrator (Active Update): 5.759235ms
+OrderConsumer : 98.375µs
+OrderBookManager (Add to order): 4.747439ms
+OrderBookManager (Check for trade): 8.695733ms
+MarketDataGenrator (Active Update): 5.668994ms
+OrderConsumer : 99.126µs
+OrderBookManager (Add to order): 4.852738ms
+OrderBookManager (Check for trade): 5.591498ms
+MarketDataGenrator (Passive Update): 128.767941ms
+OrderConsumer : 81.103µs
+OrderBookManager (Add to order): 3.496704ms
+OrderBookManager (Check for trade): 3.782983ms
+OrderConsumer : 118.433µs
+OrderBookManager (Add to order): 4.232579ms
+OrderBookManager (Check for trade): 11.186914ms
+MarketDataGenrator (Active Update): 6.007892ms
+OrderConsumer : 129.644µs
+OrderBookManager (Add to order): 5.142954ms
+OrderBookManager (Check for trade): 8.932348ms
+MarketDataGenrator (Active Update): 5.834676ms
+OrderConsumer : 103.615µs
+OrderBookManager (Add to order): 6.837765ms
+OrderBookManager (Check for trade): 11.221088ms
+MarketDataGenrator (Active Update): 5.637275ms
+MarketDataGenrator (Passive Update): 116.606742ms
+OrderConsumer : 134.975µs
+OrderBookManager (Add to order): 5.097338ms
+OrderBookManager (Check for trade): 9.069918ms
+MarketDataGenrator (Active Update): 6.788893ms
+OrderConsumer : 95.55µs
+OrderBookManager (Add to order): 5.042184ms
+OrderBookManager (Check for trade): 10.237086ms
+MarketDataGenrator (Active Update): 5.498854ms
+OrderConsumer : 90.36µs
+OrderBookManager (Add to order): 5.126844ms
+OrderBookManager (Check for trade): 10.34537ms
+MarketDataGenrator (Active Update): 4.651929ms
+Current memory usage (KB) : 427.1162
+MarketDataGenrator (Passive Update): 125.947059ms
+OrderConsumer : 64.882µs
+OrderBookManager (Add to order): 2.749868ms
+OrderBookManager (Check for trade): 3.324239ms
+OrderConsumer : 100.981µs
+OrderBookManager (Add to order): 3.771241ms
+OrderBookManager (Check for trade): 10.314782ms
+MarketDataGenrator (Active Update): 6.61183ms
+OrderConsumer : 107.923µs
+OrderBookManager (Add to order): 4.786452ms
+OrderBookManager (Check for trade): 8.132473ms
+MarketDataGenrator (Active Update): 3.812439ms
+MarketDataGenrator (Fetch Orders): 166.440105ms
+OrderConsumer : 88.266µs
+OrderBookManager (Add to order): 3.353845ms
+OrderBookManager (Check for trade): 7.136648ms
+MarketDataGenrator (Active Update): 4.870571ms
+MarketDataGenrator (Passive Update): 108.207667ms
+OrderConsumer : 95.7µs
+OrderBookManager (Add to order): 4.188266ms
+OrderBookManager (Check for trade): 3.289544ms
+OrderConsumer : 95.089µs
+OrderBookManager (Add to order): 2.941359ms
+OrderBookManager (Check for trade): 3.57928ms
+OrderConsumer : 85.121µs
+OrderBookManager (Add to order): 4.313502ms
+OrderBookManager (Check for trade): 8.010443ms
+MarketDataGenrator (Active Update): 6.888661ms
+OrderConsumer : 49.052µs
+OrderBookManager (Add to order): 3.299192ms
+OrderBookManager (Check for trade): 5.37453ms
+MarketDataGenrator (Active Update): 7.35563ms
+MarketDataGenrator (Passive Update): 112.063538ms
+OrderConsumer : 98.506µs
+OrderBookManager (Add to order): 5.727404ms
+OrderBookManager (Check for trade): 4.420153ms
+OrderConsumer : 56.907µs
+OrderBookManager (Add to order): 2.720663ms
+OrderBookManager (Check for trade): 4.146968ms
+Current memory usage (KB) : 426.98438
+OrderConsumer : 103.304µs
+OrderBookManager (Add to order): 4.899876ms
+OrderBookManager (Check for trade): 4.528898ms
+MarketDataGenrator (Passive Update): 128.754695ms
+OrderConsumer : 63.89µs
+OrderBookManager (Add to order): 2.982947ms
+OrderBookManager (Check for trade): 4.916277ms
+MarketDataGenrator (Active Update): 5.676629ms
+OrderConsumer : 100.039µs
+OrderBookManager (Add to order): 3.38286ms
+OrderBookManager (Check for trade): 7.736978ms
+MarketDataGenrator (Active Update): 6.414328ms
+OrderConsumer : 96.482µs
+OrderBookManager (Add to order): 4.675404ms
+OrderBookManager (Check for trade): 10.330452ms
+MarketDataGenrator (Active Update): 6.241162ms
+OrderConsumer : 98.375µs
+OrderBookManager (Add to order): 4.551149ms
+OrderBookManager (Check for trade): 9.834407ms
+MarketDataGenrator (Active Update): 6.062585ms
+MarketDataGenrator (Passive Update): 112.564862ms
+OrderConsumer : 64.151µs
+OrderBookManager (Add to order): 3.923548ms
+OrderBookManager (Check for trade): 4.372062ms
+OrderConsumer : 85.05µs
+OrderBookManager (Add to order): 5.565549ms
+OrderBookManager (Check for trade): 9.418083ms
+MarketDataGenrator (Active Update): 3.174688ms
+OrderConsumer : 71.585µs
+OrderBookManager (Add to order): 4.890157ms
+OrderBookManager (Check for trade): 4.167457ms
+OrderConsumer : 57.628µs
+OrderBookManager (Add to order): 2.992074ms
+OrderBookManager (Check for trade): 7.226316ms
+MarketDataGenrator (Active Update): 3.190548ms
+MarketDataGenrator (Passive Update): 129.735843ms
+Current memory usage (KB) : 591.65137
+MarketDataGenrator (Fetch Orders): 158.469547ms
+OrderConsumer : 116.539µs
+OrderBookManager (Add to order): 5.524462ms
+OrderBookManager (Check for trade): 8.174281ms
+MarketDataGenrator (Active Update): 4.656959ms
+OrderConsumer : 93.666µs
+OrderBookManager (Add to order): 4.45041ms
+OrderBookManager (Check for trade): 9.839517ms
+MarketDataGenrator (Active Update): 6.411593ms
+OrderConsumer : 112.612µs
+OrderBookManager (Add to order): 5.442007ms
+OrderBookManager (Check for trade): 8.990699ms
+MarketDataGenrator (Active Update): 5.687619ms
+MarketDataGenrator (Passive Update): 134.131139ms
+OrderConsumer : 81.233µs
+OrderBookManager (Add to order): 3.731857ms
+OrderBookManager (Check for trade): 3.661254ms
+OrderConsumer : 101.17µs
+OrderBookManager (Add to order): 6.203491ms
+OrderBookManager (Check for trade): 5.865044ms
+OrderConsumer : 65.423µs
+OrderBookManager (Add to order): 3.751634ms
+OrderBookManager (Check for trade): 4.364308ms
+OrderConsumer : 59.252µs
+OrderBookManager (Add to order): 3.116669ms
+OrderBookManager (Check for trade): 7.942395ms
+MarketDataGenrator (Active Update): 4.617885ms
+MarketDataGenrator (Passive Update): 110.212112ms
+OrderConsumer : 68.118µs
+OrderBookManager (Add to order): 4.093007ms
+OrderBookManager (Check for trade): 7.587787ms
+MarketDataGenrator (Active Update): 4.845123ms
+OrderConsumer : 112.813µs
+OrderBookManager (Add to order): 4.989715ms
+OrderBookManager (Check for trade): 7.881671ms
+MarketDataGenrator (Active Update): 5.026855ms
+OrderConsumer : 100.018µs
+OrderBookManager (Add to order): 4.82759ms
+OrderBookManager (Check for trade): 10.028353ms
+MarketDataGenrator (Active Update): 6.101739ms
+Current memory usage (KB) : 427.25293
+OrderConsumer : 44.393µs
+OrderBookManager (Add to order): 2.530565ms
+OrderBookManager (Check for trade): 7.402568ms
+MarketDataGenrator (Active Update): 3.508537ms
+MarketDataGenrator (Passive Update): 143.737378ms
+OrderConsumer : 67.817µs
+OrderBookManager (Add to order): 5.345906ms
+OrderBookManager (Check for trade): 7.343206ms
+MarketDataGenrator (Active Update): 3.851642ms
+OrderConsumer : 95.73µs
+OrderBookManager (Add to order): 4.786232ms
+OrderBookManager (Check for trade): 4.736278ms
+OrderConsumer : 80.242µs
+OrderBookManager (Add to order): 5.334154ms
+OrderBookManager (Check for trade): 5.503863ms
+MarketDataGenrator (Active Update): 3.631317ms
+MarketDataGenrator (Passive Update): 123.354367ms
+OrderConsumer : 114.085µs
+OrderBookManager (Add to order): 4.205018ms
+OrderBookManager (Check for trade): 10.414059ms
+MarketDataGenrator (Active Update): 6.672404ms
+OrderConsumer : 97.944µs
+OrderBookManager (Add to order): 3.886538ms
+OrderBookManager (Check for trade): 2.928514ms
+OrderConsumer : 65.113µs
+OrderBookManager (Add to order): 3.934599ms
+OrderBookManager (Check for trade): 4.793646ms
+MarketDataGenrator (Fetch Orders): 177.844899ms
+OrderConsumer : 109.326µs
+OrderBookManager (Add to order): 7.12739ms
+OrderBookManager (Check for trade): 9.886035ms
+MarketDataGenrator (Active Update): 4.332779ms
+MarketDataGenrator (Passive Update): 107.702416ms
+OrderConsumer : 106.07µs
+OrderBookManager (Add to order): 3.846112ms
+OrderBookManager (Check for trade): 7.758619ms
+MarketDataGenrator (Active Update): 5.537236ms
+OrderConsumer : 132.289µs
+OrderBookManager (Add to order): 4.39218ms
+OrderBookManager (Check for trade): 8.159073ms
+MarketDataGenrator (Active Update): 3.997697ms
+Current memory usage (KB) : 427.7627
+OrderConsumer : 57.799µs
+OrderBookManager (Add to order): 5.47534ms
+OrderBookManager (Check for trade): 7.10046ms
+MarketDataGenrator (Active Update): 3.76036ms
+MarketDataGenrator (Passive Update): 137.246896ms
+OrderConsumer : 87.364µs
+OrderBookManager (Add to order): 3.686873ms
+OrderBookManager (Check for trade): 2.698421ms
+OrderConsumer : 103.124µs
+OrderBookManager (Add to order): 4.343158ms
+OrderBookManager (Check for trade): 10.878313ms
+MarketDataGenrator (Active Update): 6.120655ms
+OrderConsumer : 102.283µs
+OrderBookManager (Add to order): 4.815928ms
+OrderBookManager (Check for trade): 9.058847ms
+MarketDataGenrator (Active Update): 6.920872ms
+OrderConsumer : 104.276µs
+OrderBookManager (Add to order): 4.118766ms
+OrderBookManager (Check for trade): 6.514736ms
+MarketDataGenrator (Active Update): 5.341387ms
+MarketDataGenrator (Passive Update): 135.934505ms
+OrderConsumer : 91.412µs
+OrderBookManager (Add to order): 3.990735ms
+OrderBookManager (Check for trade): 4.55176ms
+OrderConsumer : 101.451µs
+OrderBookManager (Add to order): 5.94819ms
+OrderBookManager (Check for trade): 16.824489ms
+MarketDataGenrator (Active Update): 5.355905ms
+OrderConsumer : 117.632µs
+OrderBookManager (Add to order): 4.207352ms
+OrderBookManager (Check for trade): 5.336759ms
+OrderConsumer : 96.502µs
+OrderBookManager (Add to order): 2.61789ms
+OrderBookManager (Check for trade): 2.589135ms
+MarketDataGenrator (Passive Update): 112.190536ms
+Current memory usage (KB) : 428.40723
+OrderConsumer : 110.217µs
+OrderBookManager (Add to order): 4.93366ms
+OrderBookManager (Check for trade): 7.411976ms
+MarketDataGenrator (Active Update): 3.737617ms
+OrderConsumer : 101.09µs
+OrderBookManager (Add to order): 5.550051ms
+OrderBookManager (Check for trade): 9.253764ms
+MarketDataGenrator (Active Update): 6.680779ms
+OrderConsumer : 186.01µs
+OrderBookManager (Add to order): 5.440063ms
+OrderBookManager (Check for trade): 8.508ms
+MarketDataGenrator (Active Update): 3.76513ms
+MarketDataGenrator (Passive Update): 114.465721ms
+OrderConsumer : 89.208µs
+OrderBookManager (Add to order): 5.18379ms
+OrderBookManager (Check for trade): 7.083127ms
+MarketDataGenrator (Active Update): 4.123875ms
+OrderConsumer : 98.655µs
+OrderBookManager (Add to order): 3.605669ms
+OrderBookManager (Check for trade): 8.807033ms
+MarketDataGenrator (Active Update): 4.193345ms
+MarketDataGenrator (Fetch Orders): 153.856331ms
+OrderConsumer : 93.276µs
+OrderBookManager (Add to order): 4.554085ms
+OrderBookManager (Check for trade): 6.093323ms
+OrderConsumer : 89.84µs
+OrderBookManager (Add to order): 4.93883ms
+OrderBookManager (Check for trade): 5.038707ms
+MarketDataGenrator (Passive Update): 107.699771ms
+OrderConsumer : 66.285µs
+OrderBookManager (Add to order): 3.439086ms
+OrderBookManager (Check for trade): 4.329201ms
+OrderConsumer : 114.626µs
+OrderBookManager (Add to order): 5.603982ms
+OrderBookManager (Check for trade): 4.978344ms
+OrderConsumer : 96.672µs
+OrderBookManager (Add to order): 5.244435ms
+OrderBookManager (Check for trade): 10.511202ms
+MarketDataGenrator (Active Update): 4.609379ms
+Current memory usage (KB) : 429.04102
+OrderConsumer : 68.8µs
+OrderBookManager (Add to order): 4.155354ms
+OrderBookManager (Check for trade): 8.824225ms
+MarketDataGenrator (Active Update): 5.827392ms
+MarketDataGenrator (Passive Update): 138.091136ms
+OrderConsumer : 95.339µs
+OrderBookManager (Add to order): 5.125311ms
+OrderBookManager (Check for trade): 9.57034ms
+MarketDataGenrator (Active Update): 3.718602ms
+OrderConsumer : 111.781µs
+OrderBookManager (Add to order): 5.420457ms
+OrderBookManager (Check for trade): 9.605476ms
+MarketDataGenrator (Active Update): 6.558189ms
+OrderConsumer : 102.763µs
+OrderBookManager (Add to order): 5.467746ms
+OrderBookManager (Check for trade): 9.090577ms
+MarketDataGenrator (Active Update): 5.701145ms
+MarketDataGenrator (Passive Update): 137.162327ms
+OrderConsumer : 101.702µs
+OrderBookManager (Add to order): 5.636824ms
+OrderBookManager (Check for trade): 4.942296ms
+OrderConsumer : 110.398µs
+OrderBookManager (Add to order): 5.175445ms
+OrderBookManager (Check for trade): 8.877766ms
+MarketDataGenrator (Active Update): 4.04689ms
+OrderConsumer : 105.459µs
+OrderBookManager (Add to order): 3.752285ms
+OrderBookManager (Check for trade): 3.249218ms
+OrderConsumer : 100.159µs
+OrderBookManager (Add to order): 5.548578ms
+OrderBookManager (Check for trade): 10.250741ms
+MarketDataGenrator (Active Update): 10.539936ms
+MarketDataGenrator (Passive Update): 130.381799ms
+OrderConsumer : 57.759µs
+OrderBookManager (Add to order): 2.696197ms
+OrderBookManager (Check for trade): 9.319968ms
+MarketDataGenrator (Active Update): 7.006021ms
+OrderConsumer : 90.371µs
+OrderBookManager (Add to order): 3.275307ms
+OrderBookManager (Check for trade): 7.092174ms
+MarketDataGenrator (Active Update): 7.051758ms
+Current memory usage (KB) : 429.04102
+OrderConsumer : 121.719µs
+OrderBookManager (Add to order): 4.950602ms
+OrderBookManager (Check for trade): 6.653208ms
+MarketDataGenrator (Active Update): 5.394738ms
+MarketDataGenrator (Fetch Orders): 160.661745ms
+OrderConsumer : 43.572µs
+OrderBookManager (Add to order): 2.058847ms
+OrderBookManager (Check for trade): 5.318174ms
+MarketDataGenrator (Active Update): 3.714804ms
+MarketDataGenrator (Passive Update): 114.419023ms
+OrderConsumer : 77.907µs
+OrderBookManager (Add to order): 6.241312ms
+OrderBookManager (Check for trade): 6.306495ms
+MarketDataGenrator (Sector Performance): 270.96608ms
+OrderConsumer : 89.909µs
+OrderBookManager (Add to order): 4.76383ms
+OrderBookManager (Check for trade): 5.337059ms
+OrderConsumer : 126.659µs
+OrderBookManager (Add to order): 6.167002ms
+OrderBookManager (Check for trade): 10.854097ms
+MarketDataGenrator (Active Update): 3.756974ms
+MarketDataGenrator (Passive Update): 125.01787ms
+OrderConsumer : 107.924µs
+OrderBookManager (Add to order): 6.087182ms
+OrderBookManager (Check for trade): 6.767011ms
+OrderConsumer : 70.323µs
+OrderBookManager (Add to order): 7.007174ms
+OrderBookManager (Check for trade): 13.402185ms
+MarketDataGenrator (Active Update): 32.982604ms
+OrderConsumer : 79.059µs
+OrderBookManager (Add to order): 3.456869ms
+OrderBookManager (Check for trade): 3.918569ms
+OrderConsumer : 147.508µs
+OrderBookManager (Add to order): 8.192766ms
+OrderBookManager (Check for trade): 7.519449ms
+MarketDataGenrator (Active Update): 5.322281ms
+MarketDataGenrator (Passive Update): 114.313935ms
+OrderConsumer : 120.937µs
+OrderBookManager (Add to order): 4.973585ms
+OrderBookManager (Check for trade): 8.807645ms
+MarketDataGenrator (Active Update): 4.357084ms
+Current memory usage (KB) : 429.79004
+OrderConsumer : 55.895µs
+OrderBookManager (Add to order): 3.198412ms
+OrderBookManager (Check for trade): 3.157565ms
+OrderConsumer : 96.582µs
+OrderBookManager (Add to order): 3.164518ms
+OrderBookManager (Check for trade): 9.357971ms
+MarketDataGenrator (Active Update): 8.386912ms
+MarketDataGenrator (Passive Update): 115.143326ms
+OrderConsumer : 54.483µs
+OrderBookManager (Add to order): 2.95274ms
+OrderBookManager (Check for trade): 2.629091ms
+OrderConsumer : 98.797µs
+OrderBookManager (Add to order): 4.87048ms
+OrderBookManager (Check for trade): 9.084155ms
+OrderConsumer : 53.12µs
+OrderBookManager (Add to order): 3.249869ms
+OrderBookManager (Check for trade): 2.805933ms
+OrderConsumer : 112.813µs
+OrderBookManager (Add to order): 3.751825ms
+OrderBookManager (Check for trade): 7.309964ms
+MarketDataGenrator (Active Update): 4.364468ms
+MarketDataGenrator (Passive Update): 109.617071ms
+OrderConsumer : 96.111µs
+OrderBookManager (Add to order): 4.507127ms
+OrderBookManager (Check for trade): 9.786958ms
+MarketDataGenrator (Active Update): 6.766922ms
+OrderConsumer : 93.216µs
+OrderBookManager (Add to order): 4.912721ms
+OrderBookManager (Check for trade): 10.527503ms
+MarketDataGenrator (Active Update): 7.428738ms
+MarketDataGenrator (Fetch Orders): 163.894461ms
+OrderConsumer : 89.919µs
+OrderBookManager (Add to order): 4.710229ms
+OrderBookManager (Check for trade): 9.648738ms
+MarketDataGenrator (Active Update): 6.175738ms
+Current memory usage (KB) : 571.3789
+OrderConsumer : 94.938µs
+OrderBookManager (Add to order): 5.3481ms
+OrderBookManager (Check for trade): 6.00674ms
+MarketDataGenrator (Active Update): 6.206767ms
+MarketDataGenrator (Passive Update): 138.296933ms
+OrderConsumer : 101.862µs
+OrderBookManager (Add to order): 4.807021ms
+OrderBookManager (Check for trade): 6.278782ms
+OrderConsumer : 128.001µs
+OrderBookManager (Add to order): 4.555107ms
+OrderBookManager (Check for trade): 9.603904ms
+MarketDataGenrator (Active Update): 6.402194ms
+OrderConsumer : 89.598µs
+OrderBookManager (Add to order): 5.981002ms
+OrderBookManager (Check for trade): 4.786343ms
+MarketDataGenrator (Passive Update): 115.030554ms
+OrderConsumer : 94.368µs
+OrderBookManager (Add to order): 3.685029ms
+OrderBookManager (Check for trade): 6.709303ms
+MarketDataGenrator (Active Update): 4.231878ms
+OrderConsumer : 99.347µs
+OrderBookManager (Add to order): 3.368854ms
+OrderBookManager (Check for trade): 6.998367ms
+MarketDataGenrator (Active Update): 4.555558ms
+OrderConsumer : 100.94µs
+OrderBookManager (Add to order): 5.388597ms
+OrderBookManager (Check for trade): 5.51823ms
+OrderConsumer : 99.697µs
+OrderBookManager (Add to order): 5.203868ms
+OrderBookManager (Check for trade): 5.365052ms
+MarketDataGenrator (Passive Update): 124.299277ms
+OrderConsumer : 100.96µs
+OrderBookManager (Add to order): 4.476419ms
+OrderBookManager (Check for trade): 7.465968ms
+MarketDataGenrator (Active Update): 4.552272ms
+OrderConsumer : 62.878µs
+OrderBookManager (Add to order): 1.753231ms
+OrderBookManager (Check for trade): 4.26962ms
+MarketDataGenrator (Active Update): 2.78277ms
+Current memory usage (KB) : 429.56738
+OrderConsumer : 99.047µs
+OrderBookManager (Add to order): 5.012879ms
+OrderBookManager (Check for trade): 4.809145ms
+OrderConsumer : 121.679µs
+OrderBookManager (Add to order): 4.372724ms
+OrderBookManager (Check for trade): 3.339097ms
+MarketDataGenrator (Passive Update): 130.757817ms
+OrderConsumer : 77.947µs
+OrderBookManager (Add to order): 4.739354ms
+OrderBookManager (Check for trade): 6.145201ms
+MarketDataGenrator (Active Update): 3.314761ms
+OrderConsumer : 95.45µs
+OrderBookManager (Add to order): 5.377716ms
+OrderBookManager (Check for trade): 9.852722ms
+MarketDataGenrator (Active Update): 6.475774ms
+OrderConsumer : 98.877µs
+OrderBookManager (Add to order): 4.817431ms
+OrderBookManager (Check for trade): 10.1333ms
+MarketDataGenrator (Active Update): 6.24584ms
+MarketDataGenrator (Passive Update): 118.893779ms
+OrderConsumer : 97.183µs
+OrderBookManager (Add to order): 4.029978ms
+OrderBookManager (Check for trade): 3.376027ms
+MarketDataGenrator (Fetch Orders): 161.487349ms
+OrderConsumer : 97.484µs
+OrderBookManager (Add to order): 4.766525ms
+OrderBookManager (Check for trade): 10.060223ms
+MarketDataGenrator (Active Update): 6.683655ms
+OrderConsumer : 97.624µs
+OrderBookManager (Add to order): 4.649465ms
+OrderBookManager (Check for trade): 10.466488ms
+MarketDataGenrator (Active Update): 5.546213ms
+OrderConsumer : 88.727µs
+OrderBookManager (Add to order): 10.439116ms
+OrderBookManager (Check for trade): 8.927049ms
+MarketDataGenrator (Active Update): 4.850443ms
+MarketDataGenrator (Passive Update): 113.988712ms
+OrderConsumer : 83.016µs
+OrderBookManager (Add to order): 5.013129ms
+OrderBookManager (Check for trade): 9.414436ms
+MarketDataGenrator (Active Update): 4.146257ms
+Current memory usage (KB) : 430.6211
+OrderConsumer : 77.897µs
+OrderBookManager (Add to order): 4.032433ms
+OrderBookManager (Check for trade): 12.008502ms
+MarketDataGenrator (Active Update): 4.019027ms
+OrderConsumer : 64.721µs
+OrderBookManager (Add to order): 3.342063ms
+OrderBookManager (Check for trade): 7.903171ms
+MarketDataGenrator (Active Update): 4.310627ms
+MarketDataGenrator (Passive Update): 115.279323ms
+OrderConsumer : 65.553µs
+OrderBookManager (Add to order): 4.382873ms
+OrderBookManager (Check for trade): 7.044234ms
+MarketDataGenrator (Active Update): 3.490623ms
+OrderConsumer : 94.829µs
+OrderBookManager (Add to order): 5.075817ms
+OrderBookManager (Check for trade): 6.406342ms
+MarketDataGenrator (Active Update): 2.988597ms
+OrderConsumer : 103.265µs
+OrderBookManager (Add to order): 4.13679ms
+OrderBookManager (Check for trade): 9.196496ms
+MarketDataGenrator (Active Update): 7.728453ms
+OrderConsumer : 105.649µs
+OrderBookManager (Add to order): 6.916574ms
+OrderBookManager (Check for trade): 8.558004ms
+MarketDataGenrator (Active Update): 3.111468ms
+MarketDataGenrator (Passive Update): 122.13987ms
+OrderConsumer : 98.685µs
+OrderBookManager (Add to order): 6.641335ms
+OrderBookManager (Check for trade): 10.035696ms
+MarketDataGenrator (Active Update): 5.394026ms
+OrderConsumer : 59.913µs
+OrderBookManager (Add to order): 4.872845ms
+OrderBookManager (Check for trade): 3.999961ms
+OrderConsumer : 85.601µs
+OrderBookManager (Add to order): 6.241522ms
+OrderBookManager (Check for trade): 5.231421ms
+Current memory usage (KB) : 563.5508
+OrderConsumer : 52.87µs
+OrderBookManager (Add to order): 2.428162ms
+OrderBookManager (Check for trade): 3.565584ms
+MarketDataGenrator (Passive Update): 111.957819ms
+OrderConsumer : 231.937µs
+OrderBookManager (Add to order): 5.946517ms
+OrderBookManager (Check for trade): 9.913126ms
+MarketDataGenrator (Active Update): 6.217657ms
+OrderConsumer : 224.463µs
+OrderBookManager (Add to order): 4.414993ms
+OrderBookManager (Check for trade): 10.539004ms
+MarketDataGenrator (Active Update): 6.420729ms
+OrderConsumer : 85.852µs
+OrderBookManager (Add to order): 4.86987ms
+OrderBookManager (Check for trade): 12.589936ms
+MarketDataGenrator (Active Update): 5.797577ms
+MarketDataGenrator (Fetch Orders): 211.107661ms
+MarketDataGenrator (Passive Update): 94.179513ms
+OrderConsumer : 105.679µs
+OrderBookManager (Add to order): 2.580358ms
+OrderBookManager (Check for trade): 7.550777ms
+MarketDataGenrator (Active Update): 4.673359ms
+OrderConsumer : 97.924µs
+OrderBookManager (Add to order): 4.005522ms
+OrderBookManager (Check for trade): 6.169848ms
+MarketDataGenrator (Active Update): 3.222938ms
+OrderConsumer : 95.019µs
+OrderBookManager (Add to order): 4.810658ms
+OrderBookManager (Check for trade): 10.908219ms
+MarketDataGenrator (Active Update): 7.348247ms
+OrderConsumer : 67.387µs
+OrderBookManager (Add to order): 4.596174ms
+OrderBookManager (Check for trade): 14.459146ms
+MarketDataGenrator (Active Update): 25.751969ms
+MarketDataGenrator (Passive Update): 104.180525ms
+OrderConsumer : 100.028µs
+OrderBookManager (Add to order): 4.006744ms
+OrderBookManager (Check for trade): 8.281874ms
+MarketDataGenrator (Active Update): 3.974824ms
+OrderConsumer : 213.282µs
+OrderBookManager (Add to order): 2.946017ms
+OrderBookManager (Check for trade): 6.917145ms
+MarketDataGenrator (Active Update): 3.824542ms
+Current memory usage (KB) : 430.22754
+OrderConsumer : 123.613µs
+OrderBookManager (Add to order): 8.000334ms
+OrderBookManager (Check for trade): 8.130278ms
+MarketDataGenrator (Active Update): 5.607188ms
+OrderConsumer : 71.084µs
+OrderBookManager (Add to order): 4.857376ms
+OrderBookManager (Check for trade): 3.192612ms
+MarketDataGenrator (Passive Update): 139.560613ms
+OrderConsumer : 98.475µs
+OrderBookManager (Add to order): 5.282286ms
+OrderBookManager (Check for trade): 5.851709ms
+OrderConsumer : 92.384µs
+OrderBookManager (Add to order): 4.805078ms
+OrderBookManager (Check for trade): 11.805309ms
+MarketDataGenrator (Active Update): 7.161776ms
+OrderConsumer : 100.9µs
+OrderBookManager (Add to order): 5.439302ms
+OrderBookManager (Check for trade): 7.756424ms
+MarketDataGenrator (Active Update): 3.702501ms
+MarketDataGenrator (Passive Update): 118.137294ms
+OrderConsumer : 176.964µs
+OrderBookManager (Add to order): 4.973595ms
+OrderBookManager (Check for trade): 9.122297ms
+MarketDataGenrator (Active Update): 6.761862ms
+OrderConsumer : 95.059µs
+OrderBookManager (Add to order): 3.523093ms
+OrderBookManager (Check for trade): 8.894709ms
+MarketDataGenrator (Active Update): 3.302829ms
+OrderConsumer : 104.957µs
+OrderBookManager (Add to order): 4.890859ms
+OrderBookManager (Check for trade): 4.590514ms
+OrderConsumer : 116.91µs
+OrderBookManager (Add to order): 4.294747ms
+OrderBookManager (Check for trade): 10.251202ms
+MarketDataGenrator (Active Update): 3.423255ms
+MarketDataGenrator (Passive Update): 135.282878ms
+OrderConsumer : 89.428µs
+OrderBookManager (Add to order): 4.071536ms
+OrderBookManager (Check for trade): 4.258388ms
+Current memory usage (KB) : 430.70313
+MarketDataGenrator (Fetch Orders): 177.429046ms
+OrderConsumer : 72.496µs
+OrderBookManager (Add to order): 2.521598ms
+OrderBookManager (Check for trade): 2.617148ms
+OrderConsumer : 88.747µs
+OrderBookManager (Add to order): 4.702113ms
+OrderBookManager (Check for trade): 5.77786ms
+OrderConsumer : 61.926µs
+MarketDataGenrator (Passive Update): 136.438383ms
+OrderBookManager (Add to order): 5.281134ms
+OrderBookManager (Check for trade): 4.739895ms
+MarketDataGenrator (Active Update): 4.064763ms
+OrderConsumer : 89.639µs
+OrderBookManager (Add to order): 4.362775ms
+OrderBookManager (Check for trade): 4.734274ms
+OrderConsumer : 105.989µs
+OrderBookManager (Add to order): 6.847794ms
+OrderBookManager (Check for trade): 8.069765ms
+MarketDataGenrator (Active Update): 4.525261ms
+OrderConsumer : 86.022µs
+OrderBookManager (Add to order): 4.639576ms
+OrderBookManager (Check for trade): 8.059516ms
+MarketDataGenrator (Active Update): 6.077243ms
+MarketDataGenrator (Passive Update): 109.225223ms
+OrderConsumer : 94.919µs
+OrderBookManager (Add to order): 5.303516ms
+OrderBookManager (Check for trade): 10.301086ms
+MarketDataGenrator (Active Update): 4.050326ms
+OrderConsumer : 95.41µs
+OrderBookManager (Add to order): 5.048356ms
+OrderBookManager (Check for trade): 11.165013ms
+MarketDataGenrator (Active Update): 8.153483ms
+OrderConsumer : 125.526µs
+OrderBookManager (Add to order): 4.913151ms
+OrderBookManager (Check for trade): 5.333522ms
+OrderConsumer : 84.88µs
+OrderBookManager (Add to order): 3.760561ms
+OrderBookManager (Check for trade): 5.426708ms
+Current memory usage (KB) : 525.60254
+MarketDataGenrator (Passive Update): 132.423013ms
+OrderConsumer : 95.069µs
+OrderBookManager (Add to order): 3.560825ms
+OrderBookManager (Check for trade): 5.927361ms
+OrderConsumer : 70.643µs
+OrderBookManager (Add to order): 2.531506ms
+OrderBookManager (Check for trade): 2.904679ms
+OrderConsumer : 89.92µs
+OrderBookManager (Add to order): 4.377452ms
+OrderBookManager (Check for trade): 7.373013ms
+MarketDataGenrator (Active Update): 4.935413ms
+MarketDataGenrator (Passive Update): 122.383079ms
+OrderConsumer : 123.012µs
+OrderBookManager (Add to order): 3.732718ms
+OrderBookManager (Check for trade): 8.268479ms
+MarketDataGenrator (Active Update): 4.050116ms
+OrderConsumer : 100.489µs
+OrderBookManager (Add to order): 6.005949ms
+OrderBookManager (Check for trade): 5.856597ms
+OrderConsumer : 149.642µs
+OrderBookManager (Add to order): 4.297291ms
+OrderBookManager (Check for trade): 10.323688ms
+MarketDataGenrator (Active Update): 5.641422ms
+OrderConsumer : 113.263µs
+OrderBookManager (Add to order): 5.581158ms
+OrderBookManager (Check for trade): 8.230267ms
+MarketDataGenrator (Active Update): 7.140335ms
+MarketDataGenrator (Passive Update): 106.449076ms
+MarketDataGenrator (Fetch Orders): 120.156096ms
+OrderConsumer : 84.419µs
+OrderBookManager (Add to order): 3.456188ms
+OrderBookManager (Check for trade): 4.159792ms
+OrderConsumer : 99.597µs
+OrderBookManager (Add to order): 4.49842ms
+OrderBookManager (Check for trade): 7.773828ms
+MarketDataGenrator (Active Update): 5.57129ms
+Current memory usage (KB) : 431.53027
+OrderConsumer : 229.351µs
+OrderBookManager (Add to order): 7.000422ms
+OrderBookManager (Check for trade): 4.381249ms
+OrderConsumer : 62.578µs
+OrderBookManager (Add to order): 4.040147ms
+OrderBookManager (Check for trade): 7.209485ms
+MarketDataGenrator (Active Update): 5.217725ms
+MarketDataGenrator (Passive Update): 131.791023ms
+OrderConsumer : 96.942µs
+OrderBookManager (Add to order): 5.400649ms
+OrderBookManager (Check for trade): 5.079564ms
+OrderConsumer : 98.355µs
+OrderBookManager (Add to order): 5.195442ms
+OrderBookManager (Check for trade): 10.388682ms
+MarketDataGenrator (Active Update): 6.337994ms
+OrderConsumer : 102.002µs
+OrderBookManager (Add to order): 5.505948ms
+OrderBookManager (Check for trade): 9.148876ms
+MarketDataGenrator (Active Update): 6.298099ms
+MarketDataGenrator (Passive Update): 132.560613ms
+OrderConsumer : 99.608µs
+OrderBookManager (Add to order): 5.490228ms
+OrderBookManager (Check for trade): 5.339434ms
+OrderConsumer : 96.332µs
+OrderBookManager (Add to order): 5.596919ms
+OrderBookManager (Check for trade): 9.892377ms
+MarketDataGenrator (Active Update): 6.456607ms
+OrderConsumer : 86.894µs
+OrderBookManager (Add to order): 4.761746ms
+OrderBookManager (Check for trade): 8.966974ms
+MarketDataGenrator (Active Update): 7.097724ms
+OrderConsumer : 98.866µs
+OrderBookManager (Add to order): 5.18324ms
+OrderBookManager (Check for trade): 5.360393ms
+MarketDataGenrator (Passive Update): 131.505907ms
+OrderConsumer : 103.034µs
+OrderBookManager (Add to order): 4.646619ms
+OrderBookManager (Check for trade): 6.071442ms
+Current memory usage (KB) : 432.00586
+OrderConsumer : 96.322µs
+OrderBookManager (Add to order): 5.271025ms
+OrderBookManager (Check for trade): 11.583811ms
+MarketDataGenrator (Active Update): 4.032412ms
+OrderConsumer : 103.224µs
+OrderBookManager (Add to order): 4.719897ms
+OrderBookManager (Check for trade): 9.85201ms
+MarketDataGenrator (Active Update): 6.008123ms
+OrderConsumer : 98.155µs
+OrderBookManager (Add to order): 3.240853ms
+OrderBookManager (Check for trade): 5.031845ms
+MarketDataGenrator (Passive Update): 121.58207ms
+OrderConsumer : 100.068µs
+OrderBookManager (Add to order): 4.885669ms
+OrderBookManager (Check for trade): 10.588858ms
+MarketDataGenrator (Active Update): 6.790777ms
+OrderConsumer : 80.942µs
+OrderBookManager (Add to order): 5.962357ms
+OrderBookManager (Check for trade): 8.28008ms
+MarketDataGenrator (Active Update): 5.690144ms
+MarketDataGenrator (Fetch Orders): 164.581164ms
+OrderConsumer : 94.398µs
+OrderBookManager (Add to order): 4.687246ms
+OrderBookManager (Check for trade): 5.31047ms
+MarketDataGenrator (Passive Update): 117.491017ms
+OrderConsumer : 110.958µs
+OrderBookManager (Add to order): 4.873497ms
+OrderBookManager (Check for trade): 8.24772ms
+MarketDataGenrator (Active Update): 4.735476ms
+OrderConsumer : 61.425µs
+OrderBookManager (Add to order): 5.274021ms
+OrderBookManager (Check for trade): 7.120448ms
+MarketDataGenrator (Active Update): 3.319821ms
+OrderConsumer : 97.033µs
+OrderBookManager (Add to order): 5.680957ms
+OrderBookManager (Check for trade): 10.461929ms
+MarketDataGenrator (Active Update): 7.141477ms
+OrderConsumer : 95.931µs
+OrderBookManager (Add to order): 6.195966ms
+OrderBookManager (Check for trade): 10.507094ms
+MarketDataGenrator (Active Update): 3.929068ms
+Current memory usage (KB) : 519.1719
+MarketDataGenrator (Passive Update): 121.376854ms
+OrderConsumer : 88.256µs
+OrderBookManager (Add to order): 7.280489ms
+OrderBookManager (Check for trade): 7.512756ms
+MarketDataGenrator (Active Update): 4.04695ms
+OrderConsumer : 93.176µs
+OrderBookManager (Add to order): 4.292813ms
+OrderBookManager (Check for trade): 8.221551ms
+MarketDataGenrator (Active Update): 3.884565ms
+OrderConsumer : 130.716µs
+OrderBookManager (Add to order): 5.376664ms
+OrderBookManager (Check for trade): 9.732917ms
+MarketDataGenrator (Active Update): 5.681578ms
+OrderConsumer : 77.636µs
+OrderBookManager (Add to order): 4.654464ms
+OrderBookManager (Check for trade): 4.632913ms
+MarketDataGenrator (Active Update): 3.577957ms
+MarketDataGenrator (Passive Update): 144.160604ms
+OrderConsumer : 176.101µs
+OrderBookManager (Add to order): 3.431141ms
+OrderBookManager (Check for trade): 3.734221ms
+OrderConsumer : 99.878µs
+OrderBookManager (Add to order): 4.932698ms
+OrderBookManager (Check for trade): 9.873491ms
+MarketDataGenrator (Active Update): 6.270206ms
+OrderConsumer : 98.826µs
+OrderBookManager (Add to order): 5.112035ms
+OrderBookManager (Check for trade): 10.332205ms
+MarketDataGenrator (Active Update): 6.147715ms
+MarketDataGenrator (Passive Update): 128.417632ms
+OrderConsumer : 127.63µs
+OrderBookManager (Add to order): 5.504625ms
+OrderBookManager (Check for trade): 10.395193ms
+MarketDataGenrator (Active Update): 6.424938ms
+OrderConsumer : 103.224µs
+OrderBookManager (Add to order): 4.568643ms
+OrderBookManager (Check for trade): 10.58997ms
+MarketDataGenrator (Active Update): 4.051809ms
+Current memory usage (KB) : 432.04102
+OrderConsumer : 96.341µs
+OrderBookManager (Add to order): 4.823433ms
+OrderBookManager (Check for trade): 5.074515ms
+OrderConsumer : 100.599µs
+OrderBookManager (Add to order): 7.258196ms
+OrderBookManager (Check for trade): 13.404039ms
+MarketDataGenrator (Active Update): 5.228114ms
+MarketDataGenrator (Passive Update): 117.571138ms
+MarketDataGenrator (Fetch Orders): 131.312763ms
+OrderConsumer : 87.114µs
+OrderBookManager (Add to order): 2.948562ms
+OrderBookManager (Check for trade): 6.668746ms
+MarketDataGenrator (Active Update): 5.343742ms
+OrderConsumer : 67.417µs
+OrderBookManager (Add to order): 4.331957ms
+OrderBookManager (Check for trade): 7.114025ms
+MarketDataGenrator (Active Update): 5.35904ms
+OrderConsumer : 97.604µs
+OrderBookManager (Add to order): 3.659731ms
+OrderBookManager (Check for trade): 10.417796ms
+MarketDataGenrator (Active Update): 7.095681ms
+MarketDataGenrator (Passive Update): 118.887237ms
+OrderConsumer : 65.143µs
+OrderBookManager (Add to order): 3.071003ms
+OrderBookManager (Check for trade): 3.943766ms
+OrderConsumer : 109.597µs
+OrderBookManager (Add to order): 4.824314ms
+OrderBookManager (Check for trade): 10.910364ms
+MarketDataGenrator (Active Update): 5.342048ms
+OrderConsumer : 92.765µs
+OrderBookManager (Add to order): 4.470187ms
+OrderBookManager (Check for trade): 5.423632ms
+OrderConsumer : 96.571µs
+OrderBookManager (Add to order): 4.526624ms
+OrderBookManager (Check for trade): 9.615105ms
+MarketDataGenrator (Active Update): 6.895825ms
+MarketDataGenrator (Passive Update): 132.606629ms
+OrderConsumer : 100.078µs
+OrderBookManager (Add to order): 6.340649ms
+OrderBookManager (Check for trade): 10.618654ms
+MarketDataGenrator (Active Update): 5.440424ms
+Current memory usage (KB) : 436.0166
+OrderConsumer : 157.186µs
+OrderBookManager (Add to order): 5.551944ms
+OrderBookManager (Check for trade): 5.502341ms
+OrderConsumer : 100.64µs
+OrderBookManager (Add to order): 5.567253ms
+OrderBookManager (Check for trade): 5.107316ms
+OrderConsumer : 70.152µs
+OrderBookManager (Add to order): 3.163467ms
+OrderBookManager (Check for trade): 6.323587ms
+MarketDataGenrator (Active Update): 6.993979ms
+MarketDataGenrator (Passive Update): 116.10107ms
+OrderConsumer : 56.346µs
+OrderBookManager (Add to order): 3.092062ms
+OrderBookManager (Check for trade): 7.140595ms
+MarketDataGenrator (Active Update): 8.155657ms
+OrderConsumer : 130.736µs
+OrderBookManager (Add to order): 5.338041ms
+OrderBookManager (Check for trade): 9.032547ms
+MarketDataGenrator (Active Update): 7.125066ms
+OrderConsumer : 90.771µs
+OrderBookManager (Add to order): 4.248429ms
+OrderBookManager (Check for trade): 10.392599ms
+MarketDataGenrator (Active Update): 6.380294ms
+MarketDataGenrator (Passive Update): 107.801313ms
+OrderConsumer : 58.59µs
+OrderBookManager (Add to order): 3.27714ms
+OrderBookManager (Check for trade): 7.347816ms
+MarketDataGenrator (Active Update): 3.792201ms
+OrderConsumer : 93.456µs
+OrderBookManager (Add to order): 4.362033ms
+OrderBookManager (Check for trade): 5.16208ms
+OrderConsumer : 92.635µs
+OrderBookManager (Add to order): 4.747338ms
+OrderBookManager (Check for trade): 9.010366ms
+MarketDataGenrator (Active Update): 6.8669ms
+MarketDataGenrator (Fetch Orders): 178.386559ms
+OrderConsumer : 87.585µs
+OrderBookManager (Add to order): 3.386737ms
+OrderBookManager (Check for trade): 8.393365ms
+MarketDataGenrator (Active Update): 7.784889ms
+Current memory usage (KB) : 486.86133
+MarketDataGenrator (Passive Update): 88.140552ms
+OrderConsumer : 103.735µs
+OrderBookManager (Add to order): 5.523651ms
+OrderBookManager (Check for trade): 8.734407ms
+MarketDataGenrator (Active Update): 7.870771ms
+OrderConsumer : 69.29µs
+OrderBookManager (Add to order): 4.133834ms
+OrderBookManager (Check for trade): 3.973131ms
+OrderConsumer : 98.075µs
+OrderBookManager (Add to order): 4.312891ms
+OrderBookManager (Check for trade): 10.486816ms
+MarketDataGenrator (Active Update): 6.088575ms
+OrderConsumer : 59.513µs
+OrderBookManager (Add to order): 3.83417ms
+OrderBookManager (Check for trade): 2.462147ms
+MarketDataGenrator (Passive Update): 143.237837ms
+OrderConsumer : 100.289µs
+OrderBookManager (Add to order): 5.388857ms
+OrderBookManager (Check for trade): 5.607759ms
+OrderConsumer : 84.459µs
+OrderBookManager (Add to order): 4.721741ms
+OrderBookManager (Check for trade): 9.063235ms
+MarketDataGenrator (Active Update): 6.903499ms
+OrderConsumer : 103.625µs
+OrderBookManager (Add to order): 5.42752ms
+OrderBookManager (Check for trade): 4.78467ms
+MarketDataGenrator (Passive Update): 141.515493ms
+OrderConsumer : 101.501µs
+OrderBookManager (Add to order): 5.897845ms
+OrderBookManager (Check for trade): 4.181373ms
+OrderConsumer : 97.663µs
+OrderBookManager (Add to order): 4.085613ms
+OrderBookManager (Check for trade): 10.626769ms
+MarketDataGenrator (Active Update): 8.747371ms
+OrderConsumer : 102.443µs
+OrderBookManager (Add to order): 5.448479ms
+Current memory usage (KB) : 437.6875
+OrderBookManager (Check for trade): 9.635063ms
+MarketDataGenrator (Active Update): 6.047077ms
+OrderConsumer : 110.648µs
+OrderBookManager (Add to order): 4.911859ms
+OrderBookManager (Check for trade): 10.040054ms
+MarketDataGenrator (Passive Update): 108.041805ms
+OrderConsumer : 102.703µs
+OrderBookManager (Add to order): 5.486391ms
+OrderBookManager (Check for trade): 5.247982ms
+OrderConsumer : 99.007µs
+OrderBookManager (Add to order): 5.320758ms
+OrderBookManager (Check for trade): 4.895238ms
+OrderConsumer : 107.653µs
+OrderBookManager (Add to order): 5.297184ms
+OrderBookManager (Check for trade): 10.420702ms
+MarketDataGenrator (Active Update): 6.189594ms
+MarketDataGenrator (Passive Update): 118.25771ms
+OrderConsumer : 70.162µs
+OrderBookManager (Add to order): 3.714605ms
+OrderBookManager (Check for trade): 3.23418ms
+OrderConsumer : 49.553µs
+OrderBookManager (Add to order): 4.033865ms
+OrderBookManager (Check for trade): 7.002354ms
+MarketDataGenrator (Active Update): 3.496404ms
+MarketDataGenrator (Fetch Orders): 142.147463ms
+OrderConsumer : 66.255µs
+OrderBookManager (Add to order): 6.677744ms
+OrderBookManager (Check for trade): 7.072588ms
+MarketDataGenrator (Active Update): 5.74622ms
+OrderConsumer : 93.095µs
+OrderBookManager (Add to order): 4.6414ms
+OrderBookManager (Check for trade): 10.413989ms
+MarketDataGenrator (Active Update): 7.909513ms
+MarketDataGenrator (Passive Update): 102.225203ms
+OrderConsumer : 101.361µs
+OrderBookManager (Add to order): 5.777829ms
+OrderBookManager (Check for trade): 10.433235ms
+MarketDataGenrator (Active Update): 5.930116ms
+Current memory usage (KB) : 437.93945
+OrderConsumer : 98.876µs
+OrderBookManager (Add to order): 5.304969ms
+OrderBookManager (Check for trade): 10.57936ms
+MarketDataGenrator (Active Update): 5.945776ms
+OrderConsumer : 93.636µs
+OrderBookManager (Add to order): 4.603278ms
+OrderBookManager (Check for trade): 9.162122ms
+MarketDataGenrator (Active Update): 6.733519ms
+OrderConsumer : 58.641µs
+OrderBookManager (Add to order): 7.21721ms
+OrderBookManager (Check for trade): 14.408951ms
+MarketDataGenrator (Active Update): 9.123219ms
+MarketDataGenrator (Passive Update): 193.331891ms
+OrderConsumer : 108.434µs
+OrderBookManager (Add to order): 4.862295ms
+OrderBookManager (Check for trade): 7.888503ms
+MarketDataGenrator (Active Update): 5.916911ms
+OrderConsumer : 107.572µs
+OrderBookManager (Add to order): 4.143662ms
+OrderBookManager (Check for trade): 5.290983ms
+OrderConsumer : 90.972µs
+OrderBookManager (Add to order): 4.856003ms
+OrderBookManager (Check for trade): 9.229579ms
+MarketDataGenrator (Active Update): 6.722187ms
+OrderConsumer : 89.889µs
+OrderBookManager (Add to order): 5.45408ms
+OrderBookManager (Check for trade): 6.07556ms
+MarketDataGenrator (Active Update): 3.066063ms
+MarketDataGenrator (Passive Update): 147.101893ms
+OrderConsumer : 74.39µs
+OrderBookManager (Add to order): 2.657594ms
+OrderBookManager (Check for trade): 4.226519ms
+OrderConsumer : 97.274µs
+OrderBookManager (Add to order): 5.735019ms
+OrderBookManager (Check for trade): 10.536399ms
+MarketDataGenrator (Active Update): 5.936508ms
+OrderConsumer : 105.067µs
+OrderBookManager (Add to order): 5.135901ms
+OrderBookManager (Check for trade): 9.147915ms
+MarketDataGenrator (Active Update): 6.609696ms
+Current memory usage (KB) : 571.6035
+MarketDataGenrator (Passive Update): 124.318162ms
+OrderConsumer : 102.874µs
+OrderBookManager (Add to order): 5.81537ms
+OrderBookManager (Check for trade): 5.1353ms
+OrderConsumer : 103.896µs
+OrderBookManager (Add to order): 6.205595ms
+OrderBookManager (Check for trade): 9.58585ms
+MarketDataGenrator (Active Update): 4.053292ms
+OrderConsumer : 111.279µs
+OrderBookManager (Add to order): 5.206583ms
+OrderBookManager (Check for trade): 9.817215ms
+MarketDataGenrator (Active Update): 6.393839ms
+MarketDataGenrator (Fetch Orders): 147.995756ms
+OrderConsumer : 101.311µs
+OrderBookManager (Add to order): 5.241019ms
+OrderBookManager (Check for trade): 10.691722ms
+MarketDataGenrator (Active Update): 4.108867ms
+MarketDataGenrator (Passive Update): 100.603339ms
+OrderConsumer : 105.178µs
+OrderBookManager (Add to order): 5.572162ms
+OrderBookManager (Check for trade): 5.260274ms
+OrderConsumer : 90.2µs
+OrderBookManager (Add to order): 4.418009ms
+OrderBookManager (Check for trade): 10.17553ms
+MarketDataGenrator (Active Update): 5.532898ms
+OrderConsumer : 113.313µs
+OrderBookManager (Add to order): 5.064135ms
+OrderBookManager (Check for trade): 10.590561ms
+MarketDataGenrator (Active Update): 6.658177ms
+MarketDataGenrator (Passive Update): 135.286365ms
+OrderConsumer : 80.632µs
+OrderBookManager (Add to order): 3.374895ms
+OrderBookManager (Check for trade): 4.544066ms
+OrderConsumer : 96.271µs
+OrderBookManager (Add to order): 5.197075ms
+OrderBookManager (Check for trade): 4.016693ms
+OrderConsumer : 161.985µs
+OrderBookManager (Add to order): 3.364615ms
+OrderBookManager (Check for trade): 7.563131ms
+MarketDataGenrator (Active Update): 4.601744ms
+Current memory usage (KB) : 438.39063
+OrderConsumer : 87.044µs
+OrderBookManager (Add to order): 3.814763ms
+OrderBookManager (Check for trade): 5.185203ms
+MarketDataGenrator (Passive Update): 141.165174ms
+OrderConsumer : 65.544µs
+OrderBookManager (Add to order): 2.733296ms
+OrderBookManager (Check for trade): 5.878749ms
+MarketDataGenrator (Active Update): 3.300915ms
+OrderConsumer : 121.659µs
+OrderBookManager (Add to order): 4.542313ms
+OrderBookManager (Check for trade): 5.743815ms
+OrderConsumer : 96.963µs
+OrderBookManager (Add to order): 4.034537ms
+OrderBookManager (Check for trade): 5.194801ms
+OrderConsumer : 139.924µs
+OrderBookManager (Add to order): 5.754846ms
+OrderBookManager (Check for trade): 9.143016ms
+MarketDataGenrator (Active Update): 5.671649ms
+MarketDataGenrator (Passive Update): 111.1038ms
+OrderConsumer : 95.801µs
+OrderBookManager (Add to order): 4.119437ms
+OrderBookManager (Check for trade): 10.125736ms
+MarketDataGenrator (Active Update): 5.617467ms
+OrderConsumer : 114.426µs
+OrderBookManager (Add to order): 5.098471ms
+OrderBookManager (Check for trade): 9.571062ms
+MarketDataGenrator (Active Update): 4.065935ms
+OrderConsumer : 104.907µs
+OrderBookManager (Add to order): 4.867485ms
+OrderBookManager (Check for trade): 9.370354ms
+MarketDataGenrator (Active Update): 6.546317ms
+MarketDataGenrator (Passive Update): 141.012827ms
+OrderConsumer : 115.758µs
+OrderBookManager (Add to order): 4.496687ms
+OrderBookManager (Check for trade): 7.632271ms
+MarketDataGenrator (Active Update): 4.420684ms
+Current memory usage (KB) : 438.88867
+OrderConsumer : 106.421µs
+OrderBookManager (Add to order): 6.263053ms
+OrderBookManager (Check for trade): 11.393934ms
+MarketDataGenrator (Active Update): 3.786309ms
+MarketDataGenrator (Fetch Orders): 144.927839ms
+OrderConsumer : 101.962µs
+OrderBookManager (Add to order): 5.10943ms
+OrderBookManager (Check for trade): 6.417794ms
+OrderConsumer : 115.307µs
+OrderBookManager (Add to order): 5.986381ms
+OrderBookManager (Check for trade): 4.435592ms
+MarketDataGenrator (Passive Update): 112.202389ms
+OrderConsumer : 101.811µs
+OrderBookManager (Add to order): 4.735888ms
+OrderBookManager (Check for trade): 10.902479ms
+MarketDataGenrator (Active Update): 6.644701ms
+OrderConsumer : 120.356µs
+OrderBookManager (Add to order): 5.694122ms
+OrderBookManager (Check for trade): 4.91788ms
+OrderConsumer : 101.982µs
+OrderBookManager (Add to order): 4.549677ms
+OrderBookManager (Check for trade): 5.336689ms
+OrderConsumer : 112.662µs
+OrderBookManager (Add to order): 5.29483ms
+OrderBookManager (Check for trade): 6.197419ms
+MarketDataGenrator (Active Update): 4.526113ms
+MarketDataGenrator (Passive Update): 128.154126ms
+OrderConsumer : 93.396µs
+OrderBookManager (Add to order): 6.007532ms
+OrderBookManager (Check for trade): 8.183689ms
+MarketDataGenrator (Active Update): 3.327877ms
+OrderConsumer : 91.762µs
+OrderBookManager (Add to order): 4.431354ms
+OrderBookManager (Check for trade): 9.665118ms
+MarketDataGenrator (Active Update): 6.71279ms
+OrderConsumer : 97.293µs
+OrderBookManager (Add to order): 5.375622ms
+OrderBookManager (Check for trade): 10.52046ms
+MarketDataGenrator (Active Update): 6.170639ms
+Current memory usage (KB) : 574.0703
+MarketDataGenrator (Passive Update): 142.631986ms
+OrderConsumer : 110.037µs
+OrderBookManager (Add to order): 5.019641ms
+OrderBookManager (Check for trade): 5.159746ms
+OrderConsumer : 88.276µs
+OrderBookManager (Add to order): 4.905166ms
+OrderBookManager (Check for trade): 9.76118ms
+MarketDataGenrator (Active Update): 3.932615ms
+OrderConsumer : 106.971µs
+OrderBookManager (Add to order): 5.346036ms
+OrderBookManager (Check for trade): 10.134643ms
+MarketDataGenrator (Active Update): 6.109534ms
+OrderConsumer : 69.671µs
+OrderBookManager (Add to order): 3.98302ms
+OrderBookManager (Check for trade): 7.423818ms
+MarketDataGenrator (Active Update): 5.315639ms
+MarketDataGenrator (Sector Performance): 254.955282ms
+OrderConsumer : 92.514µs
+OrderBookManager (Add to order): 5.335757ms
+OrderBookManager (Check for trade): 4.773518ms
+MarketDataGenrator (Passive Update): 406.714976ms
+OrderConsumer : 99.216µs
+OrderBookManager (Add to order): 5.022377ms
+OrderBookManager (Check for trade): 10.339379ms
+MarketDataGenrator (Active Update): 6.398277ms
+OrderConsumer : 126.809µs
+OrderBookManager (Add to order): 5.260305ms
+OrderBookManager (Check for trade): 5.138405ms
+OrderConsumer : 442.684µs
+OrderBookManager (Add to order): 4.290478ms
+OrderBookManager (Check for trade): 4.203625ms
+MarketDataGenrator (Fetch Orders): 157.071675ms
+OrderConsumer : 52.89µs
+OrderBookManager (Add to order): 3.301196ms
+OrderBookManager (Check for trade): 6.496903ms
+MarketDataGenrator (Active Update): 3.86662ms
+MarketDataGenrator (Passive Update): 105.795936ms
+OrderConsumer : 103.495µs
+OrderBookManager (Add to order): 5.08775ms
+OrderBookManager (Check for trade): 10.623914ms
+MarketDataGenrator (Active Update): 5.520595ms
+Current memory usage (KB) : 438.50488
+OrderConsumer : 91.813µs
+OrderBookManager (Add to order): 3.626228ms
+OrderBookManager (Check for trade): 5.074445ms
+OrderConsumer : 63.971µs
+OrderBookManager (Add to order): 4.13741ms
+OrderBookManager (Check for trade): 4.569925ms
+MarketDataGenrator (Passive Update): 110.684972ms
+OrderConsumer : 91.372µs
+OrderBookManager (Add to order): 3.663218ms
+OrderBookManager (Check for trade): 10.317507ms
+MarketDataGenrator (Active Update): 4.027113ms
+OrderConsumer : 91.171µs
+OrderBookManager (Add to order): 5.760677ms
+OrderBookManager (Check for trade): 4.344851ms
+OrderConsumer : 65.083µs
+OrderBookManager (Add to order): 4.238731ms
+OrderBookManager (Check for trade): 7.702894ms
+MarketDataGenrator (Active Update): 4.133643ms
+OrderConsumer : 118.893µs
+OrderBookManager (Add to order): 5.827493ms
+OrderBookManager (Check for trade): 9.369723ms
+MarketDataGenrator (Active Update): 4.213053ms
+MarketDataGenrator (Passive Update): 127.764181ms
+OrderConsumer : 98.836µs
+OrderBookManager (Add to order): 5.076689ms
+OrderBookManager (Check for trade): 9.421721ms
+MarketDataGenrator (Active Update): 5.518311ms
+OrderConsumer : 96.101µs
+OrderBookManager (Add to order): 4.859199ms
+OrderBookManager (Check for trade): 5.928543ms
+OrderConsumer : 65.714µs
+OrderBookManager (Add to order): 4.340994ms
+OrderBookManager (Check for trade): 5.367747ms
+MarketDataGenrator (Passive Update): 108.201376ms
+Current memory usage (KB) : 438.64453
+OrderConsumer : 124.735µs
+OrderBookManager (Add to order): 4.329823ms
+OrderBookManager (Check for trade): 3.302319ms
+OrderConsumer : 92.885µs
+OrderBookManager (Add to order): 4.908563ms
+OrderBookManager (Check for trade): 4.452254ms
+OrderConsumer : 59.962µs
+OrderBookManager (Add to order): 4.816229ms
+OrderBookManager (Check for trade): 9.204962ms
+MarketDataGenrator (Active Update): 6.218108ms
+OrderConsumer : 58.671µs
+OrderBookManager (Add to order): 3.240942ms
+OrderBookManager (Check for trade): 5.434833ms
+MarketDataGenrator (Active Update): 3.456128ms
+MarketDataGenrator (Passive Update): 117.709178ms
+OrderConsumer : 95.189µs
+OrderBookManager (Add to order): 2.577934ms
+OrderBookManager (Check for trade): 3.254358ms
+MarketDataGenrator (Fetch Orders): 157.633663ms
+OrderConsumer : 72.807µs
+OrderBookManager (Add to order): 3.279896ms
+OrderBookManager (Check for trade): 3.102412ms
+OrderConsumer : 100.47µs
+OrderBookManager (Add to order): 5.567323ms
+OrderBookManager (Check for trade): 10.960188ms
+MarketDataGenrator (Active Update): 5.91651ms
+OrderConsumer : 98.936µs
+OrderBookManager (Add to order): 4.963075ms
+OrderBookManager (Check for trade): 7.765892ms
+MarketDataGenrator (Active Update): 3.476245ms
+MarketDataGenrator (Passive Update): 125.791286ms
+OrderConsumer : 97.273µs
+OrderBookManager (Add to order): 6.687713ms
+OrderBookManager (Check for trade): 7.272203ms
+OrderConsumer : 91.392µs
+OrderBookManager (Add to order): 5.016536ms
+OrderBookManager (Check for trade): 10.369575ms
+MarketDataGenrator (Active Update): 5.957748ms
+Current memory usage (KB) : 439.22656
+OrderConsumer : 105.489µs
+OrderBookManager (Add to order): 4.368836ms
+OrderBookManager (Check for trade): 4.957655ms
+MarketDataGenrator (Passive Update): 144.084421ms
+OrderConsumer : 98.585µs
+OrderBookManager (Add to order): 4.42935ms
+OrderBookManager (Check for trade): 3.073407ms
+OrderConsumer : 104.266µs
+OrderBookManager (Add to order): 5.400198ms
+OrderBookManager (Check for trade): 6.143528ms
+OrderConsumer : 53.761µs
+OrderBookManager (Add to order): 3.687995ms
+OrderBookManager (Check for trade): 8.91158ms
+MarketDataGenrator (Active Update): 4.012685ms
+OrderConsumer : 99.167µs
+OrderBookManager (Add to order): 5.506519ms
+OrderBookManager (Check for trade): 9.531447ms
+MarketDataGenrator (Active Update): 6.861009ms
+MarketDataGenrator (Passive Update): 106.019317ms
+OrderConsumer : 126.748µs
+OrderBookManager (Add to order): 5.455202ms
+OrderBookManager (Check for trade): 5.593212ms
+OrderConsumer : 97.533µs
+OrderBookManager (Add to order): 4.280721ms
+OrderBookManager (Check for trade): 10.768085ms
+MarketDataGenrator (Active Update): 7.274878ms
+OrderConsumer : 96.372µs
+OrderBookManager (Add to order): 4.122963ms
+OrderBookManager (Check for trade): 9.184463ms
+MarketDataGenrator (Active Update): 5.138716ms
+OrderConsumer : 70.913µs
+OrderBookManager (Add to order): 3.711008ms
+OrderBookManager (Check for trade): 5.648797ms
+MarketDataGenrator (Active Update): 5.614743ms
+MarketDataGenrator (Passive Update): 127.712193ms
+OrderConsumer : 94.438µs
+OrderBookManager (Add to order): 3.481616ms
+OrderBookManager (Check for trade): 7.742649ms
+MarketDataGenrator (Active Update): 6.934367ms
+Current memory usage (KB) : 439.68164
+OrderConsumer : 92.704µs
+OrderBookManager (Add to order): 4.870872ms
+OrderBookManager (Check for trade): 10.423897ms
+MarketDataGenrator (Active Update): 6.073716ms
+OrderConsumer : 101.622µs
+OrderBookManager (Add to order): 3.634944ms
+OrderBookManager (Check for trade): 8.163742ms
+MarketDataGenrator (Active Update): 4.790019ms
+MarketDataGenrator (Fetch Orders): 151.717223ms
+MarketDataGenrator (Passive Update): 123.41404ms
+OrderConsumer : 156.876µs
+OrderBookManager (Add to order): 3.695728ms
+OrderBookManager (Check for trade): 3.677274ms
+OrderConsumer : 92.053µs
+OrderBookManager (Add to order): 3.289614ms
+OrderBookManager (Check for trade): 5.852259ms
+OrderConsumer : 101.792µs
+OrderBookManager (Add to order): 4.383885ms
+OrderBookManager (Check for trade): 10.548492ms
+MarketDataGenrator (Active Update): 6.193602ms
+OrderConsumer : 92.214µs
+OrderBookManager (Add to order): 5.467985ms
+OrderBookManager (Check for trade): 7.994192ms
+MarketDataGenrator (Active Update): 4.065926ms
+MarketDataGenrator (Passive Update): 95.93545ms
+OrderConsumer : 100.689µs
+OrderBookManager (Add to order): 5.014402ms
+OrderBookManager (Check for trade): 10.55811ms
+MarketDataGenrator (Active Update): 7.234372ms
+OrderConsumer : 98.335µs
+OrderBookManager (Add to order): 3.725415ms
+OrderBookManager (Check for trade): 3.292199ms
+OrderConsumer : 94.979µs
+OrderBookManager (Add to order): 5.929805ms
+OrderBookManager (Check for trade): 9.274052ms
+MarketDataGenrator (Active Update): 6.529965ms
+MarketDataGenrator (Passive Update): 107.755446ms
+OrderConsumer : 99.497µs
+OrderBookManager (Add to order): 4.565176ms
+OrderBookManager (Check for trade): 6.174847ms
+MarketDataGenrator (Active Update): 3.811377ms
+Current memory usage (KB) : 440.31934
+OrderConsumer : 107.863µs
+OrderBookManager (Add to order): 4.902311ms
+OrderBookManager (Check for trade): 9.287157ms
+MarketDataGenrator (Active Update): 4.996458ms
+OrderConsumer : 99.428µs
+OrderBookManager (Add to order): 4.67929ms
+OrderBookManager (Check for trade): 10.542811ms
+MarketDataGenrator (Active Update): 6.676662ms
+OrderConsumer : 95.65µs
+OrderBookManager (Add to order): 4.872675ms
+OrderBookManager (Check for trade): 5.867348ms
+MarketDataGenrator (Passive Update): 146.675599ms
+OrderConsumer : 104.467µs
+OrderBookManager (Add to order): 2.396443ms
+OrderBookManager (Check for trade): 6.848455ms
+MarketDataGenrator (Active Update): 3.704205ms
+OrderConsumer : 139.563µs
+OrderBookManager (Add to order): 4.148902ms
+OrderBookManager (Check for trade): 4.894025ms
+MarketDataGenrator (Active Update): 3.587726ms
+OrderConsumer : 100.309µs
+OrderBookManager (Add to order): 4.950592ms
+OrderBookManager (Check for trade): 9.010546ms
+MarketDataGenrator (Active Update): 6.340599ms
+OrderConsumer : 73.959µs
+OrderBookManager (Add to order): 3.393911ms
+OrderBookManager (Check for trade): 8.15772ms
+MarketDataGenrator (Active Update): 6.142626ms
+MarketDataGenrator (Passive Update): 130.265782ms
+OrderConsumer : 129.714µs
+OrderBookManager (Add to order): 4.231378ms
+OrderBookManager (Check for trade): 5.432259ms
+OrderConsumer : 64.682µs
+OrderBookManager (Add to order): 2.146963ms
+OrderBookManager (Check for trade): 2.393757ms
+MarketDataGenrator (Fetch Orders): 138.458688ms
+Current memory usage (KB) : 440.53027
+OrderConsumer : 99.157µs
+OrderBookManager (Add to order): 5.841158ms
+OrderBookManager (Check for trade): 5.345535ms
+MarketDataGenrator (Passive Update): 120.462362ms
+OrderConsumer : 88.547µs
+OrderBookManager (Add to order): 4.015641ms
+OrderBookManager (Check for trade): 7.341173ms
+MarketDataGenrator (Active Update): 4.051178ms
+OrderConsumer : 105.94µs
+OrderBookManager (Add to order): 4.822ms
+OrderBookManager (Check for trade): 11.250504ms
+MarketDataGenrator (Active Update): 5.324275ms
+OrderConsumer : 101.321µs
+OrderBookManager (Add to order): 3.220574ms
+OrderBookManager (Check for trade): 8.187056ms
+MarketDataGenrator (Active Update): 6.379432ms
+OrderConsumer : 111.63µs
+OrderBookManager (Add to order): 5.000746ms
+OrderBookManager (Check for trade): 5.281304ms
+MarketDataGenrator (Passive Update): 128.003742ms
+OrderConsumer : 91.883µs
+OrderBookManager (Add to order): 5.038246ms
+OrderBookManager (Check for trade): 4.819875ms
+OrderConsumer : 101.061µs
+OrderBookManager (Add to order): 4.36039ms
+OrderBookManager (Check for trade): 9.842482ms
+MarketDataGenrator (Active Update): 6.115765ms
+OrderConsumer : 128.802µs
+OrderBookManager (Add to order): 4.310406ms
+OrderBookManager (Check for trade): 7.771593ms
+MarketDataGenrator (Active Update): 4.072799ms
+OrderConsumer : 95.791µs
+OrderBookManager (Add to order): 5.378908ms
+OrderBookManager (Check for trade): 6.963712ms
+MarketDataGenrator (Active Update): 2.860115ms
+MarketDataGenrator (Passive Update): 120.103266ms
+OrderConsumer : 90.089µs
+OrderBookManager (Add to order): 4.181483ms
+OrderBookManager (Check for trade): 3.368061ms
+Current memory usage (KB) : 441.10156
+OrderConsumer : 60.804µs
+OrderBookManager (Add to order): 3.191289ms
+OrderBookManager (Check for trade): 7.099588ms
+MarketDataGenrator (Active Update): 6.428384ms
+OrderConsumer : 64.622µs
+OrderBookManager (Add to order): 2.645982ms
+OrderBookManager (Check for trade): 3.399221ms
+MarketDataGenrator (Passive Update): 123.089378ms
+OrderConsumer : 70.072µs
+OrderBookManager (Add to order): 5.202395ms
+OrderBookManager (Check for trade): 8.431817ms
+MarketDataGenrator (Active Update): 4.22722ms
+Application run time: 262.028956056s
+Peak memory usage: 0.6771574 MB of RAM
+OrderConsumer : 89.869µs
+OrderBookManager (Add to order): 3.334498ms
+OrderBookManager (Check for trade): 4.486097ms
+MarketDataGenrator (Active Update): 3.507063ms
+OrderConsumer : 101.501µs
+OrderBookManager (Add to order): 6.778944ms
+OrderBookManager (Check for trade): 6.52722ms
+MarketDataGenrator (Passive Update): 193.32628ms

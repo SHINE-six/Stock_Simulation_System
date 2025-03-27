@@ -1,4 +1,5 @@
 use common::models::{Order, Trade};
+use chrono::Local;
         
 // Algorithm 1: buy vs sell demand in term of share (number of buy/sell * their no. of share)
 pub fn algorithm_1(order: &(String, (Vec<Order>, Vec<Order>)), multiplier_vec: &mut Vec<f64>) {
@@ -15,6 +16,7 @@ pub fn algorithm_1(order: &(String, (Vec<Order>, Vec<Order>)), multiplier_vec: &
     // for every 100 imbalance, the stock price will increase/decrease by 0.001
     let multiplier = 1.0 + (imbalance as f64 / 100.0) * 0.001;
     multiplier_vec.push(multiplier);
+
 
     let log_message = format!(
         "{}\nAlgorithm 1: Buy /Sell action affects the stock price\nStock symbol: {}\nThe rule is for every 100 imbalance, the stock price will increase/decrease by 0.001\nTotal buy share: {}\nTotal sell share: {}\nImbalance: {}\nMultiplier: {}\n",
@@ -149,7 +151,7 @@ pub fn algorithm_6(order:  &(String, (Vec<Order>, Vec<Order>)), current_market_p
 }
 
 // Algorithm 7: Industry Sector Performance: check the sector of the stock and adjust the stock price based on the sector performance
-pub fn algorithm_7(order: &(String, (Vec<Order>, Vec<Order>)), sector: &str, multiplier_vec: &mut Vec<f64>) {
+pub fn algorithm_7(_order: &(String, (Vec<Order>, Vec<Order>)), sector: &str, multiplier_vec: &mut Vec<f64>) {
     // Get the sector performance
     let sector_performance = match sector {
         "Technology" => 0.02, // 2% increase in stock price
@@ -166,11 +168,12 @@ pub fn algorithm_7(order: &(String, (Vec<Order>, Vec<Order>)), sector: &str, mul
     let multiplier = 1.0 + sector_performance;
     multiplier_vec.push(multiplier);
 
-    let log_message = format!(
-        "{}\nAlgorithm 7: Industry Sector Performance: check the sector of the stock and adjust the stock price based on the sector performance\nStock symbol: {}\nSector: {}\nSector Performance: {}\nMultiplier: {}\n",
-        Local::now().format("%H.%M.%S %d-%m-%y").to_string(), &order.0, sector, sector_performance, multiplier
-    );
-    log_to_file(log_message)
+    // let log_message = format!(
+    //     "{}\nAlgorithm 7: Industry Sector Performance: check the sector of the stock and adjust the stock price based on the sector performance\nStock symbol: {}\nSector: {}\nSector Performance: {}\nMultiplier: {}\n",
+    //     Local::now().format("%H.%M.%S %d-%m-%y").to_string(), &order.0, sector, sector_performance, multiplier
+    // );
+    // log_to_file(log_message)
+    
 }
 
 // Algorithm For Active Trader: check the number of active traders and adjust the stock price based on the number of active traders
@@ -193,7 +196,6 @@ pub fn algorithm_trade(trade_received: &Trade, stock_price: f64) -> f64 {
 //* --------------------- Helper Functions ---------------------  *//
 use std::fs::OpenOptions;
 use std::io::Write;
-use chrono::Local;
 use once_cell::sync::Lazy;
 
 static TIMESTAMP: Lazy<String> = Lazy::new(|| Local::now().format("%H.%M.%S %d-%m-%y").to_string());

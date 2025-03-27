@@ -38,10 +38,12 @@ impl OrderConsumer {
         }
     }
 
-    pub async fn consume_messages(&self, order_sender: Sender<Order>) {
+    pub async fn consume_messages(&self, order_sender: Sender<Order>, log_sender: Sender<String>) {
         let mut stream = self.consumer.stream();
 
         while let Some(result) = stream.next().await {
+            let start = std::time::Instant::now();
+
             match result {
                 Ok(message) => {
                     if let Some(order) = parse_order(&message) {
@@ -54,6 +56,8 @@ impl OrderConsumer {
                     eprintln!("Panda error: {}", error);
                 }
             }
+            let elapsed = start.elapsed();
+            let _ = log_sender.send(format!("OrderConsumer : {:?}", elapsed)).await;
         }
     }
 }
@@ -72,3 +76,4 @@ fn parse_order(message: &BorrowedMessage) -> Option<Order> {
         None
     }
 }
+
